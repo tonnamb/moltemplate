@@ -19,6 +19,12 @@ for i in range(0, len(lines_gaff)):
     at3 = atype3.replace('X','*')
     at4 = atype4.replace('X','*')
     impropertype = '@improper:'+atype1+'-'+atype2+'-'+atype3+'-'+atype4
+    #sys.stdout.write('    '+impropertype+' @atom:'+at1+' @atom:'+at2+' @atom:'+at3+' @atom:'+at4+'\n')
+    # Oops.  This is incorrect.
+    # In moltemplate, the central atom is the first atom,
+    # In "gaff.dat", the central atom is the third atom
+    # http://archive.ambermd.org/201307/0519.html
+    #impropertype = '@improper:'+atype3+'-'+atype1+'-'+atype2+'-'+atype4
 
     tokens= line[11:].split()
     Kn = float(tokens[0])
@@ -40,7 +46,7 @@ for i in range(0, len(lines_gaff)):
 
 sys.stdout.write('  } # (end of improper_coeffs)\n')
 sys.stdout.write('\n')
-sys.stdout.write('  write_once("Data Impropers By Type") {\n')
+sys.stdout.write('  write_once("Data Impropers By Type (gaff_imp.py)") {\n')
 
 for i in range(0, len(lines_gaff)):
     line = lines_gaff[i]
@@ -53,10 +59,32 @@ for i in range(0, len(lines_gaff)):
     at2 = atype2.replace('X','*')
     at3 = atype3.replace('X','*')
     at4 = atype4.replace('X','*')
-    impropertype = '@improper:'+atype1+'-'+atype2+'-'+atype3+'-'+atype4
 
+    impropertype = '@improper:'+atype1+'-'+atype2+'-'+atype3+'-'+atype4
     sys.stdout.write('    '+impropertype+' @atom:'+at1+' @atom:'+at2+' @atom:'+at3+' @atom:'+at4+'\n')
+    #       The improper-angle is the angle between the planes
+    #       defined by at1,at2,at3, and at2,at3,at3
+    #       and we list the atoms in this order.
+    # NOTE: In "gaff.dat", the central atom is the third atom (at3)
+    #       so we have to take this into account when matching atom order.
+    # http://archive.ambermd.org/201307/0519.html
+    
 
 sys.stdout.write('  } # (end of Impropers By Type)\n')
 sys.stdout.write('\n')
 
+# NOTE: AMBER documentation is not clear how the improper angle is defined.
+#       It's not clear if we should be using the dihedral angle between
+#       planes I-J-K and J-K-L.  As of 2014-4, improper_style cvff does this.
+#       Even if we create improper interactions with the angle defined between
+#       the wrong planes, at least the minima should be the same 
+#       (0 degrees or 180 degrees).
+#       So I'm not too worried we are getting this detail wrong long as 
+#       we generate new impropers realizing that the 3rd atom (K) is the 
+#       central atom (according to AMBER conventions).
+#
+# http://structbio.vanderbilt.edu/archives/amber-archive/2007/0408.php
+#
+# Currently, we only apply improper torsional angles for atoms 
+# in a planar conformations. Is it clear?
+# Junmei 

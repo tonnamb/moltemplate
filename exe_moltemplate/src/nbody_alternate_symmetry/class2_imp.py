@@ -1,16 +1,25 @@
 from nbody_graph_search import Ugraph
 
-#    To find 4-body "improper" interactions, we would use this subgraph:
+# This file defines how improper interactions are generated in class2 files.
+# To use it, add "(class2_imp.py)" to the name of the "Data Impropers By Type"
+# section, and make sure this file is located in the "common" directory.
+# For example:
+# write_once("Data Impropers By Type (class2_imp.py)") {
+#   ...
+# }
+
+#    To find 4-body "improper" interactions, 
+#    (by default, most of the time), we would use this subgraph:
 #           3
-#           *                  1st bond connects atoms 1 and 0
-#           |              =>  2nd bond connects atoms 1 and 2
-#         _.*._                3rd bond connects atoms 1 and 3
-#       *'  1  `*              
-#      0         2
+#           *                  1st bond connects atoms 0 and 1
+#           |              =>  2nd bond connects atoms 0 and 2
+#         _.*._                3rd bond connects atoms 0 and 3
+#       *'  0  `*              
+#      1         2
 #
 
-bond_pattern = Ugraph([(1,0), (1,2), (1,3)])
-# (Note: Ugraph atom-index counters begin at 0, not 1)
+bond_pattern = Ugraph([(0,1), (0,2), (0,3)])
+# (Ugraph atom indices begin at 0, not 1)
 
 
 def canonical_order(match):
