@@ -1,0 +1,12 @@
+    @/bond:PVP5/1   13.00902   1.530   # CG2R53   CG3C52 
+    @/bond:PVP5/2   19.94716   1.380   # CG2R53   NG2R53 
+	@/bond:PVP5/3   24.71714   1.235   # CG2R53   OG2D1  
+	@/bond:PVP5/4   9.64836    1.538   # CG311    CG321  
+	@/bond:PVP5/5   9.64836    1.538   # CG311    CG331  
+    @/bond:PVP5/6   13.39929   1.111   # CG311    HGA1 
+	@/bond:PVP5/7   13.87629   1.430   # CG311    NG2R53 
+	@/bond:PVP5/8   13.39929   1.111   # CG321    HGA2 
+	@/bond:PVP5/9   13.96301   1.111   # CG331    HGA3 
+	@/bond:PVP5/10  8.45586    1.530   # CG3C52   CG3C52 
+	@/bond:PVP5/11  13.31256   1.100   # CG3C52   HRA2 
+	@/bond:PVP5/12  16.04446   1.450   # CG3C52   NG2R53 

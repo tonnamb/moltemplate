@@ -1,0 +1,239 @@
+import "PVP_5mer_HRA2.lt"
+import "Ag.lt"
+
+write_once("Data Boundary") {
+   0.0  110.00  xlo xhi
+   0.0  110.00  ylo yhi
+   0.0  80.00  zlo zhi
+}
+
+PVP1 = new PVP5 	[5].move(20,0,0)
+					[5].move(0,20,0)
+					[2].move(0,0,15)
+
+
+PVP2 = new PVP5 	[5].move(20,0,0)
+					[5].move(0,20,0)
+					[2].move(0,0,15)
+
+
+PVP1[*][*][*].move(10,10,10)
+PVP2[*][*][*].move(10,10,55)
+
+# 5 layers = 5*2.36 = 11.8 Angstrom thickness
+# 4:1 ratio edge length = 47.2 Angstrom
+# Number of atoms edge length = 47.2/2.89 = 16 atoms
+
+ag_a1 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+
+ag_a2 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+
+ag_a2[*][*].move(1.44603336752649,2.5046032619958,0.0)
+
+ag_b1 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+
+ag_b2 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+ag_b1[*][*].move(1.44603336752649,0.8348677539986,2.36136260098557)
+ag_b2[*][*].move(0,3.3394710159944,2.36136260098557)
+
+ag_c1 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+
+ag_c2 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+ag_c1[*][*].move(0,1.6697355079972,4.72272520197114)
+ag_c2[*][*].move(1.44603336752649,4.174338769993,4.72272520197114)
+
+
+ag_d1 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+
+ag_d2 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+ag_d1[*][*].move(0,5.0092065239916,7.08408780295671)
+ag_d2[*][*].move(1.44603336752649,2.5046032619958,7.08408780295671)
+
+ag_e1 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+
+ag_e2 = new Ag [16].move(2.89206673505298,0.0,0.0)
+		[8].move(0.0,5.0092065239916,0.0)
+
+ag_e1[*][*].move(1.44603336752649,5.8440742779902,9.44545040394228)
+ag_e2[*][*].move(0,3.3394710159944,9.44545040394228)
+
+
+ag_a1[*][*].move(25,25,35)
+ag_a2[*][*].move(25,25,35)
+ag_b1[*][*].move(25,25,35)
+ag_b2[*][*].move(25,25,35)
+ag_c1[*][*].move(25,25,35)
+ag_c2[*][*].move(25,25,35)
+ag_d1[*][*].move(25,25,35)
+ag_d2[*][*].move(25,25,35)
+ag_e1[*][*].move(25,25,35)
+ag_e2[*][*].move(25,25,35)
+
+delete ag_e1[0][1-7]
+delete ag_e1[1][2-7]
+delete ag_e1[2][3-7]
+delete ag_e1[3][4-7]
+delete ag_e1[4][5-7]
+delete ag_e1[5][6-7]
+delete ag_e1[6][7]
+delete ag_e1[8][7] # [x+2]
+delete ag_e1[9][6-7]
+delete ag_e1[10][5-7]
+delete ag_e1[11][4-7]
+delete ag_e1[12][3-7]
+delete ag_e1[13][2-7]
+delete ag_e1[14][1-7]
+delete ag_e1[15][0-7]
+
+delete ag_e2[0][1-7]
+delete ag_e2[1][2-7]
+delete ag_e2[2][3-7]
+delete ag_e2[3][4-7]
+delete ag_e2[4][5-7]
+delete ag_e2[5][6-7]
+delete ag_e2[6][7]
+delete ag_e2[9][7] # [x+3]
+delete ag_e2[10][6-7]
+delete ag_e2[11][5-7]
+delete ag_e2[12][4-7]
+delete ag_e2[13][3-7]
+delete ag_e2[14][2-7]
+delete ag_e2[15][1-7]
+
+delete ag_d1[0][1-7]
+delete ag_d1[1][2-7]
+delete ag_d1[2][3-7]
+delete ag_d1[3][4-7]
+delete ag_d1[4][5-7]
+delete ag_d1[5][6-7]
+delete ag_d1[6][7]
+delete ag_d1[9][7] # [x+3]
+delete ag_d1[10][6-7]
+delete ag_d1[11][5-7]
+delete ag_d1[12][4-7]
+delete ag_d1[13][3-7]
+delete ag_d1[14][2-7]
+delete ag_d1[15][1-7]
+
+delete ag_d2[0][2-7] # starts at [2]
+delete ag_d2[1][3-7]
+delete ag_d2[2][4-7]
+delete ag_d2[3][5-7]
+delete ag_d2[4][6-7]
+delete ag_d2[5][7]
+delete ag_d2[9][7] # [x+4]
+delete ag_d2[10][6-7]
+delete ag_d2[11][5-7]
+delete ag_d2[12][4-7]
+delete ag_d2[13][3-7]
+delete ag_d2[14][2-7]
+delete ag_d2[15][0-7] # [0-7]
+
+delete ag_c1[0][1-7]
+delete ag_c1[1][2-7]
+delete ag_c1[2][3-7]
+delete ag_c1[3][4-7]
+delete ag_c1[4][5-7]
+delete ag_c1[5][6-7]
+delete ag_c1[6][7]
+delete ag_c1[9][7] # [x+3]
+delete ag_c1[10][6-7]
+delete ag_c1[11][5-7]
+delete ag_c1[12][4-7]
+delete ag_c1[13][3-7]
+delete ag_c1[14][2-7]
+delete ag_c1[15][1-7]
+
+delete ag_c2[0][1-7]
+delete ag_c2[1][2-7]
+delete ag_c2[2][3-7]
+delete ag_c2[3][4-7]
+delete ag_c2[4][5-7]
+delete ag_c2[5][6-7]
+delete ag_c2[6][7]
+delete ag_c2[8][7] # [x+2]
+delete ag_c2[9][6-7]
+delete ag_c2[10][5-7]
+delete ag_c2[11][4-7]
+delete ag_c2[12][3-7]
+delete ag_c2[13][2-7]
+delete ag_c2[14][1-7]
+delete ag_c2[15][0-7]
+
+delete ag_b1[0][2-7] # starts at [2]
+delete ag_b1[1][3-7]
+delete ag_b1[2][4-7]
+delete ag_b1[3][5-7]
+delete ag_b1[4][6-7]
+delete ag_b1[5][7]
+delete ag_b1[9][7] # [x+4]
+delete ag_b1[10][6-7]
+delete ag_b1[11][5-7]
+delete ag_b1[12][4-7]
+delete ag_b1[13][3-7]
+delete ag_b1[14][2-7]
+delete ag_b1[15][0-7] # [0-7]
+
+delete ag_b2[0][1-7]
+delete ag_b2[1][2-7]
+delete ag_b2[2][3-7]
+delete ag_b2[3][4-7]
+delete ag_b2[4][5-7]
+delete ag_b2[5][6-7]
+delete ag_b2[6][7]
+delete ag_b2[9][7] # [x+3]
+delete ag_b2[10][6-7]
+delete ag_b2[11][5-7]
+delete ag_b2[12][4-7]
+delete ag_b2[13][3-7]
+delete ag_b2[14][2-7]
+delete ag_b2[15][1-7]
+
+delete ag_a1[0][1-7]
+delete ag_a1[1][2-7]
+delete ag_a1[2][3-7]
+delete ag_a1[3][4-7]
+delete ag_a1[4][5-7]
+delete ag_a1[5][6-7]
+delete ag_a1[6][7]
+delete ag_a1[9][7] # [x+3]
+delete ag_a1[10][6-7]
+delete ag_a1[11][5-7]
+delete ag_a1[12][4-7]
+delete ag_a1[13][3-7]
+delete ag_a1[14][2-7]
+delete ag_a1[15][1-7]
+
+delete ag_a2[0][1-7]
+delete ag_a2[1][2-7]
+delete ag_a2[2][3-7]
+delete ag_a2[3][4-7]
+delete ag_a2[4][5-7]
+delete ag_a2[5][6-7]
+delete ag_a2[6][7]
+delete ag_a2[8][7] # [x+2]
+delete ag_a2[9][6-7]
+delete ag_a2[10][5-7]
+delete ag_a2[11][4-7]
+delete ag_a2[12][3-7]
+delete ag_a2[13][2-7]
+delete ag_a2[14][1-7]
+delete ag_a2[15][0-7]
