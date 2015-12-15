@@ -4,21 +4,19 @@ import "Ag.lt"
 write_once("Data Boundary") {
    0.0  110.00  xlo xhi
    0.0  110.00  ylo yhi
-   0.0  80.00  zlo zhi
+   0.0  50.00  zlo zhi
 }
 
 PVP1 = new PVP10 	[3].move(35,0,0)
 					[8].move(0,13,0)
-					[2].move(0,0,15)
 
 
 PVP2 = new PVP10 	[3].move(35,0,0)
 					[8].move(0,13,0)
-					[2].move(0,0,15)
 
 
-PVP1[*][*][*].move(10,10,10)
-PVP2[*][*][*].move(10,10,55)
+PVP1[*][*].move(10,10,10)
+PVP2[*][*].move(10,10,40)
 
 # 5 layers = 5*2.36 = 11.8 Angstrom thickness
 # 4:1 ratio edge length = 47.2 Angstrom
@@ -76,16 +74,16 @@ ag_e1[*][*].move(1.44603336752649,5.8440742779902,9.44545040394228)
 ag_e2[*][*].move(0,3.3394710159944,9.44545040394228)
 
 
-ag_a1[*][*].move(25,25,35)
-ag_a2[*][*].move(25,25,35)
-ag_b1[*][*].move(25,25,35)
-ag_b2[*][*].move(25,25,35)
-ag_c1[*][*].move(25,25,35)
-ag_c2[*][*].move(25,25,35)
-ag_d1[*][*].move(25,25,35)
-ag_d2[*][*].move(25,25,35)
-ag_e1[*][*].move(25,25,35)
-ag_e2[*][*].move(25,25,35)
+ag_a1[*][*].move(25,25,20)
+ag_a2[*][*].move(25,25,20)
+ag_b1[*][*].move(25,25,20)
+ag_b2[*][*].move(25,25,20)
+ag_c1[*][*].move(25,25,20)
+ag_c2[*][*].move(25,25,20)
+ag_d1[*][*].move(25,25,20)
+ag_d2[*][*].move(25,25,20)
+ag_e1[*][*].move(25,25,20)
+ag_e2[*][*].move(25,25,20)
 
 delete ag_e1[0][1-7]
 delete ag_e1[1][2-7]
