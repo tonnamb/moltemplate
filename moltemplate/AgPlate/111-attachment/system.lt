@@ -9,7 +9,7 @@ write_once("Data Boundary") {
 
 AGP1 = new AGP
 
-AGP1.move(30.0, 80.0, 0.0)
+AGP1.move(32.0, 60.0, 0.0)
 
 AGP2 = new AGP
 
