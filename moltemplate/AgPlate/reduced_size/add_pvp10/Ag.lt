@@ -1,0 +1,12 @@
+Ag {
+
+  write_once("Data Masses") {
+    @atom:1 107.8682  # Ag
+  }
+   
+  write("Data Atoms") {
+    $atom:1  $mol:. @atom:1  0.00  0.00   0.00  0.00  # Ag
+  }
+
+}
+
