@@ -10,7 +10,8 @@ write_once("Data Boundary") {
 AGP1 = new AGP
 
 
-# AGP2 = new AGP
+AGP2 = new AGP
 
-# AGP2.move(0.0,0.0,40.0)
-# AGP2.rot(180.0,0.0,0.0,1)
+AGP2.move(50.0, 0.0, 0.0)
+# AGP2.move(0.0, 0.0, 40.0)
+# AGP2.rot(180.0, 0.0, 0.0, 1)
