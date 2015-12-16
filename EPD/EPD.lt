@@ -1,0 +1,222 @@
+EPD {
+
+write_once("Data Masses") {
+@atom:1   1.008    # HRA2
+@atom:2   1.008    # HGA2
+@atom:3   1.008    # HGA3
+@atom:4   12.011   # CG2R53
+@atom:5   12.011   # CG321
+@atom:6   12.011   # CG331
+@atom:7   12.011   # CG3C52
+@atom:8   14.007   # NG2R53
+@atom:9   15.9994  # OG2D1
+}
+  
+write_once("Data Bond Coeffs") {
+@bond:1   13.00902   1.53000   # CG2R53   CG3C52
+@bond:2   19.94716   1.38000   # CG2R53   NG2R53
+@bond:3   24.71714   1.23500   # CG2R53   OG2D1
+@bond:4   9.64836    1.52800   # CG321    CG331
+@bond:5   13.39929   1.11100   # CG321    HGA2
+@bond:6   13.87629   1.43000   # CG321    NG2R53
+@bond:7   13.96301   1.11100   # CG331    HGA3
+@bond:8   8.45586    1.53000   # CG3C52   CG3C52
+@bond:9   13.31256   1.10000   # CG3C52   HRA2
+@bond:10  16.04446   1.45000   # CG3C52   NG2R53
+}
+  
+write_once("Data Angle Coeffs") {
+@angle:1   3.03544  106.5   0.000   0.000  # CG2R53   CG3C52   CG3C52
+@angle:2   2.51508  111.0   0.000   0.000  # CG2R53   CG3C52   HRA2
+@angle:3   2.16817  120.0   0.000   0.000  # CG2R53   NG2R53   CG321
+@angle:4   3.25226  111.0   0.000   0.000  # CG2R53   NG2R53   CG3C52
+@angle:5   1.50037  110.1   0.977   2.179  # CG321    CG331    HGA3
+@angle:6   2.16817  116.0   0.000   0.000  # CG321    NG2R53   CG3C52
+@angle:7   1.50037  110.1   0.977   2.179  # CG331    CG321    HGA2
+@angle:8   3.03544  113.5   0.000   0.000  # CG331    CG321    NG2R53
+@angle:9   3.03544  113.5   0.000   0.000  # CG331    CG321    NG2R53
+@angle:10  5.20361  105.5   0.000   0.000  # CG3C52   CG2R53   NG2R53
+@angle:11  2.81862  126.7   0.000   0.000  # CG3C52   CG2R53   OG2D1
+@angle:12  2.51508  109.5   0.484   2.561  # CG3C52   CG3C52   CG3C52
+@angle:13  1.51772  111.4   0.977   2.179  # CG3C52   CG3C52   HRA2
+@angle:14  3.90271  104.5   0.000   0.000  # CG3C52   CG3C52   NG2R53
+@angle:15  1.53940  109.0   0.234   1.802  # HGA2 CG321    HGA2
+@angle:16  2.08144  108.0   0.000   0.000  # HGA2 CG321    NG2R53
+@angle:17  1.53940  108.4   0.234   1.802  # HGA3 CG331    HGA3
+@angle:18  1.66949  106.8   0.234   1.802  # HRA2 CG3C52   HRA2
+@angle:19  2.55844  111.0   0.000   0.000  # HRA2 CG3C52   NG2R53
+@angle:20  2.81862  127.8   0.000   0.000  # NG2R53   CG2R53   OG2D1
+}
+
+write_once("Data Dihedral Coeffs") {
+@dihedral:1   0.01474    3    180   0.000   # CG2R53   CG3C52   CG3C52   CG3C52
+@dihedral:2   0.00000    3    0     1.000   # CG2R53   CG3C52   CG3C52   HRA2
+@dihedral:3   0.03903    1    0     1.000   # CG2R53   NG2R53   CG321    CG331
+@dihedral:4   0.00000    1    0     1.000   # CG2R53   NG2R53   CG321    HGA2
+@dihedral:5   0.10017    3    180   0.000   # CG2R53   NG2R53   CG3C52   CG3C52
+@dihedral:6   0.00000    3    0     1.000   # CG2R53   NG2R53   CG3C52   HRA2
+@dihedral:7   0.04857    2    180   1.000   # CG321    NG2R53   CG2R53   CG3C52
+@dihedral:8   0.10841    2    180   1.000   # CG321    NG2R53   CG2R53   OG2D1
+@dihedral:9   0.02905    3    0     1.000   # CG321    NG2R53   CG3C52   CG3C52
+@dihedral:10  0.00000    3    0     1.000   # CG321    NG2R53   CG3C52   HRA2
+@dihedral:11  0.00000    1    0     1.000   # CG331    CG321    NG2R53   CG3C52
+@dihedral:12  0.01735    2    180   0.000   # CG3C52   CG2R53   NG2R53   CG3C52
+@dihedral:13  0.04553    3    180   0.000   # CG3C52   CG3C52   CG2R53   NG2R53
+@dihedral:14  0.00347    3    0     1.000   # CG3C52   CG3C52   CG2R53   OG2D1
+@dihedral:15  0.00824    3    0     1.000   # CG3C52   CG3C52   CG3C52   HRA2
+@dihedral:16  0.09236    3    0     0.000   # CG3C52   CG3C52   CG3C52   NG2R53
+@dihedral:17  0.11231    2    180   1.000   # CG3C52   NG2R53   CG2R53   OG2D1
+@dihedral:18  0.00000    1    0     1.000   # CG3C52   NG2R53   CG321    HGA2
+@dihedral:19  0.00694    3    0     1.000   # HGA2 CG321    CG331    HGA3
+@dihedral:20  0.00867    3    0     1.000   # HGA3 CG331    CG321    NG2R53
+@dihedral:21  0.00000    3    180   1.000   # HRA2 CG3C52   CG2R53   NG2R53
+@dihedral:22  0.00000    3    0     1.000   # HRA2 CG3C52   CG2R53   OG2D1
+@dihedral:23  0.00824    3    0     1.000   # HRA2 CG3C52   CG3C52   HRA2
+@dihedral:24  0.00000    3    180   1.000   # HRA2 CG3C52   CG3C52   NG2R53
+}
+  
+write_once("Data Improper Coeffs") {
+@improper:1  3.90271  0.00000  # CG2R53   CG3C52   NG2R53   OG2D1
+}
+  
+write("Data Atoms") {
+$atom:1  $mol:. @atom:5   -0.067       1.106      -3.274      -0.502  # CG321
+$atom:2  $mol:. @atom:2     0.09       0.148      -3.833      -0.691  # HGA2
+$atom:3  $mol:. @atom:2     0.09       1.817      -3.492       -1.35  # HGA2
+$atom:4  $mol:. @atom:6   -0.186       1.717      -3.768       0.805  # CG331
+$atom:5  $mol:. @atom:3     0.09       1.863       -4.87       0.737  # HGA3
+$atom:6  $mol:. @atom:3     0.09       1.047      -3.554       1.671  # HGA3
+$atom:7  $mol:. @atom:3     0.09       2.705      -3.286       0.998  # HGA3
+$atom:8  $mol:. @atom:8   -0.399       0.807      -1.869      -0.567  # NG2R53
+$atom:9  $mol:. @atom:4    0.371        1.81      -0.899      -0.725  # CG2R53
+$atom:10 $mol:. @atom:9    -0.49       2.932      -1.116      -1.199  # OG2D1
+$atom:11 $mol:. @atom:7   -0.011       1.295        0.46       -0.26  # CG3C52
+$atom:12 $mol:. @atom:1     0.09       1.269       1.166      -1.123  # HRA2
+$atom:13 $mol:. @atom:1     0.09       1.998       0.862        0.51  # HRA2
+$atom:14 $mol:. @atom:7   -0.188      -0.095       0.193       0.313  # CG3C52
+$atom:15 $mol:. @atom:1     0.09      -0.878       0.765      -0.238  # HRA2
+$atom:16 $mol:. @atom:1     0.09      -0.141       0.484       1.387  # HRA2
+$atom:17 $mol:. @atom:7    0.067      -0.331      -1.328        0.16  # CG3C52
+$atom:18 $mol:. @atom:1     0.09      -0.437      -1.812       1.169  # HRA2
+$atom:19 $mol:. @atom:1     0.09      -1.266      -1.536      -0.427  # HRA2
+}
+   
+write("Data Bonds") {
+$bond:1   @bond:4    $atom:1   $atom:4   # CG321    CG331
+$bond:2   @bond:5    $atom:1   $atom:2   # CG321    HGA2
+$bond:3   @bond:5    $atom:1   $atom:3   # CG321    HGA2
+$bond:4   @bond:7    $atom:4   $atom:5   # CG331    HGA3
+$bond:5   @bond:7    $atom:4   $atom:6   # CG331    HGA3
+$bond:6   @bond:7    $atom:4   $atom:7   # CG331    HGA3
+$bond:7   @bond:6    $atom:8   $atom:1   # CG321    NG2R53
+$bond:8   @bond:2    $atom:8   $atom:9   # CG2R53   NG2R53
+$bond:9   @bond:3    $atom:9   $atom:10  # CG2R53   OG2D1
+$bond:10  @bond:1    $atom:9   $atom:11  # CG2R53   CG3C52
+$bond:11  @bond:9    $atom:11  $atom:12  # CG3C52   HRA2
+$bond:12  @bond:9    $atom:11  $atom:13  # CG3C52   HRA2
+$bond:13  @bond:8    $atom:11  $atom:14  # CG3C52   CG3C52
+$bond:14  @bond:9    $atom:14  $atom:15  # CG3C52   HRA2
+$bond:15  @bond:9    $atom:14  $atom:16  # CG3C52   HRA2
+$bond:16  @bond:8    $atom:14  $atom:17  # CG3C52   CG3C52
+$bond:17  @bond:9    $atom:17  $atom:18  # CG3C52   HRA2
+$bond:18  @bond:9    $atom:17  $atom:19  # CG3C52   HRA2
+$bond:19  @bond:10   $atom:17  $atom:8  # CG3C52   NG2R53
+}
+    
+write("Data Angles") {
+$angle:1   @angle:6   $atom:1   $atom:8   $atom:17  # CG321    NG2R53   CG3C52
+$angle:2   @angle:3   $atom:1   $atom:8   $atom:9   # CG2R53   NG2R53   CG321
+$angle:3   @angle:5   $atom:1   $atom:4   $atom:7   # CG321    CG331    HGA3
+$angle:4   @angle:5   $atom:1   $atom:4   $atom:6   # CG321    CG331    HGA3
+$angle:5   @angle:5   $atom:1   $atom:4   $atom:5   # CG321    CG331    HGA3
+$angle:6   @angle:16  $atom:2   $atom:1   $atom:8   # HGA2 CG321    NG2R53
+$angle:7   @angle:15  $atom:2   $atom:1   $atom:3   # HGA2 CG321    HGA2
+$angle:8   @angle:16  $atom:3   $atom:1   $atom:8   # HGA2 CG321    NG2R53
+$angle:9   @angle:8   $atom:4   $atom:1   $atom:8   # CG331    CG321    NG2R53
+$angle:10  @angle:9   $atom:4   $atom:1   $atom:8   # CG331    CG321    NG2R53
+$angle:11  @angle:7   $atom:4   $atom:1   $atom:3   # CG331    CG321    HGA2
+$angle:12  @angle:7   $atom:4   $atom:1   $atom:2   # CG331    CG321    HGA2
+$angle:13  @angle:17  $atom:5   $atom:4   $atom:7   # HGA3 CG331    HGA3
+$angle:14  @angle:17  $atom:5   $atom:4   $atom:6   # HGA3 CG331    HGA3
+$angle:15  @angle:17  $atom:6   $atom:4   $atom:7   # HGA3 CG331    HGA3
+$angle:16  @angle:10  $atom:8   $atom:9   $atom:11  # CG3C52   CG2R53   NG2R53
+$angle:17  @angle:1   $atom:9   $atom:11  $atom:14  # CG2R53   CG3C52   CG3C52
+$angle:18  @angle:4   $atom:9   $atom:8   $atom:17  # CG2R53   NG2R53   CG3C52
+$angle:19  @angle:11  $atom:10  $atom:9   $atom:11  # CG3C52   CG2R53   OG2D1
+$angle:20  @angle:20  $atom:10  $atom:9   $atom:8   # NG2R53   CG2R53   OG2D1
+$angle:21  @angle:12  $atom:11  $atom:14  $atom:17  # CG3C52   CG3C52   CG3C52
+$angle:22  @angle:13  $atom:12  $atom:11  $atom:14  # CG3C52   CG3C52   HRA2
+$angle:23  @angle:2   $atom:12  $atom:11  $atom:9   # CG2R53   CG3C52   HRA2
+$angle:24  @angle:18  $atom:12  $atom:11  $atom:13  # HRA2 CG3C52   HRA2
+$angle:25  @angle:13  $atom:13  $atom:11  $atom:14  # CG3C52   CG3C52   HRA2
+$angle:26  @angle:2   $atom:13  $atom:11  $atom:9   # CG2R53   CG3C52   HRA2
+$angle:27  @angle:14  $atom:14  $atom:17  $atom:8   # CG3C52   CG3C52   NG2R53
+$angle:28  @angle:13  $atom:15  $atom:14  $atom:17  # CG3C52   CG3C52   HRA2
+$angle:29  @angle:13  $atom:15  $atom:14  $atom:11  # CG3C52   CG3C52   HRA2
+$angle:30  @angle:18  $atom:15  $atom:14  $atom:16  # HRA2 CG3C52   HRA2
+$angle:31  @angle:13  $atom:16  $atom:14  $atom:17  # CG3C52   CG3C52   HRA2
+$angle:32  @angle:13  $atom:16  $atom:14  $atom:11  # CG3C52   CG3C52   HRA2
+$angle:33  @angle:19  $atom:18  $atom:17  $atom:8   # HRA2 CG3C52   NG2R53
+$angle:34  @angle:13  $atom:18  $atom:17  $atom:14  # CG3C52   CG3C52   HRA2
+$angle:35  @angle:18  $atom:18  $atom:17  $atom:19  # HRA2 CG3C52   HRA2
+$angle:36  @angle:19  $atom:19  $atom:17  $atom:8   # HRA2 CG3C52   NG2R53
+$angle:37  @angle:13  $atom:19  $atom:17  $atom:14  # CG3C52   CG3C52   HRA2
+}  
+
+write("Data Dihedrals") {
+$dihedral:1   @dihedral:8   $atom:1   $atom:8   $atom:9   $atom:10  # CG321    NG2R53   CG2R53   OG2D1
+$dihedral:2   @dihedral:7   $atom:1   $atom:8   $atom:9   $atom:11  # CG321    NG2R53   CG2R53   CG3C52
+$dihedral:3   @dihedral:10  $atom:1   $atom:8   $atom:17  $atom:18  # CG321    NG2R53   CG3C52   HRA2
+$dihedral:4   @dihedral:10  $atom:1   $atom:8   $atom:17  $atom:19  # CG321    NG2R53   CG3C52   HRA2
+$dihedral:5   @dihedral:9   $atom:1   $atom:8   $atom:17  $atom:14  # CG321    NG2R53   CG3C52   CG3C52
+$dihedral:6   @dihedral:19  $atom:2   $atom:1   $atom:4   $atom:5   # HGA2 CG321    CG331    HGA3
+$dihedral:7   @dihedral:19  $atom:2   $atom:1   $atom:4   $atom:6   # HGA2 CG321    CG331    HGA3
+$dihedral:8   @dihedral:19  $atom:2   $atom:1   $atom:4   $atom:7   # HGA2 CG321    CG331    HGA3
+$dihedral:9   @dihedral:4   $atom:2   $atom:1   $atom:8   $atom:9   # CG2R53   NG2R53   CG321    HGA2
+$dihedral:10  @dihedral:18  $atom:2   $atom:1   $atom:8   $atom:17  # CG3C52   NG2R53   CG321    HGA2
+$dihedral:11  @dihedral:19  $atom:3   $atom:1   $atom:4   $atom:5   # HGA2 CG321    CG331    HGA3
+$dihedral:12  @dihedral:19  $atom:3   $atom:1   $atom:4   $atom:6   # HGA2 CG321    CG331    HGA3
+$dihedral:13  @dihedral:19  $atom:3   $atom:1   $atom:4   $atom:7   # HGA2 CG321    CG331    HGA3
+$dihedral:14  @dihedral:4   $atom:3   $atom:1   $atom:8   $atom:9   # CG2R53   NG2R53   CG321    HGA2
+$dihedral:15  @dihedral:18  $atom:3   $atom:1   $atom:8   $atom:17  # CG3C52   NG2R53   CG321    HGA2
+$dihedral:16  @dihedral:3   $atom:4   $atom:1   $atom:8   $atom:9   # CG2R53   NG2R53   CG321    CG331
+$dihedral:17  @dihedral:11  $atom:4   $atom:1   $atom:8   $atom:17  # CG331    CG321    NG2R53   CG3C52
+$dihedral:18  @dihedral:20  $atom:5   $atom:4   $atom:1   $atom:8   # HGA3 CG331    CG321    NG2R53
+$dihedral:19  @dihedral:20  $atom:6   $atom:4   $atom:1   $atom:8   # HGA3 CG331    CG321    NG2R53
+$dihedral:20  @dihedral:20  $atom:7   $atom:4   $atom:1   $atom:8   # HGA3 CG331    CG321    NG2R53
+$dihedral:21  @dihedral:24  $atom:8   $atom:17  $atom:14  $atom:15  # HRA2 CG3C52   CG3C52   NG2R53
+$dihedral:22  @dihedral:24  $atom:8   $atom:17  $atom:14  $atom:16  # HRA2 CG3C52   CG3C52   NG2R53
+$dihedral:23  @dihedral:16  $atom:8   $atom:17  $atom:14  $atom:11  # CG3C52   CG3C52   CG3C52   NG2R53
+$dihedral:24  @dihedral:21  $atom:8   $atom:9   $atom:11  $atom:12  # HRA2 CG3C52   CG2R53   NG2R53
+$dihedral:25  @dihedral:21  $atom:8   $atom:9   $atom:11  $atom:13  # HRA2 CG3C52   CG2R53   NG2R53
+$dihedral:26  @dihedral:13  $atom:8   $atom:9   $atom:11  $atom:14  # CG3C52   CG3C52   CG2R53   NG2R53
+$dihedral:27  @dihedral:2   $atom:9   $atom:11  $atom:14  $atom:15  # CG2R53   CG3C52   CG3C52   HRA2
+$dihedral:28  @dihedral:2   $atom:9   $atom:11  $atom:14  $atom:16  # CG2R53   CG3C52   CG3C52   HRA2
+$dihedral:29  @dihedral:1   $atom:9   $atom:11  $atom:14  $atom:17  # CG2R53   CG3C52   CG3C52   CG3C52
+$dihedral:30  @dihedral:6   $atom:9   $atom:8   $atom:17  $atom:18  # CG2R53   NG2R53   CG3C52   HRA2
+$dihedral:31  @dihedral:6   $atom:9   $atom:8   $atom:17  $atom:19  # CG2R53   NG2R53   CG3C52   HRA2
+$dihedral:32  @dihedral:5   $atom:9   $atom:8   $atom:17  $atom:14  # CG2R53   NG2R53   CG3C52   CG3C52
+$dihedral:33  @dihedral:17  $atom:10  $atom:9   $atom:8   $atom:17  # CG3C52   NG2R53   CG2R53   OG2D1
+$dihedral:34  @dihedral:22  $atom:10  $atom:9   $atom:11  $atom:12  # HRA2 CG3C52   CG2R53   OG2D1
+$dihedral:35  @dihedral:22  $atom:10  $atom:9   $atom:11  $atom:13  # HRA2 CG3C52   CG2R53   OG2D1
+$dihedral:36  @dihedral:14  $atom:10  $atom:9   $atom:11  $atom:14  # CG3C52   CG3C52   CG2R53   OG2D1
+$dihedral:37  @dihedral:15  $atom:11  $atom:14  $atom:17  $atom:18  # CG3C52   CG3C52   CG3C52   HRA2
+$dihedral:38  @dihedral:15  $atom:11  $atom:14  $atom:17  $atom:19  # CG3C52   CG3C52   CG3C52   HRA2
+$dihedral:39  @dihedral:12  $atom:11  $atom:9   $atom:8   $atom:17  # CG3C52   CG2R53   NG2R53   CG3C52
+$dihedral:40  @dihedral:23  $atom:12  $atom:11  $atom:14  $atom:15  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:41  @dihedral:23  $atom:12  $atom:11  $atom:14  $atom:16  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:42  @dihedral:15  $atom:12  $atom:11  $atom:14  $atom:17  # CG3C52   CG3C52   CG3C52   HRA2
+$dihedral:43  @dihedral:23  $atom:13  $atom:11  $atom:14  $atom:15  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:44  @dihedral:23  $atom:13  $atom:11  $atom:14  $atom:16  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:45  @dihedral:15  $atom:13  $atom:11  $atom:14  $atom:17  # CG3C52   CG3C52   CG3C52   HRA2
+$dihedral:46  @dihedral:23  $atom:15  $atom:14  $atom:17  $atom:18  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:47  @dihedral:23  $atom:15  $atom:14  $atom:17  $atom:19  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:48  @dihedral:23  $atom:16  $atom:14  $atom:17  $atom:18  # HRA2 CG3C52   CG3C52   HRA2
+$dihedral:49  @dihedral:23  $atom:16  $atom:14  $atom:17  $atom:19  # HRA2 CG3C52   CG3C52   HRA2
+}
+
+write("Data Impropers") {
+$improper:1  @improper:1  $atom:9  $atom:11  $atom:8  $atom:10  # CG2R53   CG3C52   NG2R53   OG2D1
+}
+  
+}

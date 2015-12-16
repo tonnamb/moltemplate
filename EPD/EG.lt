@@ -1,0 +1,104 @@
+EG {
+
+  write_once("Data Masses") {
+    @atom:1 1.008    # HCA2
+    @atom:2 1.008    # HCP1
+	@atom:3 12.011   # CC32A
+	@atom:4 15.9994  # OC311
+  }
+
+   write_once("Data Bond Coeffs") {
+    @bond:1   9.64860   1.53000  # CC32A    CC32A
+    @bond:2  13.39962   1.11100  # CC32A    HCA2 
+	@bond:3  18.56000   1.42000  # CC32A    OC311
+	@bond:4  23.63364   0.96000  # HCP1 	OC311    
+  }
+  
+   write_once("Data Angle Coeffs") {
+    @angle:1  1.14916  110.10000    0.97700    2.17900  # CC32A    CC32A    HCA2 
+    @angle:2  3.28269  110.10000    0.00000    0.00000  # CC32A    CC32A    OC311
+	@angle:3  2.16822  106.00000    0.00000    0.00000  # CC32A    OC311    HCP1 
+	@angle:4  1.53944  109.00000    0.23417    1.80200  # HCA2 	  CC32A    HCA2     
+	@angle:5  2.38505  108.89000    0.00000    0.00000  # HCA2     CC32A    OC311    
+  }
+  
+     write_once("Data Dihedral Coeffs") {
+    @dihedral:1  0.01735          1        180      1.000  # CC32A    CC32A    OC311    HCP1 
+    @dihedral:2  0.00043          2          0      0.000  # CC32A    CC32A    OC311    HCP1 
+	@dihedral:3  0.01127          3          0      0.000  # CC32A    CC32A    OC311    HCP1 
+	@dihedral:4  0.00824          3          0      1.000  # HCA2     CC32A    CC32A    HCA2         
+	@dihedral:5  0.00607          3          0      1.000  # HCA2     CC32A    CC32A    OC311        
+	@dihedral:6  0.00781          3          0      1.000  # HCA2     CC32A    OC311    HCP1     
+    @dihedral:7  0.01431          1          0      1.000  # OC311    CC32A    CC32A    OC311
+	@dihedral:8  0.09410          2          0      0.000  # OC311    CC32A    CC32A    OC311
+	@dihedral:9  0.01951          3          0      0.000  # OC311    CC32A    CC32A    OC311
+  }
+  
+   write("Data Atoms") {
+    $atom:1  $mol:. @atom:3  0.05  0.954   1.416  1.632  # CC32A
+    $atom:2  $mol:. @atom:1  0.09  0.000   1.379  2.179  # HCA2
+    $atom:3  $mol:. @atom:1  0.09  0.987   0.599  0.896  # HCA2
+	$atom:4  $mol:. @atom:4 -0.65  0.836   2.343  0.978  # OC311
+    $atom:5  $mol:. @atom:2  0.42  1.307   2.163  0.000  # HCP1
+    $atom:6  $mol:. @atom:3  0.05  1.539   0.923  2.381  # CC32A
+	$atom:7  $mol:. @atom:1  0.09  0.706   0.78   3.086  # HCA2
+    $atom:8  $mol:. @atom:1  0.09  1.693   0.000  1.803  # HCA2
+	$atom:9  $mol:. @atom:4 -0.65  2.546   1.095  3.051  # OC311
+    $atom:10 $mol:. @atom:2  0.42  3.157   0.18   3.035  # HCP1
+  }
+  
+   write("Data Bonds") {
+    $bond:1 @bond:3 $atom:1 $atom:4   # CC32A    OC311
+    $bond:2 @bond:2 $atom:1 $atom:2   # CC32A    HCA2
+	$bond:3 @bond:2 $atom:1 $atom:3   # CC32A    HCA2
+    $bond:4 @bond:1 $atom:1 $atom:6   # CC32A    CC32A
+	$bond:5 @bond:4 $atom:4 $atom:5   # HCP1 	 OC311   
+    $bond:6 @bond:3 $atom:6 $atom:9   # CC32A    OC311
+	$bond:7 @bond:2 $atom:6 $atom:7   # CC32A    HCA2
+    $bond:8 @bond:2 $atom:6 $atom:8   # CC32A    HCA2
+	$bond:9 @bond:4 $atom:9 $atom:10  # HCP1 	 OC311   
+  }
+    
+   write("Data Angles") {
+    $angle:1  @angle:1 $atom:1 $atom:6 $atom:8  # CC32A    CC32A    HCA2
+	$angle:2  @angle:1 $atom:1 $atom:6 $atom:7  # CC32A    CC32A    HCA2
+	$angle:3  @angle:2 $atom:1 $atom:6 $atom:9  # CC32A    CC32A    OC311
+	$angle:4  @angle:3 $atom:1 $atom:4 $atom:5  # CC32A    OC311    HCP1
+	$angle:5  @angle:1 $atom:2 $atom:1 $atom:6  # CC32A    CC32A    HCA2
+	$angle:6  @angle:4 $atom:2 $atom:1 $atom:3  # HCA2 	   CC32A    HCA2
+	$angle:7  @angle:1 $atom:3 $atom:1 $atom:6  # CC32A    CC32A    HCA2
+	$angle:8  @angle:2 $atom:4 $atom:1 $atom:6  # CC32A    CC32A    OC311
+	$angle:9  @angle:5 $atom:4 $atom:1 $atom:3  # HCA2     CC32A    OC311   
+	$angle:10 @angle:5 $atom:4 $atom:1 $atom:2  # HCA2     CC32A    OC311   
+	$angle:11 @angle:3 $atom:6 $atom:9 $atom:10 # CC32A    OC311    HCP1
+	$angle:12 @angle:4 $atom:7 $atom:6 $atom:8  # HCA2     CC32A    HCA2
+	$angle:13 @angle:5 $atom:9 $atom:6 $atom:8  # HCA2     CC32A    OC311   
+	$angle:14 @angle:5 $atom:9 $atom:6 $atom:7  # HCA2     CC32A    OC311   
+  }
+  
+   write("Data Dihedrals") {
+	$dihedral:1  @dihedral:1 $atom:1 $atom:6 $atom:9 $atom:10  # CC32A    CC32A    OC311    HCP1
+	$dihedral:2  @dihedral:2 $atom:1 $atom:6 $atom:9 $atom:10  # CC32A    CC32A    OC311    HCP1
+	$dihedral:3  @dihedral:3 $atom:1 $atom:6 $atom:9 $atom:10  # CC32A    CC32A    OC311    HCP1
+	$dihedral:4  @dihedral:6 $atom:2 $atom:1 $atom:4 $atom:5   # HCA2     CC32A    OC311    HCP1
+	$dihedral:5  @dihedral:5 $atom:2 $atom:1 $atom:6 $atom:9   # HCA2     CC32A    CC32A    OC311   
+	$dihedral:6  @dihedral:4 $atom:2 $atom:1 $atom:6 $atom:7   # HCA2     CC32A    CC32A    HCA2
+	$dihedral:7  @dihedral:4 $atom:2 $atom:1 $atom:6 $atom:8   # HCA2     CC32A    CC32A    HCA2
+	$dihedral:8  @dihedral:6 $atom:3 $atom:1 $atom:4 $atom:5   # HCA2     CC32A    OC311    HCP1
+	$dihedral:9  @dihedral:5 $atom:3 $atom:1 $atom:6 $atom:9   # HCA2     CC32A    CC32A    OC311   
+	$dihedral:10 @dihedral:4 $atom:3 $atom:1 $atom:6 $atom:7   # HCA2     CC32A    CC32A    HCA2
+	$dihedral:11 @dihedral:4 $atom:3 $atom:1 $atom:6 $atom:8   # HCA2     CC32A    CC32A    HCA2
+	$dihedral:12 @dihedral:7 $atom:4 $atom:1 $atom:6 $atom:9   # OC311    CC32A    CC32A    OC311
+	$dihedral:13 @dihedral:8 $atom:4 $atom:1 $atom:6 $atom:9   # OC311    CC32A    CC32A    OC311
+	$dihedral:14 @dihedral:9 $atom:4 $atom:1 $atom:6 $atom:9   # OC311    CC32A    CC32A    OC311
+	$dihedral:15 @dihedral:5 $atom:4 $atom:1 $atom:6 $atom:7   # HCA2     CC32A    CC32A    OC311   
+	$dihedral:16 @dihedral:5 $atom:4 $atom:1 $atom:6 $atom:8   # HCA2     CC32A    CC32A    OC311   
+	$dihedral:17 @dihedral:1 $atom:5 $atom:4 $atom:1 $atom:6   # CC32A    CC32A    OC311    HCP1
+	$dihedral:18 @dihedral:2 $atom:5 $atom:4 $atom:1 $atom:6   # CC32A    CC32A    OC311    HCP1
+	$dihedral:19 @dihedral:3 $atom:5 $atom:4 $atom:1 $atom:6   # CC32A    CC32A    OC311    HCP1
+	$dihedral:20 @dihedral:6 $atom:7 $atom:6 $atom:9 $atom:10  # HCA2     CC32A    OC311    HCP1
+	$dihedral:21 @dihedral:6 $atom:8 $atom:6 $atom:9 $atom:10  # HCA2     CC32A    OC311    HCP1
+  }
+
+}
+

@@ -1,0 +1,13 @@
+import "atac_PVP_10mer_HRA2.lt"
+import "EG.lt"
+import "Ag.lt"
+import "Ag.lt"
+import "EPD.lt"
+
+write_once("Data Boundary") {
+   -5.0  5.00  xlo xhi
+   -5.0  5.00  ylo yhi
+   -5.0  5.00  zlo zhi
+}
+
+epd = new EPD
