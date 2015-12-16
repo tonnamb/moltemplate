@@ -14,6 +14,7 @@
 	@/atom:EG/3 12.011   # CC32A
 	@/atom:EG/4 15.9994  # OC311
     @/atom:Ag/1 107.8682  # Ag
+    @/atom:Ag2/1 107.8682  # Ag
 @/atom:EPD/1   1.008    # HRA2
 @/atom:EPD/2   1.008    # HGA2
 @/atom:EPD/3   1.008    # HGA3

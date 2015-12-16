@@ -1,7 +1,7 @@
 import "atac_PVP_10mer_HRA2.lt"
 import "EG.lt"
 import "Ag.lt"
-import "Ag.lt"
+import "Ag2.lt"
 import "EPD.lt"
 
 write_once("Data Boundary") {
