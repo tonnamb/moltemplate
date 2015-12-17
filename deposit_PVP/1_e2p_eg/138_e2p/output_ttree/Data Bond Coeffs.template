@@ -1,0 +1,14 @@
+@/bond:EPD/1   13.00902   1.53000   # CG2R53   CG3C52
+@/bond:EPD/2   19.94716   1.38000   # CG2R53   NG2R53
+@/bond:EPD/3   24.71714   1.23500   # CG2R53   OG2D1
+@/bond:EPD/4   9.64836    1.52800   # CG321    CG331
+@/bond:EPD/5   13.39929   1.11100   # CG321    HGA2
+@/bond:EPD/6   13.87629   1.43000   # CG321    NG2R53
+@/bond:EPD/7   13.96301   1.11100   # CG331    HGA3
+@/bond:EPD/8   8.45586    1.53000   # CG3C52   CG3C52
+@/bond:EPD/9   13.31256   1.10000   # CG3C52   HRA2
+@/bond:EPD/10  16.04446   1.45000   # CG3C52   NG2R53
+    @/bond:EG/1   9.64860   1.53000  # CC32A    CC32A
+    @/bond:EG/2  13.39962   1.11100  # CC32A    HCA2 
+	@/bond:EG/3  18.56000   1.42000  # CC32A    OC311
+	@/bond:EG/4  23.63364   0.96000  # HCP1 	OC311    
