@@ -1,0 +1,18 @@
+import "AGP.lt"
+
+
+write_once("Data Boundary") {
+   0.0  200.00  xlo xhi
+   0.0  250.00  ylo yhi
+   0.0  200.00  zlo zhi
+}
+
+AGP1 = new AGP
+
+AGP1.move(0.0, 110.0, 0.0)
+
+AGP2 = new AGP
+
+AGP2.rot(180.0, 1.0, 0.0, 0.0)
+# AGP2.move(0.0, 0.0, 40.0)
+AGP2.move(0.0, -120.0, 0.0)
