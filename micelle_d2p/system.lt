@@ -6,5 +6,9 @@ write_once("Data Boundary") {
    0.0  30.00  zlo zhi
 }
 
-dp = new D2P
-dp.move(10.00, 10.00, 10.00)
+dp = new D2P [5].move(6.0, 0, 0)
+             [5].move(0, 6.0, 0)
+             [2].rot(180, 1, 0, 0)
+
+
+dp[*][*][*].move(10.00, 10.00, 10.00)
