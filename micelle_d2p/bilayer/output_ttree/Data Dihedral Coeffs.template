@@ -37,3 +37,12 @@
 	 @/dihedral:D2P/36 0.000000 3 0 1 # HRA2 CG3C52 CG2R53 OG2D1 
 	 @/dihedral:D2P/37 0.008239 3 0 1 # HRA2 CG3C52 CG3C52 HRA2 
 	 @/dihedral:D2P/38 0.000000 3 180 1 # HRA2 CG3C52 CG3C52 NG2R53 
+    @/dihedral:EG/1  0.01735          1        180      1.000  # CC32A    CC32A    OC311    HCP1 
+    @/dihedral:EG/2  0.00043          2          0      0.000  # CC32A    CC32A    OC311    HCP1 
+	@/dihedral:EG/3  0.01127          3          0      0.000  # CC32A    CC32A    OC311    HCP1 
+	@/dihedral:EG/4  0.00824          3          0      1.000  # HCA2     CC32A    CC32A    HCA2         
+	@/dihedral:EG/5  0.00607          3          0      1.000  # HCA2     CC32A    CC32A    OC311        
+	@/dihedral:EG/6  0.00781          3          0      1.000  # HCA2     CC32A    OC311    HCP1     
+    @/dihedral:EG/7  0.01431          1          0      1.000  # OC311    CC32A    CC32A    OC311
+	@/dihedral:EG/8  0.09410          2          0      0.000  # OC311    CC32A    CC32A    OC311
+	@/dihedral:EG/9  0.01951          3          0      0.000  # OC311    CC32A    CC32A    OC311

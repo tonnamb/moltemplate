@@ -1,0 +1,29 @@
+import "D2P.lt"
+import "EG.lt"
+
+write_once("Data Boundary") {
+   0.0  30.00  xlo xhi
+   0.0  30.00  ylo yhi
+   0.0  67.00  zlo zhi
+}
+
+dp1 = new D2P [5].move(6.0, 0, 0)
+             [5].move(0, 6.0, 0)
+
+dp2 = new D2P [5].move(6.0, 0, 0)
+              [5].move(0, 6.0, 0)
+
+dp2[*][*].rot(180, 1, 0, 0)
+dp2[*][*].move(0.0, 30.0, 48.0)
+
+dp1[*][*].move(0, 0, 18.0)
+
+eg1 = new EG [6].move(5.0, 0, 0)
+             [7].move(0, 4.0, 0)
+             [3].move(0, 0, 5.0)
+
+eg2 = new EG [6].move(5.0, 0, 0)
+             [7].move(0, 4.0, 0)
+             [3].move(0, 0, 5.0)
+
+eg2[*][*][*].move(0, 0, 51.0)
