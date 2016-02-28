@@ -1,0 +1,10 @@
+import "D2P.lt"
+
+write_once("Data Boundary") {
+   0.0  30.00  xlo xhi
+   0.0  30.00  ylo yhi
+   0.0  30.00  zlo zhi
+}
+
+dp = new D2P
+dp.move(10.00, 10.00, 10.00)
