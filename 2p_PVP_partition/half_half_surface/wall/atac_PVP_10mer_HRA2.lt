@@ -1,0 +1,1432 @@
+PVP10 {
+
+   write_once("Data Masses") {
+	@atom:1      1.008  # HRA2
+	@atom:2      1.008  # HGA1
+	@atom:3      1.008  # HGA2
+	@atom:4      1.008  # HGA3
+	@atom:5     12.011  # CG2R53
+	@atom:6     12.011  # CG311
+	@atom:7     12.011  # CG321
+	@atom:8     12.011  # CG331
+	@atom:9     12.011  # CG3C52
+	@atom:10    14.007  # NG2R53
+	@atom:11   15.9994  # OG2D1
+  } 
+
+   write_once("Data Bond Coeffs") {
+	@bond:1   13.00902   1.530   # CG2R53   CG3C52 
+	@bond:2   19.94716   1.380   # CG2R53   NG2R53 
+	@bond:3   24.71714   1.235   # CG2R53   OG2D1  
+	@bond:4   9.64836    1.538   # CG311    CG321  
+	@bond:5   9.64836    1.538   # CG311    CG331  
+	@bond:6   13.39929   1.111   # CG311    HGA1 
+	@bond:7   13.87629   1.430   # CG311    NG2R53 
+	@bond:8   13.39929   1.111   # CG321    HGA2 
+	@bond:9   13.96301   1.111   # CG331    HGA3 
+	@bond:10  8.45586    1.530   # CG3C52   CG3C52 
+	@bond:11  13.31256   1.100   # CG3C52   HRA2 
+	@bond:12  16.04446   1.450   # CG3C52   NG2R53 
+  }
+
+   write_once("Data Angle Coeffs") {
+	@angle:1   3.03544	106.5  0.00000	0.000    # CG2R53   CG3C52   CG3C52
+	@angle:2   2.51508	111.0  0.00000	0.000    # CG2R53   CG3C52   HRA2
+	@angle:3   2.16817	120.0  0.00000	0.000    # CG2R53   NG2R53   CG311 
+	@angle:4   3.25226	111.0  0.00000	0.000    # CG2R53   NG2R53   CG3C52
+	@angle:5   2.53025	113.5  0.48394	2.561    # CG311    CG321    CG311 
+	@angle:6   1.44964	110.1  0.97698	2.179    # CG311    CG321    HGA2
+	@angle:7   1.44964	110.1  0.97698	2.179    # CG311    CG331    HGA3
+	@angle:8   2.16817	116.0  0.00000	0.000    # CG311    NG2R53   CG3C52
+	@angle:9   2.53025	113.5  0.48394	2.561    # CG321    CG311    CG321 
+	@angle:10  2.31344	114.0  0.34691	2.561    # CG321    CG311    CG331 
+	@angle:11  1.49604	110.1  0.97698	2.179    # CG321    CG311    HGA1
+	@angle:12  3.03544	113.5  0.00000	0.000    # CG321    CG311    NG2R53
+	@angle:13  1.49604	110.1  0.97698	2.179    # CG331    CG311    HGA1
+	@angle:14  3.03544	113.5  0.00000	0.000    # CG331    CG311    NG2R53
+	@angle:15  5.20361	105.5  0.00000	0.000    # CG3C52   CG2R53   NG2R53
+	@angle:16  2.81862	126.7  0.00000	0.000    # CG3C52   CG2R53   OG2D1 
+	@angle:17  2.51508	109.5  0.48394	2.561    # CG3C52   CG3C52   CG3C52
+	@angle:18  1.51772	111.4  0.97698	2.179    # CG3C52   CG3C52   HRA2
+	@angle:19  3.90271	104.5  0.00000	0.000    # CG3C52   CG3C52   NG2R53
+	@angle:20  2.08144	108.0  0.00000	0.000    # HGA1 CG311    NG2R53  
+	@angle:21  1.53940	109.0  0.23416	1.802    # HGA2 CG321    HGA2
+	@angle:22  1.53940	108.4  0.23416	1.802    # HGA3 CG331    HGA3
+	@angle:23  1.66949	106.8  0.23416	1.802    # HRA2 CG3C52   HRA2
+	@angle:24  2.55844	111.0  0.00000	0.000    # HRA2 CG3C52   NG2R53  
+	@angle:25  2.81862	127.8  0.00000	0.000    # NG2R53   CG2R53   OG2D1 
+  }
+
+   write_once("Data Dihedral Coeffs") {
+	@dihedral:1   0.01474	3	180	 0   # CG2R53   CG3C52   CG3C52   CG3C52  
+	@dihedral:2   0.00000	3	0    1   # CG2R53   CG3C52   CG3C52   HRA2  
+	@dihedral:3   0.03903	1	0    1   # CG2R53   NG2R53   CG311    CG321   
+	@dihedral:4   0.03903	1	0    1   # CG2R53   NG2R53   CG311    CG331   
+	@dihedral:5   0.00000	1	0    1   # CG2R53   NG2R53   CG311    HGA1  
+	@dihedral:6   0.10017	3	180	 0   # CG2R53   NG2R53   CG3C52   CG3C52  
+	@dihedral:7   0.00000	3	0    1   # CG2R53   NG2R53   CG3C52   HRA2  
+	@dihedral:8   0.00867	3	0    1   # CG311    CG321    CG311    CG321   
+	@dihedral:9   0.00867	3	0    1   # CG311    CG321    CG311    CG331   
+	@dihedral:10  0.00846	3	0    1   # CG311    CG321    CG311    HGA1  
+	@dihedral:11  0.00867	3	0    1   # CG311    CG321    CG311    NG2R53  
+	@dihedral:12  0.04857	2	180	 1   # CG311    NG2R53   CG2R53   CG3C52  
+	@dihedral:13  0.10841	2	180	 1   # CG311    NG2R53   CG2R53   OG2D1   
+	@dihedral:14  0.02905	3	0    1   # CG311    NG2R53   CG3C52   CG3C52  
+	@dihedral:15  0.00000	3	0    1   # CG311    NG2R53   CG3C52   HRA2  
+	@dihedral:16  0.00867	3	0    1   # CG321    CG311    CG321    HGA2  
+	@dihedral:17  0.00867	3	0    1   # CG321    CG311    CG331    HGA3  
+	@dihedral:18  0.00000	1	0    1   # CG321    CG311    NG2R53   CG3C52  
+	@dihedral:19  0.00867	3	0    1   # CG331    CG311    CG321    HGA2  
+	@dihedral:20  0.00000	1	0    1   # CG331    CG311    NG2R53   CG3C52  
+	@dihedral:21  0.01735	2	180	 0   # CG3C52   CG2R53   NG2R53   CG3C52  
+	@dihedral:22  0.04553	3	180	 0   # CG3C52   CG3C52   CG2R53   NG2R53  
+	@dihedral:23  0.00347	3	0    1   # CG3C52   CG3C52   CG2R53   OG2D1   
+	@dihedral:24  0.00824	3	0    1   # CG3C52   CG3C52   CG3C52   HRA2  
+	@dihedral:25  0.09236	3	0    0   # CG3C52   CG3C52   CG3C52   NG2R53  
+	@dihedral:26  0.11231	2	180	 1   # CG3C52   NG2R53   CG2R53   OG2D1   
+	@dihedral:27  0.00000	1	0    1   # CG3C52   NG2R53   CG311    HGA1  
+	@dihedral:28  0.00846	3	0    1   # HGA1 CG311    CG321    HGA2  
+	@dihedral:29  0.00846	3	0    1   # HGA1 CG311    CG331    HGA3  
+	@dihedral:30  0.00867	3	0    1   # HGA2 CG321    CG311    NG2R53    
+	@dihedral:31  0.00867	3	0    1   # HGA3 CG331    CG311    NG2R53    
+	@dihedral:32  0.00000	3	180	 1   # HRA2 CG3C52   CG2R53   NG2R53    
+	@dihedral:33  0.00000	3	0  	 1   # HRA2 CG3C52   CG2R53   OG2D1     
+	@dihedral:34  0.00824	3	0  	 1   # HRA2 CG3C52   CG3C52   HRA2  
+	@dihedral:35  0.00000	3	180	 1   # HRA2 CG3C52   CG3C52   NG2R53    
+  }
+
+   write_once("Data Improper Coeffs") {
+	@improper:1   3.90271	0.00000	 # CG2R53   CG3C52   NG2R53   OG2D1
+  }
+
+   write("Data Atoms") {
+	$atom:1 		$mol:.  @atom:8 		-0.273 		-2.281 		0.197 		0.584 		# CG331
+	$atom:2 		$mol:.  @atom:4 		0.09 		-3.039 		0.533 		1.327 		# HGA3
+	$atom:3 		$mol:.  @atom:4 		0.09 		-2.636 		-0.752 		0.126 		# HGA3
+	$atom:4 		$mol:.  @atom:4 		0.09 		-2.235 		0.977 		-0.202 		# HGA3
+	$atom:5 		$mol:.  @atom:6 		0.026 		-0.92 		0.008 		1.277 		# CG311
+	$atom:6 		$mol:.  @atom:2 		0.09 		-0.583 		1.038 		1.548 		# HGA1
+	$atom:7 		$mol:.  @atom:7 		-0.186 		0.155 		-0.613 		0.311 		# CG321
+	$atom:8 		$mol:.  @atom:3 		0.09 		-0.328 		-1.323 		-0.395 		# HGA2
+	$atom:9 		$mol:.  @atom:3 		0.09 		0.872 		-1.226 		0.899 		# HGA2
+	$atom:10 		$mol:.  @atom:10 		-0.399 		-1.147 		-0.735 		2.565 		# NG2R53
+	$atom:11 		$mol:.  @atom:5 		0.371 		0.125 		-0.662 		3.314 		# CG2R53
+	$atom:12 		$mol:.  @atom:11 		-0.49 		0.052 		0.369 		4.314 		# OG2D1
+	$atom:13 		$mol:.  @atom:9 		-0.011 		0.378 		-2.005 		3.954 		# CG3C52
+	$atom:14 		$mol:.  @atom:1 		0.09 		1.467 		-2.175 		4.117 		# HRA2
+	$atom:15 		$mol:.  @atom:1 		0.09 		-0.175 		-2.083 		4.92 		# HRA2
+	$atom:16 		$mol:.  @atom:9 		-0.188 		-0.202 		-2.97 		2.959 		# CG3C52
+	$atom:17 		$mol:.  @atom:1 		0.09 		-0.564 		-3.902 		3.452 		# HRA2
+	$atom:18 		$mol:.  @atom:1 		0.09 		0.567 		-3.231 		2.195 		# HRA2
+	$atom:19 		$mol:.  @atom:9 		0.067 		-1.339 		-2.196 		2.309 		# CG3C52
+	$atom:20 		$mol:.  @atom:1 		0.09 		-1.437 		-2.474 		1.235 		# HRA2
+	$atom:21 		$mol:.  @atom:1 		0.09 		-2.296 		-2.5 		2.793 		# HRA2
+	$atom:22 		$mol:.  @atom:6 		0.026 		1.004 		0.433 		-0.47 		# CG311
+	$atom:23 		$mol:.  @atom:2 		0.09 		1.612 		0.892 		0.334 		# HGA1
+	$atom:24 		$mol:.  @atom:7 		-0.186 		1.998 		-0.291 		-1.459 		# CG321
+	$atom:25 		$mol:.  @atom:3 		0.09 		1.53 		-0.378 		-2.451 		# HGA2
+	$atom:26 		$mol:.  @atom:3 		0.09 		2.119 		-1.353 		-1.139 		# HGA2
+	$atom:27 		$mol:.  @atom:10 		-0.399 		0.107 		1.522 		-1.025 		# NG2R53
+	$atom:28 		$mol:.  @atom:5 		0.371 		-0.566 		1.174 		-2.31 		# CG2R53
+	$atom:29 		$mol:.  @atom:11 		-0.49 		-0.866 		-0.224 		-2.488 		# OG2D1
+	$atom:30 		$mol:.  @atom:9 		-0.011 		0.135 		1.8 		-3.49 		# CG3C52
+	$atom:31 		$mol:.  @atom:1 		0.09 		-0.619 		2.249 		-4.175 		# HRA2
+	$atom:32 		$mol:.  @atom:1 		0.09 		0.718 		1.043 		-4.056 		# HRA2
+	$atom:33 		$mol:.  @atom:9 		-0.188 		1.024 		2.865 		-2.893 		# CG3C52
+	$atom:34 		$mol:.  @atom:1 		0.09 		2.077 		2.747 		-3.233 		# HRA2
+	$atom:35 		$mol:.  @atom:1 		0.09 		0.672 		3.877 		-3.203 		# HRA2
+	$atom:36 		$mol:.  @atom:9 		0.067 		0.923 		2.717 		-1.378 		# CG3C52
+	$atom:37 		$mol:.  @atom:1 		0.09 		0.4 		3.614 		-0.969 		# HRA2
+	$atom:38 		$mol:.  @atom:1 		0.09 		1.928 		2.728 		-0.904 		# HRA2
+	$atom:39 		$mol:.  @atom:6 		0.026 		3.453 		0.289 		-1.583 		# CG311
+	$atom:40 		$mol:.  @atom:2 		0.09 		3.371 		1.362 		-1.854 		# HGA1
+	$atom:41 		$mol:.  @atom:7 		-0.186 		4.232 		0.142 		-0.217 		# CG321
+	$atom:42 		$mol:.  @atom:3 		0.09 		5.114 		-0.521 		-0.359 		# HGA2
+	$atom:43 		$mol:.  @atom:3 		0.09 		3.623 		-0.417 		0.527 		# HGA2
+	$atom:44 		$mol:.  @atom:10 		-0.399 		4.202 		-0.442 		-2.675 		# NG2R53
+	$atom:45 		$mol:.  @atom:5 		0.371 		5.524 		0.228 		-2.817 		# CG2R53
+	$atom:46 		$mol:.  @atom:11 		-0.49 		6.555 		-0.747 		-2.587 		# OG2D1
+	$atom:47 		$mol:.  @atom:9 		-0.011 		5.676 		0.786 		-4.222 		# CG3C52
+	$atom:48 		$mol:.  @atom:1 		0.09 		5.432 		1.874 		-4.206 		# HRA2
+	$atom:49 		$mol:.  @atom:1 		0.09 		6.701 		0.638 		-4.637 		# HRA2
+	$atom:50 		$mol:.  @atom:9 		-0.188 		4.643 		0.044 		-5.011 		# CG3C52
+	$atom:51 		$mol:.  @atom:1 		0.09 		5.05 		-0.938 		-5.351 		# HRA2
+	$atom:52 		$mol:.  @atom:1 		0.09 		4.282 		0.633 		-5.885 		# HRA2
+	$atom:53 		$mol:.  @atom:9 		0.067 		3.555 		-0.172 		-3.992 		# CG3C52
+	$atom:54 		$mol:.  @atom:1 		0.09 		2.935 		0.75 		-3.985 		# HRA2
+	$atom:55 		$mol:.  @atom:1 		0.09 		2.921 		-1.039 		-4.287 		# HRA2
+	$atom:56 		$mol:.  @atom:6 		0.026 		4.703 		1.497 		0.396 		# CG311
+	$atom:57 		$mol:.  @atom:2 		0.09 		4.842 		2.169 		-0.468 		# HGA1
+	$atom:58 		$mol:.  @atom:7 		-0.186 		6.093 		1.376 		1.141 		# CG321
+	$atom:59 		$mol:.  @atom:3 		0.09 		6.089 		0.394 		1.669 		# HGA2
+	$atom:60 		$mol:.  @atom:3 		0.09 		6.153 		2.105 		1.967 		# HGA2
+	$atom:61 		$mol:.  @atom:10 		-0.399 		3.581 		2.062 		1.231 		# NG2R53
+	$atom:62 		$mol:.  @atom:5 		0.371 		3.709 		1.571 		2.623 		# CG2R53
+	$atom:63 		$mol:.  @atom:11 		-0.49 		2.916 		0.386 		2.808 		# OG2D1
+	$atom:64 		$mol:.  @atom:9 		-0.011 		3.245 		2.672 		3.564 		# CG3C52
+	$atom:65 		$mol:.  @atom:1 		0.09 		4.016 		2.822 		4.354 		# HRA2
+	$atom:66 		$mol:.  @atom:1 		0.09 		2.267 		2.427 		4.04 		# HRA2
+	$atom:67 		$mol:.  @atom:9 		-0.188 		3.115 		3.907 		2.698 		# CG3C52
+	$atom:68 		$mol:.  @atom:1 		0.09 		2.037 		4.131 		2.517 		# HRA2
+	$atom:69 		$mol:.  @atom:1 		0.09 		3.608 		4.79 		3.167 		# HRA2
+	$atom:70 		$mol:.  @atom:9 		0.067 		3.78 		3.524 		1.392 		# CG3C52
+	$atom:71 		$mol:.  @atom:1 		0.09 		4.853 		3.823 		1.435 		# HRA2
+	$atom:72 		$mol:.  @atom:1 		0.09 		3.301 		4.069 		0.547 		# HRA2
+	$atom:73 		$mol:.  @atom:6 		0.026 		7.384 		1.447 		0.229 		# CG311
+	$atom:74 		$mol:.  @atom:2 		0.09 		7.11 		0.914 		-0.704 		# HGA1
+	$atom:75 		$mol:.  @atom:7 		-0.186 		8.56 		0.619 		0.84 		# CG321
+	$atom:76 		$mol:.  @atom:3 		0.09 		8.202 		-0.399 		1.113 		# HGA2
+	$atom:77 		$mol:.  @atom:3 		0.09 		8.871 		1.099 		1.789 		# HGA2
+	$atom:78 		$mol:.  @atom:10 		-0.399 		7.888 		2.816 		-0.18 		# NG2R53
+	$atom:79 		$mol:.  @atom:5 		0.371 		6.765 		3.598 		-0.721 		# CG2R53
+	$atom:80 		$mol:.  @atom:11 		-0.49 		6.64 		3.367 		-2.136 		# OG2D1
+	$atom:81 		$mol:.  @atom:9 		-0.011 		7.023 		5.065 		-0.442 		# CG3C52
+	$atom:82 		$mol:.  @atom:1 		0.09 		7.456 		5.573 		-1.335 		# HRA2
+	$atom:83 		$mol:.  @atom:1 		0.09 		6.071 		5.567 		-0.152 		# HRA2
+	$atom:84 		$mol:.  @atom:9 		-0.188 		8.016 		5.079 		0.698 		# CG3C52
+	$atom:85 		$mol:.  @atom:1 		0.09 		7.589 		5.595 		1.591 		# HRA2
+	$atom:86 		$mol:.  @atom:1 		0.09 		8.952 		5.6 		0.385 		# HRA2
+	$atom:87 		$mol:.  @atom:9 		0.067 		8.306 		3.619 		1.001 		# CG3C52
+	$atom:88 		$mol:.  @atom:1 		0.09 		9.397 		3.487 		1.154 		# HRA2
+	$atom:89 		$mol:.  @atom:1 		0.09 		7.809 		3.346 		1.953 		# HRA2
+	$atom:90 		$mol:.  @atom:6 		0.026 		9.777 		0.471 		-0.123 		# CG311
+	$atom:91 		$mol:.  @atom:2 		0.09 		10.078 		1.509 		-0.399 		# HGA1
+	$atom:92 		$mol:.  @atom:7 		-0.186 		11.025 		-0.196 		0.583 		# CG321
+	$atom:93 		$mol:.  @atom:3 		0.09 		11.594 		-0.806 		-0.156 		# HGA2
+	$atom:94 		$mol:.  @atom:3 		0.09 		10.673 		-0.901 		1.371 		# HGA2
+	$atom:95 		$mol:.  @atom:10 		-0.399 		9.3 		-0.231 		-1.37 		# NG2R53
+	$atom:96 		$mol:.  @atom:5 		0.371 		9.48 		-1.693 		-1.203 		# CG2R53
+	$atom:97 		$mol:.  @atom:11 		-0.49 		8.241 		-2.303 		-0.8 		# OG2D1
+	$atom:98 		$mol:.  @atom:9 		-0.011 		9.973 		-2.282 		-2.516 		# CG3C52
+	$atom:99 		$mol:.  @atom:1 		0.09 		9.209 		-2.942 		-2.987 		# HRA2
+	$atom:100 		$mol:.  @atom:1 		0.09 		10.9 		-2.869 		-2.324 		# HRA2
+	$atom:101 		$mol:.  @atom:9 		-0.188 		10.27 		-1.096 		-3.406 		# CG3C52
+	$atom:102 		$mol:.  @atom:1 		0.09 		11.267 		-1.191 		-3.899 		# HRA2
+	$atom:103 		$mol:.  @atom:1 		0.09 		9.476 		-0.997 		-4.184 		# HRA2
+	$atom:104 		$mol:.  @atom:9 		0.067 		10.229 		0.099 		-2.478 		# CG3C52
+	$atom:105 		$mol:.  @atom:1 		0.09 		9.854 		0.996 		-3.024 		# HRA2
+	$atom:106 		$mol:.  @atom:1 		0.09 		11.261 		0.311 		-2.125 		# HRA2
+	$atom:107 		$mol:.  @atom:6 		0.026 		12.049 		0.8 		1.199 		# CG311
+	$atom:108 		$mol:.  @atom:2 		0.09 		12.445 		1.378 		0.329 		# HGA1
+	$atom:109 		$mol:.  @atom:7 		-0.186 		13.265 		-0.004 		1.824 		# CG321
+	$atom:110 		$mol:.  @atom:3 		0.09 		13.262 		-1.037 		1.401 		# HGA2
+	$atom:111 		$mol:.  @atom:3 		0.09 		13.098 		-0.259 		2.889 		# HGA2
+	$atom:112 		$mol:.  @atom:10 		-0.399 		11.289 		1.737 		2.105 		# NG2R53
+	$atom:113 		$mol:.  @atom:5 		0.371 		11.333 		1.281 		3.508 		# CG2R53
+	$atom:114 		$mol:.  @atom:11 		-0.49 		10.294 		0.32 		3.763 		# OG2D1
+	$atom:115 		$mol:.  @atom:9 		-0.011 		11.16 		2.51 		4.386 		# CG3C52
+	$atom:116 		$mol:.  @atom:1 		0.09 		10.112 		2.599 		4.755 		# HRA2
+	$atom:117 		$mol:.  @atom:1 		0.09 		11.859 		2.45 		5.251 		# HRA2
+	$atom:118 		$mol:.  @atom:9 		-0.188 		11.502 		3.682 		3.483 		# CG3C52
+	$atom:119 		$mol:.  @atom:1 		0.09 		12.286 		4.333 		3.935 		# HRA2
+	$atom:120 		$mol:.  @atom:1 		0.09 		10.586 		4.289 		3.283 		# HRA2
+	$atom:121 		$mol:.  @atom:9 		0.067 		11.989 		3.037 		2.197 		# CG3C52
+	$atom:122 		$mol:.  @atom:1 		0.09 		11.74 		3.676 		1.319 		# HRA2
+	$atom:123 		$mol:.  @atom:1 		0.09 		13.091 		2.932 		2.252 		# HRA2
+	$atom:124 		$mol:.  @atom:6 		0.026 		14.704 		0.601 		1.577 		# CG311
+	$atom:125 		$mol:.  @atom:2 		0.09 		14.624 		1.689 		1.363 		# HGA1
+	$atom:126 		$mol:.  @atom:7 		-0.186 		15.288 		-0.102 		0.289 		# CG321
+	$atom:127 		$mol:.  @atom:3 		0.09 		14.459 		-0.152 		-0.446 		# HGA2
+	$atom:128 		$mol:.  @atom:3 		0.09 		15.511 		-1.166 		0.542 		# HGA2
+	$atom:129 		$mol:.  @atom:10 		-0.399 		15.564 		0.369 		2.803 		# NG2R53
+	$atom:130 		$mol:.  @atom:5 		0.371 		16.872 		1.024 		2.567 		# CG2R53
+	$atom:131 		$mol:.  @atom:11 		-0.49 		17.9 		0.291 		3.261 		# OG2D1
+	$atom:132 		$mol:.  @atom:9 		-0.011 		16.827 		2.444 		3.078 		# CG3C52
+	$atom:133 		$mol:.  @atom:1 		0.09 		16.379 		3.106 		2.3 		# HRA2
+	$atom:134 		$mol:.  @atom:1 		0.09 		17.837 		2.825 		3.353 		# HRA2
+	$atom:135 		$mol:.  @atom:9 		-0.188 		15.92 		2.351 		4.262 		# CG3C52
+	$atom:136 		$mol:.  @atom:1 		0.09 		16.518 		2.148 		5.182 		# HRA2
+	$atom:137 		$mol:.  @atom:1 		0.09 		15.34 		3.294 		4.401 		# HRA2
+	$atom:138 		$mol:.  @atom:9 		0.067 		15.015 		1.168 		3.952 		# CG3C52
+	$atom:139 		$mol:.  @atom:1 		0.09 		13.994 		1.559 		3.785 		# HRA2
+	$atom:140 		$mol:.  @atom:1 		0.09 		14.958 		0.506 		4.847 		# HRA2
+	$atom:141 		$mol:.  @atom:6 		0.026 		16.541 		0.553 		-0.414 		# CG311
+	$atom:142 		$mol:.  @atom:2 		0.09 		16.727 		1.538 		0.07 		# HGA1
+	$atom:143 		$mol:.  @atom:7 		-0.186 		17.825 		-0.3 		-0.171 		# CG321
+	$atom:144 		$mol:.  @atom:3 		0.09 		17.789 		-1.24 		-0.767 		# HGA2
+	$atom:145 		$mol:.  @atom:3 		0.09 		17.849 		-0.637 		0.885 		# HGA2
+	$atom:146 		$mol:.  @atom:10 		-0.399 		16.41 		0.82 		-1.899 		# NG2R53
+	$atom:147 		$mol:.  @atom:5 		0.371 		15.299 		1.774 		-2.205 		# CG2R53
+	$atom:148 		$mol:.  @atom:11 		-0.49 		14.792 		2.503 		-1.069 		# OG2D1
+	$atom:149 		$mol:.  @atom:9 		-0.011 		14.202 		1.071 		-2.967 		# CG3C52
+	$atom:150 		$mol:.  @atom:1 		0.09 		13.419 		0.721 		-2.265 		# HRA2
+	$atom:151 		$mol:.  @atom:1 		0.09 		13.752 		1.737 		-3.737 		# HRA2
+	$atom:152 		$mol:.  @atom:9 		-0.188 		14.895 		-0.107 		-3.589 		# CG3C52
+	$atom:153 		$mol:.  @atom:1 		0.09 		15.31 		0.182 		-4.584 		# HRA2
+	$atom:154 		$mol:.  @atom:1 		0.09 		14.2 		-0.97 		-3.713 		# HRA2
+	$atom:155 		$mol:.  @atom:9 		0.067 		16.027 		-0.428 		-2.63 		# CG3C52
+	$atom:156 		$mol:.  @atom:1 		0.09 		15.715 		-1.268 		-1.969 		# HRA2
+	$atom:157 		$mol:.  @atom:1 		0.09 		16.906 		-0.792 		-3.211 		# HRA2
+	$atom:158 		$mol:.  @atom:8 		-0.273 		20.321 		-0.272 		0.201 		# CG331
+	$atom:159 		$mol:.  @atom:4 		0.09 		20.368 		-1.346 		-0.093 		# HGA3
+	$atom:160 		$mol:.  @atom:4 		0.09 		20.182 		-0.235 		1.305 		# HGA3
+	$atom:161 		$mol:.  @atom:4 		0.09 		21.297 		0.215 		-0.013 		# HGA3
+	$atom:162 		$mol:.  @atom:6 		0.026 		19.14 		0.45 		-0.497 		# CG311
+	$atom:163 		$mol:.  @atom:2 		0.09 		19.063 		1.453 		-0.01 		# HGA1
+	$atom:164 		$mol:.  @atom:10 		-0.399 		19.235 		0.625 		-1.995 		# NG2R53
+	$atom:165 		$mol:.  @atom:5 		0.371 		19.935 		1.889 		-2.348 		# CG2R53
+	$atom:166 		$mol:.  @atom:11 		-0.49 		21.072 		2.149 		-1.498 		# OG2D1
+	$atom:167 		$mol:.  @atom:9 		-0.011 		20.404 		1.717 		-3.788 		# CG3C52
+	$atom:168 		$mol:.  @atom:1 		0.09 		19.672 		2.198 		-4.476 		# HRA2
+	$atom:169 		$mol:.  @atom:1 		0.09 		21.411 		2.169 		-3.95 		# HRA2
+	$atom:170 		$mol:.  @atom:9 		-0.188 		20.431 		0.212 		-4.02 		# CG3C52
+	$atom:171 		$mol:.  @atom:1 		0.09 		21.433 		-0.13 		-4.372 		# HRA2
+	$atom:172 		$mol:.  @atom:1 		0.09 		19.656 		-0.075 		-4.769 		# HRA2
+	$atom:173 		$mol:.  @atom:9 		0.067 		20.089 		-0.386 		-2.667 		# CG3C52
+	$atom:174 		$mol:.  @atom:1 		0.09 		19.536 		-1.346 		-2.786 		# HRA2
+	$atom:175 		$mol:.  @atom:1 		0.09 		21.058 		-0.571 		-2.15 		# HRA2
+  }
+
+   write("Data Bonds") {
+	$bond:1 	@bond:5 	$atom:1 	$atom:5 	# CG311 	CG331
+	$bond:2 	@bond:9 	$atom:1 	$atom:2 	# CG331 	HGA3
+	$bond:3 	@bond:9 	$atom:1 	$atom:3 	# CG331 	HGA3
+	$bond:4 	@bond:9 	$atom:1 	$atom:4 	# CG331 	HGA3
+	$bond:5 	@bond:4 	$atom:5 	$atom:7 	# CG311 	CG321
+	$bond:6 	@bond:6 	$atom:5 	$atom:6 	# CG311 	HGA1
+	$bond:7 	@bond:8 	$atom:7 	$atom:8 	# CG321 	HGA2
+	$bond:8 	@bond:8 	$atom:7 	$atom:9 	# CG321 	HGA2
+	$bond:9 	@bond:7 	$atom:10 	$atom:5 	# CG311 	NG2R53
+	$bond:10 	@bond:2 	$atom:10 	$atom:11 	# CG2R53 	NG2R53
+	$bond:11 	@bond:3 	$atom:11 	$atom:12 	# CG2R53 	OG2D1
+	$bond:12 	@bond:1 	$atom:11 	$atom:13 	# CG2R53 	CG3C52
+	$bond:13 	@bond:11 	$atom:13 	$atom:14 	# CG3C52 	HRA2
+	$bond:14 	@bond:11 	$atom:13 	$atom:15 	# CG3C52 	HRA2
+	$bond:15 	@bond:10 	$atom:13 	$atom:16 	# CG3C52 	CG3C52
+	$bond:16 	@bond:11 	$atom:16 	$atom:17 	# CG3C52 	HRA2
+	$bond:17 	@bond:11 	$atom:16 	$atom:18 	# CG3C52 	HRA2
+	$bond:18 	@bond:10 	$atom:16 	$atom:19 	# CG3C52 	CG3C52
+	$bond:19 	@bond:11 	$atom:19 	$atom:20 	# CG3C52 	HRA2
+	$bond:20 	@bond:11 	$atom:19 	$atom:21 	# CG3C52 	HRA2
+	$bond:21 	@bond:12 	$atom:19 	$atom:10 	# CG3C52 	NG2R53
+	$bond:22 	@bond:4 	$atom:22 	$atom:24 	# CG311 	CG321
+	$bond:23 	@bond:6 	$atom:22 	$atom:23 	# CG311 	HGA1
+	$bond:24 	@bond:4 	$atom:22 	$atom:7 	# CG311 	CG321
+	$bond:25 	@bond:8 	$atom:24 	$atom:25 	# CG321 	HGA2
+	$bond:26 	@bond:8 	$atom:24 	$atom:26 	# CG321 	HGA2
+	$bond:27 	@bond:7 	$atom:27 	$atom:22 	# CG311 	NG2R53
+	$bond:28 	@bond:2 	$atom:27 	$atom:28 	# CG2R53 	NG2R53
+	$bond:29 	@bond:3 	$atom:28 	$atom:29 	# CG2R53 	OG2D1
+	$bond:30 	@bond:1 	$atom:28 	$atom:30 	# CG2R53 	CG3C52
+	$bond:31 	@bond:11 	$atom:30 	$atom:31 	# CG3C52 	HRA2
+	$bond:32 	@bond:11 	$atom:30 	$atom:32 	# CG3C52 	HRA2
+	$bond:33 	@bond:10 	$atom:30 	$atom:33 	# CG3C52 	CG3C52
+	$bond:34 	@bond:11 	$atom:33 	$atom:34 	# CG3C52 	HRA2
+	$bond:35 	@bond:11 	$atom:33 	$atom:35 	# CG3C52 	HRA2
+	$bond:36 	@bond:10 	$atom:33 	$atom:36 	# CG3C52 	CG3C52
+	$bond:37 	@bond:11 	$atom:36 	$atom:37 	# CG3C52 	HRA2
+	$bond:38 	@bond:11 	$atom:36 	$atom:38 	# CG3C52 	HRA2
+	$bond:39 	@bond:12 	$atom:36 	$atom:27 	# CG3C52 	NG2R53
+	$bond:40 	@bond:4 	$atom:39 	$atom:41 	# CG311 	CG321
+	$bond:41 	@bond:6 	$atom:39 	$atom:40 	# CG311 	HGA1
+	$bond:42 	@bond:4 	$atom:39 	$atom:24 	# CG311 	CG321
+	$bond:43 	@bond:8 	$atom:41 	$atom:42 	# CG321 	HGA2
+	$bond:44 	@bond:8 	$atom:41 	$atom:43 	# CG321 	HGA2
+	$bond:45 	@bond:7 	$atom:44 	$atom:39 	# CG311 	NG2R53
+	$bond:46 	@bond:2 	$atom:44 	$atom:45 	# CG2R53 	NG2R53
+	$bond:47 	@bond:3 	$atom:45 	$atom:46 	# CG2R53 	OG2D1
+	$bond:48 	@bond:1 	$atom:45 	$atom:47 	# CG2R53 	CG3C52
+	$bond:49 	@bond:11 	$atom:47 	$atom:48 	# CG3C52 	HRA2
+	$bond:50 	@bond:11 	$atom:47 	$atom:49 	# CG3C52 	HRA2
+	$bond:51 	@bond:10 	$atom:47 	$atom:50 	# CG3C52 	CG3C52
+	$bond:52 	@bond:11 	$atom:50 	$atom:51 	# CG3C52 	HRA2
+	$bond:53 	@bond:11 	$atom:50 	$atom:52 	# CG3C52 	HRA2
+	$bond:54 	@bond:10 	$atom:50 	$atom:53 	# CG3C52 	CG3C52
+	$bond:55 	@bond:11 	$atom:53 	$atom:54 	# CG3C52 	HRA2
+	$bond:56 	@bond:11 	$atom:53 	$atom:55 	# CG3C52 	HRA2
+	$bond:57 	@bond:12 	$atom:53 	$atom:44 	# CG3C52 	NG2R53
+	$bond:58 	@bond:4 	$atom:56 	$atom:58 	# CG311 	CG321
+	$bond:59 	@bond:6 	$atom:56 	$atom:57 	# CG311 	HGA1
+	$bond:60 	@bond:4 	$atom:56 	$atom:41 	# CG311 	CG321
+	$bond:61 	@bond:8 	$atom:58 	$atom:59 	# CG321 	HGA2
+	$bond:62 	@bond:8 	$atom:58 	$atom:60 	# CG321 	HGA2
+	$bond:63 	@bond:7 	$atom:61 	$atom:56 	# CG311 	NG2R53
+	$bond:64 	@bond:2 	$atom:61 	$atom:62 	# CG2R53 	NG2R53
+	$bond:65 	@bond:3 	$atom:62 	$atom:63 	# CG2R53 	OG2D1
+	$bond:66 	@bond:1 	$atom:62 	$atom:64 	# CG2R53 	CG3C52
+	$bond:67 	@bond:11 	$atom:64 	$atom:65 	# CG3C52 	HRA2
+	$bond:68 	@bond:11 	$atom:64 	$atom:66 	# CG3C52 	HRA2
+	$bond:69 	@bond:10 	$atom:64 	$atom:67 	# CG3C52 	CG3C52
+	$bond:70 	@bond:11 	$atom:67 	$atom:68 	# CG3C52 	HRA2
+	$bond:71 	@bond:11 	$atom:67 	$atom:69 	# CG3C52 	HRA2
+	$bond:72 	@bond:10 	$atom:67 	$atom:70 	# CG3C52 	CG3C52
+	$bond:73 	@bond:11 	$atom:70 	$atom:71 	# CG3C52 	HRA2
+	$bond:74 	@bond:11 	$atom:70 	$atom:72 	# CG3C52 	HRA2
+	$bond:75 	@bond:12 	$atom:70 	$atom:61 	# CG3C52 	NG2R53
+	$bond:76 	@bond:4 	$atom:73 	$atom:75 	# CG311 	CG321
+	$bond:77 	@bond:6 	$atom:73 	$atom:74 	# CG311 	HGA1
+	$bond:78 	@bond:4 	$atom:73 	$atom:58 	# CG311 	CG321
+	$bond:79 	@bond:8 	$atom:75 	$atom:76 	# CG321 	HGA2
+	$bond:80 	@bond:8 	$atom:75 	$atom:77 	# CG321 	HGA2
+	$bond:81 	@bond:7 	$atom:78 	$atom:73 	# CG311 	NG2R53
+	$bond:82 	@bond:2 	$atom:78 	$atom:79 	# CG2R53 	NG2R53
+	$bond:83 	@bond:3 	$atom:79 	$atom:80 	# CG2R53 	OG2D1
+	$bond:84 	@bond:1 	$atom:79 	$atom:81 	# CG2R53 	CG3C52
+	$bond:85 	@bond:11 	$atom:81 	$atom:82 	# CG3C52 	HRA2
+	$bond:86 	@bond:11 	$atom:81 	$atom:83 	# CG3C52 	HRA2
+	$bond:87 	@bond:10 	$atom:81 	$atom:84 	# CG3C52 	CG3C52
+	$bond:88 	@bond:11 	$atom:84 	$atom:85 	# CG3C52 	HRA2
+	$bond:89 	@bond:11 	$atom:84 	$atom:86 	# CG3C52 	HRA2
+	$bond:90 	@bond:10 	$atom:84 	$atom:87 	# CG3C52 	CG3C52
+	$bond:91 	@bond:11 	$atom:87 	$atom:88 	# CG3C52 	HRA2
+	$bond:92 	@bond:11 	$atom:87 	$atom:89 	# CG3C52 	HRA2
+	$bond:93 	@bond:12 	$atom:87 	$atom:78 	# CG3C52 	NG2R53
+	$bond:94 	@bond:4 	$atom:90 	$atom:92 	# CG311 	CG321
+	$bond:95 	@bond:6 	$atom:90 	$atom:91 	# CG311 	HGA1
+	$bond:96 	@bond:4 	$atom:90 	$atom:75 	# CG311 	CG321
+	$bond:97 	@bond:8 	$atom:92 	$atom:93 	# CG321 	HGA2
+	$bond:98 	@bond:8 	$atom:92 	$atom:94 	# CG321 	HGA2
+	$bond:99 	@bond:7 	$atom:95 	$atom:90 	# CG311 	NG2R53
+	$bond:100 	@bond:2 	$atom:95 	$atom:96 	# CG2R53 	NG2R53
+	$bond:101 	@bond:3 	$atom:96 	$atom:97 	# CG2R53 	OG2D1
+	$bond:102 	@bond:1 	$atom:96 	$atom:98 	# CG2R53 	CG3C52
+	$bond:103 	@bond:11 	$atom:98 	$atom:99 	# CG3C52 	HRA2
+	$bond:104 	@bond:11 	$atom:98 	$atom:100 	# CG3C52 	HRA2
+	$bond:105 	@bond:10 	$atom:98 	$atom:101 	# CG3C52 	CG3C52
+	$bond:106 	@bond:11 	$atom:101 	$atom:102 	# CG3C52 	HRA2
+	$bond:107 	@bond:11 	$atom:101 	$atom:103 	# CG3C52 	HRA2
+	$bond:108 	@bond:10 	$atom:101 	$atom:104 	# CG3C52 	CG3C52
+	$bond:109 	@bond:11 	$atom:104 	$atom:105 	# CG3C52 	HRA2
+	$bond:110 	@bond:11 	$atom:104 	$atom:106 	# CG3C52 	HRA2
+	$bond:111 	@bond:12 	$atom:104 	$atom:95 	# CG3C52 	NG2R53
+	$bond:112 	@bond:4 	$atom:107 	$atom:109 	# CG311 	CG321
+	$bond:113 	@bond:6 	$atom:107 	$atom:108 	# CG311 	HGA1
+	$bond:114 	@bond:4 	$atom:107 	$atom:92 	# CG311 	CG321
+	$bond:115 	@bond:8 	$atom:109 	$atom:110 	# CG321 	HGA2
+	$bond:116 	@bond:8 	$atom:109 	$atom:111 	# CG321 	HGA2
+	$bond:117 	@bond:7 	$atom:112 	$atom:107 	# CG311 	NG2R53
+	$bond:118 	@bond:2 	$atom:112 	$atom:113 	# CG2R53 	NG2R53
+	$bond:119 	@bond:3 	$atom:113 	$atom:114 	# CG2R53 	OG2D1
+	$bond:120 	@bond:1 	$atom:113 	$atom:115 	# CG2R53 	CG3C52
+	$bond:121 	@bond:11 	$atom:115 	$atom:116 	# CG3C52 	HRA2
+	$bond:122 	@bond:11 	$atom:115 	$atom:117 	# CG3C52 	HRA2
+	$bond:123 	@bond:10 	$atom:115 	$atom:118 	# CG3C52 	CG3C52
+	$bond:124 	@bond:11 	$atom:118 	$atom:119 	# CG3C52 	HRA2
+	$bond:125 	@bond:11 	$atom:118 	$atom:120 	# CG3C52 	HRA2
+	$bond:126 	@bond:10 	$atom:118 	$atom:121 	# CG3C52 	CG3C52
+	$bond:127 	@bond:11 	$atom:121 	$atom:122 	# CG3C52 	HRA2
+	$bond:128 	@bond:11 	$atom:121 	$atom:123 	# CG3C52 	HRA2
+	$bond:129 	@bond:12 	$atom:121 	$atom:112 	# CG3C52 	NG2R53
+	$bond:130 	@bond:4 	$atom:124 	$atom:126 	# CG311 	CG321
+	$bond:131 	@bond:6 	$atom:124 	$atom:125 	# CG311 	HGA1
+	$bond:132 	@bond:4 	$atom:124 	$atom:109 	# CG311 	CG321
+	$bond:133 	@bond:8 	$atom:126 	$atom:127 	# CG321 	HGA2
+	$bond:134 	@bond:8 	$atom:126 	$atom:128 	# CG321 	HGA2
+	$bond:135 	@bond:7 	$atom:129 	$atom:124 	# CG311 	NG2R53
+	$bond:136 	@bond:2 	$atom:129 	$atom:130 	# CG2R53 	NG2R53
+	$bond:137 	@bond:3 	$atom:130 	$atom:131 	# CG2R53 	OG2D1
+	$bond:138 	@bond:1 	$atom:130 	$atom:132 	# CG2R53 	CG3C52
+	$bond:139 	@bond:11 	$atom:132 	$atom:133 	# CG3C52 	HRA2
+	$bond:140 	@bond:11 	$atom:132 	$atom:134 	# CG3C52 	HRA2
+	$bond:141 	@bond:10 	$atom:132 	$atom:135 	# CG3C52 	CG3C52
+	$bond:142 	@bond:11 	$atom:135 	$atom:136 	# CG3C52 	HRA2
+	$bond:143 	@bond:11 	$atom:135 	$atom:137 	# CG3C52 	HRA2
+	$bond:144 	@bond:10 	$atom:135 	$atom:138 	# CG3C52 	CG3C52
+	$bond:145 	@bond:11 	$atom:138 	$atom:139 	# CG3C52 	HRA2
+	$bond:146 	@bond:11 	$atom:138 	$atom:140 	# CG3C52 	HRA2
+	$bond:147 	@bond:12 	$atom:138 	$atom:129 	# CG3C52 	NG2R53
+	$bond:148 	@bond:4 	$atom:141 	$atom:143 	# CG311 	CG321
+	$bond:149 	@bond:6 	$atom:141 	$atom:142 	# CG311 	HGA1
+	$bond:150 	@bond:4 	$atom:141 	$atom:126 	# CG311 	CG321
+	$bond:151 	@bond:8 	$atom:143 	$atom:144 	# CG321 	HGA2
+	$bond:152 	@bond:8 	$atom:143 	$atom:145 	# CG321 	HGA2
+	$bond:153 	@bond:7 	$atom:146 	$atom:141 	# CG311 	NG2R53
+	$bond:154 	@bond:2 	$atom:146 	$atom:147 	# CG2R53 	NG2R53
+	$bond:155 	@bond:3 	$atom:147 	$atom:148 	# CG2R53 	OG2D1
+	$bond:156 	@bond:1 	$atom:147 	$atom:149 	# CG2R53 	CG3C52
+	$bond:157 	@bond:11 	$atom:149 	$atom:150 	# CG3C52 	HRA2
+	$bond:158 	@bond:11 	$atom:149 	$atom:151 	# CG3C52 	HRA2
+	$bond:159 	@bond:10 	$atom:149 	$atom:152 	# CG3C52 	CG3C52
+	$bond:160 	@bond:11 	$atom:152 	$atom:153 	# CG3C52 	HRA2
+	$bond:161 	@bond:11 	$atom:152 	$atom:154 	# CG3C52 	HRA2
+	$bond:162 	@bond:10 	$atom:152 	$atom:155 	# CG3C52 	CG3C52
+	$bond:163 	@bond:11 	$atom:155 	$atom:156 	# CG3C52 	HRA2
+	$bond:164 	@bond:11 	$atom:155 	$atom:157 	# CG3C52 	HRA2
+	$bond:165 	@bond:12 	$atom:155 	$atom:146 	# CG3C52 	NG2R53
+	$bond:166 	@bond:9 	$atom:158 	$atom:159 	# CG331 	HGA3
+	$bond:167 	@bond:9 	$atom:158 	$atom:160 	# CG331 	HGA3
+	$bond:168 	@bond:9 	$atom:161 	$atom:158 	# CG331 	HGA3
+	$bond:169 	@bond:5 	$atom:162 	$atom:158 	# CG311 	CG331
+	$bond:170 	@bond:6 	$atom:162 	$atom:163 	# CG311 	HGA1
+	$bond:171 	@bond:4 	$atom:162 	$atom:143 	# CG311 	CG321
+	$bond:172 	@bond:7 	$atom:164 	$atom:162 	# CG311 	NG2R53
+	$bond:173 	@bond:2 	$atom:164 	$atom:165 	# CG2R53 	NG2R53
+	$bond:174 	@bond:3 	$atom:165 	$atom:166 	# CG2R53 	OG2D1
+	$bond:175 	@bond:1 	$atom:165 	$atom:167 	# CG2R53 	CG3C52
+	$bond:176 	@bond:11 	$atom:167 	$atom:168 	# CG3C52 	HRA2
+	$bond:177 	@bond:11 	$atom:167 	$atom:169 	# CG3C52 	HRA2
+	$bond:178 	@bond:10 	$atom:167 	$atom:170 	# CG3C52 	CG3C52
+	$bond:179 	@bond:11 	$atom:170 	$atom:171 	# CG3C52 	HRA2
+	$bond:180 	@bond:11 	$atom:170 	$atom:172 	# CG3C52 	HRA2
+	$bond:181 	@bond:10 	$atom:170 	$atom:173 	# CG3C52 	CG3C52
+	$bond:182 	@bond:11 	$atom:173 	$atom:174 	# CG3C52 	HRA2
+	$bond:183 	@bond:11 	$atom:173 	$atom:175 	# CG3C52 	HRA2
+	$bond:184 	@bond:12 	$atom:173 	$atom:164 	# CG3C52 	NG2R53
+  }
+
+   write("Data Angles") {
+	$angle:1 	@angle:14 	$atom:1 	$atom:5 	$atom:10 	# CG331 	CG311 	NG2R53
+	$angle:2 	@angle:13 	$atom:1 	$atom:5 	$atom:6 	# CG331 	CG311 	HGA1
+	$angle:3 	@angle:10 	$atom:1 	$atom:5 	$atom:7 	# CG321 	CG311 	CG331
+	$angle:4 	@angle:22 	$atom:2 	$atom:1 	$atom:4 	# HGA3 	CG331 	HGA3
+	$angle:5 	@angle:22 	$atom:2 	$atom:1 	$atom:3 	# HGA3 	CG331 	HGA3
+	$angle:6 	@angle:22 	$atom:3 	$atom:1 	$atom:4 	# HGA3 	CG331 	HGA3
+	$angle:7 	@angle:8 	$atom:5 	$atom:10 	$atom:19 	# CG311 	NG2R53 	CG3C52
+	$angle:8 	@angle:3 	$atom:5 	$atom:10 	$atom:11 	# CG2R53 	NG2R53 	CG311
+	$angle:9 	@angle:6 	$atom:5 	$atom:7 	$atom:9 	# CG311 	CG321 	HGA2
+	$angle:10 	@angle:6 	$atom:5 	$atom:7 	$atom:8 	# CG311 	CG321 	HGA2
+	$angle:11 	@angle:7 	$atom:5 	$atom:1 	$atom:4 	# CG311 	CG331 	HGA3
+	$angle:12 	@angle:7 	$atom:5 	$atom:1 	$atom:3 	# CG311 	CG331 	HGA3
+	$angle:13 	@angle:7 	$atom:5 	$atom:1 	$atom:2 	# CG311 	CG331 	HGA3
+	$angle:14 	@angle:20 	$atom:6 	$atom:5 	$atom:10 	# HGA1 	CG311 	NG2R53
+	$angle:15 	@angle:12 	$atom:7 	$atom:5 	$atom:10 	# CG321 	CG311 	NG2R53
+	$angle:16 	@angle:11 	$atom:7 	$atom:5 	$atom:6 	# CG321 	CG311 	HGA1
+	$angle:17 	@angle:21 	$atom:8 	$atom:7 	$atom:9 	# HGA2 	CG321 	HGA2
+	$angle:18 	@angle:15 	$atom:10 	$atom:11 	$atom:13 	# CG3C52 	CG2R53 	NG2R53
+	$angle:19 	@angle:1 	$atom:11 	$atom:13 	$atom:16 	# CG2R53 	CG3C52 	CG3C52
+	$angle:20 	@angle:4 	$atom:11 	$atom:10 	$atom:19 	# CG2R53 	NG2R53 	CG3C52
+	$angle:21 	@angle:16 	$atom:12 	$atom:11 	$atom:13 	# CG3C52 	CG2R53 	OG2D1
+	$angle:22 	@angle:25 	$atom:12 	$atom:11 	$atom:10 	# NG2R53 	CG2R53 	OG2D1
+	$angle:23 	@angle:17 	$atom:13 	$atom:16 	$atom:19 	# CG3C52 	CG3C52 	CG3C52
+	$angle:24 	@angle:18 	$atom:14 	$atom:13 	$atom:16 	# CG3C52 	CG3C52 	HRA2
+	$angle:25 	@angle:2 	$atom:14 	$atom:13 	$atom:11 	# CG2R53 	CG3C52 	HRA2
+	$angle:26 	@angle:23 	$atom:14 	$atom:13 	$atom:15 	# HRA2 	CG3C52 	HRA2
+	$angle:27 	@angle:18 	$atom:15 	$atom:13 	$atom:16 	# CG3C52 	CG3C52 	HRA2
+	$angle:28 	@angle:2 	$atom:15 	$atom:13 	$atom:11 	# CG2R53 	CG3C52 	HRA2
+	$angle:29 	@angle:19 	$atom:16 	$atom:19 	$atom:10 	# CG3C52 	CG3C52 	NG2R53
+	$angle:30 	@angle:18 	$atom:17 	$atom:16 	$atom:19 	# CG3C52 	CG3C52 	HRA2
+	$angle:31 	@angle:18 	$atom:17 	$atom:16 	$atom:13 	# CG3C52 	CG3C52 	HRA2
+	$angle:32 	@angle:23 	$atom:17 	$atom:16 	$atom:18 	# HRA2 	CG3C52 	HRA2
+	$angle:33 	@angle:18 	$atom:18 	$atom:16 	$atom:19 	# CG3C52 	CG3C52 	HRA2
+	$angle:34 	@angle:18 	$atom:18 	$atom:16 	$atom:13 	# CG3C52 	CG3C52 	HRA2
+	$angle:35 	@angle:24 	$atom:20 	$atom:19 	$atom:10 	# HRA2 	CG3C52 	NG2R53
+	$angle:36 	@angle:18 	$atom:20 	$atom:19 	$atom:16 	# CG3C52 	CG3C52 	HRA2
+	$angle:37 	@angle:23 	$atom:20 	$atom:19 	$atom:21 	# HRA2 	CG3C52 	HRA2
+	$angle:38 	@angle:24 	$atom:21 	$atom:19 	$atom:10 	# HRA2 	CG3C52 	NG2R53
+	$angle:39 	@angle:18 	$atom:21 	$atom:19 	$atom:16 	# CG3C52 	CG3C52 	HRA2
+	$angle:40 	@angle:8 	$atom:22 	$atom:27 	$atom:36 	# CG311 	NG2R53 	CG3C52
+	$angle:41 	@angle:3 	$atom:22 	$atom:27 	$atom:28 	# CG2R53 	NG2R53 	CG311
+	$angle:42 	@angle:6 	$atom:22 	$atom:24 	$atom:26 	# CG311 	CG321 	HGA2
+	$angle:43 	@angle:6 	$atom:22 	$atom:24 	$atom:25 	# CG311 	CG321 	HGA2
+	$angle:44 	@angle:6 	$atom:22 	$atom:7 	$atom:9 	# CG311 	CG321 	HGA2
+	$angle:45 	@angle:6 	$atom:22 	$atom:7 	$atom:8 	# CG311 	CG321 	HGA2
+	$angle:46 	@angle:5 	$atom:22 	$atom:7 	$atom:5 	# CG311 	CG321 	CG311
+	$angle:47 	@angle:11 	$atom:23 	$atom:22 	$atom:7 	# CG321 	CG311 	HGA1
+	$angle:48 	@angle:20 	$atom:23 	$atom:22 	$atom:27 	# HGA1 	CG311 	NG2R53
+	$angle:49 	@angle:9 	$atom:24 	$atom:22 	$atom:7 	# CG321 	CG311 	CG321
+	$angle:50 	@angle:12 	$atom:24 	$atom:22 	$atom:27 	# CG321 	CG311 	NG2R53
+	$angle:51 	@angle:11 	$atom:24 	$atom:22 	$atom:23 	# CG321 	CG311 	HGA1
+	$angle:52 	@angle:21 	$atom:25 	$atom:24 	$atom:26 	# HGA2 	CG321 	HGA2
+	$angle:53 	@angle:15 	$atom:27 	$atom:28 	$atom:30 	# CG3C52 	CG2R53 	NG2R53
+	$angle:54 	@angle:12 	$atom:27 	$atom:22 	$atom:7 	# CG321 	CG311 	NG2R53
+	$angle:55 	@angle:1 	$atom:28 	$atom:30 	$atom:33 	# CG2R53 	CG3C52 	CG3C52
+	$angle:56 	@angle:4 	$atom:28 	$atom:27 	$atom:36 	# CG2R53 	NG2R53 	CG3C52
+	$angle:57 	@angle:16 	$atom:29 	$atom:28 	$atom:30 	# CG3C52 	CG2R53 	OG2D1
+	$angle:58 	@angle:25 	$atom:29 	$atom:28 	$atom:27 	# NG2R53 	CG2R53 	OG2D1
+	$angle:59 	@angle:17 	$atom:30 	$atom:33 	$atom:36 	# CG3C52 	CG3C52 	CG3C52
+	$angle:60 	@angle:18 	$atom:31 	$atom:30 	$atom:33 	# CG3C52 	CG3C52 	HRA2
+	$angle:61 	@angle:2 	$atom:31 	$atom:30 	$atom:28 	# CG2R53 	CG3C52 	HRA2
+	$angle:62 	@angle:23 	$atom:31 	$atom:30 	$atom:32 	# HRA2 	CG3C52 	HRA2
+	$angle:63 	@angle:18 	$atom:32 	$atom:30 	$atom:33 	# CG3C52 	CG3C52 	HRA2
+	$angle:64 	@angle:2 	$atom:32 	$atom:30 	$atom:28 	# CG2R53 	CG3C52 	HRA2
+	$angle:65 	@angle:19 	$atom:33 	$atom:36 	$atom:27 	# CG3C52 	CG3C52 	NG2R53
+	$angle:66 	@angle:18 	$atom:34 	$atom:33 	$atom:36 	# CG3C52 	CG3C52 	HRA2
+	$angle:67 	@angle:18 	$atom:34 	$atom:33 	$atom:30 	# CG3C52 	CG3C52 	HRA2
+	$angle:68 	@angle:23 	$atom:34 	$atom:33 	$atom:35 	# HRA2 	CG3C52 	HRA2
+	$angle:69 	@angle:18 	$atom:35 	$atom:33 	$atom:36 	# CG3C52 	CG3C52 	HRA2
+	$angle:70 	@angle:18 	$atom:35 	$atom:33 	$atom:30 	# CG3C52 	CG3C52 	HRA2
+	$angle:71 	@angle:24 	$atom:37 	$atom:36 	$atom:27 	# HRA2 	CG3C52 	NG2R53
+	$angle:72 	@angle:18 	$atom:37 	$atom:36 	$atom:33 	# CG3C52 	CG3C52 	HRA2
+	$angle:73 	@angle:23 	$atom:37 	$atom:36 	$atom:38 	# HRA2 	CG3C52 	HRA2
+	$angle:74 	@angle:24 	$atom:38 	$atom:36 	$atom:27 	# HRA2 	CG3C52 	NG2R53
+	$angle:75 	@angle:18 	$atom:38 	$atom:36 	$atom:33 	# CG3C52 	CG3C52 	HRA2
+	$angle:76 	@angle:8 	$atom:39 	$atom:44 	$atom:53 	# CG311 	NG2R53 	CG3C52
+	$angle:77 	@angle:3 	$atom:39 	$atom:44 	$atom:45 	# CG2R53 	NG2R53 	CG311
+	$angle:78 	@angle:6 	$atom:39 	$atom:41 	$atom:43 	# CG311 	CG321 	HGA2
+	$angle:79 	@angle:6 	$atom:39 	$atom:41 	$atom:42 	# CG311 	CG321 	HGA2
+	$angle:80 	@angle:6 	$atom:39 	$atom:24 	$atom:26 	# CG311 	CG321 	HGA2
+	$angle:81 	@angle:6 	$atom:39 	$atom:24 	$atom:25 	# CG311 	CG321 	HGA2
+	$angle:82 	@angle:5 	$atom:39 	$atom:24 	$atom:22 	# CG311 	CG321 	CG311
+	$angle:83 	@angle:11 	$atom:40 	$atom:39 	$atom:24 	# CG321 	CG311 	HGA1
+	$angle:84 	@angle:20 	$atom:40 	$atom:39 	$atom:44 	# HGA1 	CG311 	NG2R53
+	$angle:85 	@angle:9 	$atom:41 	$atom:39 	$atom:24 	# CG321 	CG311 	CG321
+	$angle:86 	@angle:12 	$atom:41 	$atom:39 	$atom:44 	# CG321 	CG311 	NG2R53
+	$angle:87 	@angle:11 	$atom:41 	$atom:39 	$atom:40 	# CG321 	CG311 	HGA1
+	$angle:88 	@angle:21 	$atom:42 	$atom:41 	$atom:43 	# HGA2 	CG321 	HGA2
+	$angle:89 	@angle:15 	$atom:44 	$atom:45 	$atom:47 	# CG3C52 	CG2R53 	NG2R53
+	$angle:90 	@angle:12 	$atom:44 	$atom:39 	$atom:24 	# CG321 	CG311 	NG2R53
+	$angle:91 	@angle:1 	$atom:45 	$atom:47 	$atom:50 	# CG2R53 	CG3C52 	CG3C52
+	$angle:92 	@angle:4 	$atom:45 	$atom:44 	$atom:53 	# CG2R53 	NG2R53 	CG3C52
+	$angle:93 	@angle:16 	$atom:46 	$atom:45 	$atom:47 	# CG3C52 	CG2R53 	OG2D1
+	$angle:94 	@angle:25 	$atom:46 	$atom:45 	$atom:44 	# NG2R53 	CG2R53 	OG2D1
+	$angle:95 	@angle:17 	$atom:47 	$atom:50 	$atom:53 	# CG3C52 	CG3C52 	CG3C52
+	$angle:96 	@angle:18 	$atom:48 	$atom:47 	$atom:50 	# CG3C52 	CG3C52 	HRA2
+	$angle:97 	@angle:2 	$atom:48 	$atom:47 	$atom:45 	# CG2R53 	CG3C52 	HRA2
+	$angle:98 	@angle:23 	$atom:48 	$atom:47 	$atom:49 	# HRA2 	CG3C52 	HRA2
+	$angle:99 	@angle:18 	$atom:49 	$atom:47 	$atom:50 	# CG3C52 	CG3C52 	HRA2
+	$angle:100 	@angle:2 	$atom:49 	$atom:47 	$atom:45 	# CG2R53 	CG3C52 	HRA2
+	$angle:101 	@angle:19 	$atom:50 	$atom:53 	$atom:44 	# CG3C52 	CG3C52 	NG2R53
+	$angle:102 	@angle:18 	$atom:51 	$atom:50 	$atom:53 	# CG3C52 	CG3C52 	HRA2
+	$angle:103 	@angle:18 	$atom:51 	$atom:50 	$atom:47 	# CG3C52 	CG3C52 	HRA2
+	$angle:104 	@angle:23 	$atom:51 	$atom:50 	$atom:52 	# HRA2 	CG3C52 	HRA2
+	$angle:105 	@angle:18 	$atom:52 	$atom:50 	$atom:53 	# CG3C52 	CG3C52 	HRA2
+	$angle:106 	@angle:18 	$atom:52 	$atom:50 	$atom:47 	# CG3C52 	CG3C52 	HRA2
+	$angle:107 	@angle:24 	$atom:54 	$atom:53 	$atom:44 	# HRA2 	CG3C52 	NG2R53
+	$angle:108 	@angle:18 	$atom:54 	$atom:53 	$atom:50 	# CG3C52 	CG3C52 	HRA2
+	$angle:109 	@angle:23 	$atom:54 	$atom:53 	$atom:55 	# HRA2 	CG3C52 	HRA2
+	$angle:110 	@angle:24 	$atom:55 	$atom:53 	$atom:44 	# HRA2 	CG3C52 	NG2R53
+	$angle:111 	@angle:18 	$atom:55 	$atom:53 	$atom:50 	# CG3C52 	CG3C52 	HRA2
+	$angle:112 	@angle:8 	$atom:56 	$atom:61 	$atom:70 	# CG311 	NG2R53 	CG3C52
+	$angle:113 	@angle:3 	$atom:56 	$atom:61 	$atom:62 	# CG2R53 	NG2R53 	CG311
+	$angle:114 	@angle:6 	$atom:56 	$atom:58 	$atom:60 	# CG311 	CG321 	HGA2
+	$angle:115 	@angle:6 	$atom:56 	$atom:58 	$atom:59 	# CG311 	CG321 	HGA2
+	$angle:116 	@angle:6 	$atom:56 	$atom:41 	$atom:43 	# CG311 	CG321 	HGA2
+	$angle:117 	@angle:6 	$atom:56 	$atom:41 	$atom:42 	# CG311 	CG321 	HGA2
+	$angle:118 	@angle:5 	$atom:56 	$atom:41 	$atom:39 	# CG311 	CG321 	CG311
+	$angle:119 	@angle:11 	$atom:57 	$atom:56 	$atom:41 	# CG321 	CG311 	HGA1
+	$angle:120 	@angle:20 	$atom:57 	$atom:56 	$atom:61 	# HGA1 	CG311 	NG2R53
+	$angle:121 	@angle:9 	$atom:58 	$atom:56 	$atom:41 	# CG321 	CG311 	CG321
+	$angle:122 	@angle:12 	$atom:58 	$atom:56 	$atom:61 	# CG321 	CG311 	NG2R53
+	$angle:123 	@angle:11 	$atom:58 	$atom:56 	$atom:57 	# CG321 	CG311 	HGA1
+	$angle:124 	@angle:21 	$atom:59 	$atom:58 	$atom:60 	# HGA2 	CG321 	HGA2
+	$angle:125 	@angle:15 	$atom:61 	$atom:62 	$atom:64 	# CG3C52 	CG2R53 	NG2R53
+	$angle:126 	@angle:12 	$atom:61 	$atom:56 	$atom:41 	# CG321 	CG311 	NG2R53
+	$angle:127 	@angle:1 	$atom:62 	$atom:64 	$atom:67 	# CG2R53 	CG3C52 	CG3C52
+	$angle:128 	@angle:4 	$atom:62 	$atom:61 	$atom:70 	# CG2R53 	NG2R53 	CG3C52
+	$angle:129 	@angle:16 	$atom:63 	$atom:62 	$atom:64 	# CG3C52 	CG2R53 	OG2D1
+	$angle:130 	@angle:25 	$atom:63 	$atom:62 	$atom:61 	# NG2R53 	CG2R53 	OG2D1
+	$angle:131 	@angle:17 	$atom:64 	$atom:67 	$atom:70 	# CG3C52 	CG3C52 	CG3C52
+	$angle:132 	@angle:18 	$atom:65 	$atom:64 	$atom:67 	# CG3C52 	CG3C52 	HRA2
+	$angle:133 	@angle:2 	$atom:65 	$atom:64 	$atom:62 	# CG2R53 	CG3C52 	HRA2
+	$angle:134 	@angle:23 	$atom:65 	$atom:64 	$atom:66 	# HRA2 	CG3C52 	HRA2
+	$angle:135 	@angle:18 	$atom:66 	$atom:64 	$atom:67 	# CG3C52 	CG3C52 	HRA2
+	$angle:136 	@angle:2 	$atom:66 	$atom:64 	$atom:62 	# CG2R53 	CG3C52 	HRA2
+	$angle:137 	@angle:19 	$atom:67 	$atom:70 	$atom:61 	# CG3C52 	CG3C52 	NG2R53
+	$angle:138 	@angle:18 	$atom:68 	$atom:67 	$atom:70 	# CG3C52 	CG3C52 	HRA2
+	$angle:139 	@angle:18 	$atom:68 	$atom:67 	$atom:64 	# CG3C52 	CG3C52 	HRA2
+	$angle:140 	@angle:23 	$atom:68 	$atom:67 	$atom:69 	# HRA2 	CG3C52 	HRA2
+	$angle:141 	@angle:18 	$atom:69 	$atom:67 	$atom:70 	# CG3C52 	CG3C52 	HRA2
+	$angle:142 	@angle:18 	$atom:69 	$atom:67 	$atom:64 	# CG3C52 	CG3C52 	HRA2
+	$angle:143 	@angle:24 	$atom:71 	$atom:70 	$atom:61 	# HRA2 	CG3C52 	NG2R53
+	$angle:144 	@angle:18 	$atom:71 	$atom:70 	$atom:67 	# CG3C52 	CG3C52 	HRA2
+	$angle:145 	@angle:23 	$atom:71 	$atom:70 	$atom:72 	# HRA2 	CG3C52 	HRA2
+	$angle:146 	@angle:24 	$atom:72 	$atom:70 	$atom:61 	# HRA2 	CG3C52 	NG2R53
+	$angle:147 	@angle:18 	$atom:72 	$atom:70 	$atom:67 	# CG3C52 	CG3C52 	HRA2
+	$angle:148 	@angle:8 	$atom:73 	$atom:78 	$atom:87 	# CG311 	NG2R53 	CG3C52
+	$angle:149 	@angle:3 	$atom:73 	$atom:78 	$atom:79 	# CG2R53 	NG2R53 	CG311
+	$angle:150 	@angle:6 	$atom:73 	$atom:75 	$atom:77 	# CG311 	CG321 	HGA2
+	$angle:151 	@angle:6 	$atom:73 	$atom:75 	$atom:76 	# CG311 	CG321 	HGA2
+	$angle:152 	@angle:6 	$atom:73 	$atom:58 	$atom:60 	# CG311 	CG321 	HGA2
+	$angle:153 	@angle:6 	$atom:73 	$atom:58 	$atom:59 	# CG311 	CG321 	HGA2
+	$angle:154 	@angle:5 	$atom:73 	$atom:58 	$atom:56 	# CG311 	CG321 	CG311
+	$angle:155 	@angle:11 	$atom:74 	$atom:73 	$atom:58 	# CG321 	CG311 	HGA1
+	$angle:156 	@angle:20 	$atom:74 	$atom:73 	$atom:78 	# HGA1 	CG311 	NG2R53
+	$angle:157 	@angle:9 	$atom:75 	$atom:73 	$atom:58 	# CG321 	CG311 	CG321
+	$angle:158 	@angle:12 	$atom:75 	$atom:73 	$atom:78 	# CG321 	CG311 	NG2R53
+	$angle:159 	@angle:11 	$atom:75 	$atom:73 	$atom:74 	# CG321 	CG311 	HGA1
+	$angle:160 	@angle:21 	$atom:76 	$atom:75 	$atom:77 	# HGA2 	CG321 	HGA2
+	$angle:161 	@angle:15 	$atom:78 	$atom:79 	$atom:81 	# CG3C52 	CG2R53 	NG2R53
+	$angle:162 	@angle:12 	$atom:78 	$atom:73 	$atom:58 	# CG321 	CG311 	NG2R53
+	$angle:163 	@angle:1 	$atom:79 	$atom:81 	$atom:84 	# CG2R53 	CG3C52 	CG3C52
+	$angle:164 	@angle:4 	$atom:79 	$atom:78 	$atom:87 	# CG2R53 	NG2R53 	CG3C52
+	$angle:165 	@angle:16 	$atom:80 	$atom:79 	$atom:81 	# CG3C52 	CG2R53 	OG2D1
+	$angle:166 	@angle:25 	$atom:80 	$atom:79 	$atom:78 	# NG2R53 	CG2R53 	OG2D1
+	$angle:167 	@angle:17 	$atom:81 	$atom:84 	$atom:87 	# CG3C52 	CG3C52 	CG3C52
+	$angle:168 	@angle:18 	$atom:82 	$atom:81 	$atom:84 	# CG3C52 	CG3C52 	HRA2
+	$angle:169 	@angle:2 	$atom:82 	$atom:81 	$atom:79 	# CG2R53 	CG3C52 	HRA2
+	$angle:170 	@angle:23 	$atom:82 	$atom:81 	$atom:83 	# HRA2 	CG3C52 	HRA2
+	$angle:171 	@angle:18 	$atom:83 	$atom:81 	$atom:84 	# CG3C52 	CG3C52 	HRA2
+	$angle:172 	@angle:2 	$atom:83 	$atom:81 	$atom:79 	# CG2R53 	CG3C52 	HRA2
+	$angle:173 	@angle:19 	$atom:84 	$atom:87 	$atom:78 	# CG3C52 	CG3C52 	NG2R53
+	$angle:174 	@angle:18 	$atom:85 	$atom:84 	$atom:87 	# CG3C52 	CG3C52 	HRA2
+	$angle:175 	@angle:18 	$atom:85 	$atom:84 	$atom:81 	# CG3C52 	CG3C52 	HRA2
+	$angle:176 	@angle:23 	$atom:85 	$atom:84 	$atom:86 	# HRA2 	CG3C52 	HRA2
+	$angle:177 	@angle:18 	$atom:86 	$atom:84 	$atom:87 	# CG3C52 	CG3C52 	HRA2
+	$angle:178 	@angle:18 	$atom:86 	$atom:84 	$atom:81 	# CG3C52 	CG3C52 	HRA2
+	$angle:179 	@angle:24 	$atom:88 	$atom:87 	$atom:78 	# HRA2 	CG3C52 	NG2R53
+	$angle:180 	@angle:18 	$atom:88 	$atom:87 	$atom:84 	# CG3C52 	CG3C52 	HRA2
+	$angle:181 	@angle:23 	$atom:88 	$atom:87 	$atom:89 	# HRA2 	CG3C52 	HRA2
+	$angle:182 	@angle:24 	$atom:89 	$atom:87 	$atom:78 	# HRA2 	CG3C52 	NG2R53
+	$angle:183 	@angle:18 	$atom:89 	$atom:87 	$atom:84 	# CG3C52 	CG3C52 	HRA2
+	$angle:184 	@angle:8 	$atom:90 	$atom:95 	$atom:104 	# CG311 	NG2R53 	CG3C52
+	$angle:185 	@angle:3 	$atom:90 	$atom:95 	$atom:96 	# CG2R53 	NG2R53 	CG311
+	$angle:186 	@angle:6 	$atom:90 	$atom:92 	$atom:94 	# CG311 	CG321 	HGA2
+	$angle:187 	@angle:6 	$atom:90 	$atom:92 	$atom:93 	# CG311 	CG321 	HGA2
+	$angle:188 	@angle:6 	$atom:90 	$atom:75 	$atom:77 	# CG311 	CG321 	HGA2
+	$angle:189 	@angle:6 	$atom:90 	$atom:75 	$atom:76 	# CG311 	CG321 	HGA2
+	$angle:190 	@angle:5 	$atom:90 	$atom:75 	$atom:73 	# CG311 	CG321 	CG311
+	$angle:191 	@angle:11 	$atom:91 	$atom:90 	$atom:75 	# CG321 	CG311 	HGA1
+	$angle:192 	@angle:20 	$atom:91 	$atom:90 	$atom:95 	# HGA1 	CG311 	NG2R53
+	$angle:193 	@angle:9 	$atom:92 	$atom:90 	$atom:75 	# CG321 	CG311 	CG321
+	$angle:194 	@angle:12 	$atom:92 	$atom:90 	$atom:95 	# CG321 	CG311 	NG2R53
+	$angle:195 	@angle:11 	$atom:92 	$atom:90 	$atom:91 	# CG321 	CG311 	HGA1
+	$angle:196 	@angle:21 	$atom:93 	$atom:92 	$atom:94 	# HGA2 	CG321 	HGA2
+	$angle:197 	@angle:15 	$atom:95 	$atom:96 	$atom:98 	# CG3C52 	CG2R53 	NG2R53
+	$angle:198 	@angle:12 	$atom:95 	$atom:90 	$atom:75 	# CG321 	CG311 	NG2R53
+	$angle:199 	@angle:1 	$atom:96 	$atom:98 	$atom:101 	# CG2R53 	CG3C52 	CG3C52
+	$angle:200 	@angle:4 	$atom:96 	$atom:95 	$atom:104 	# CG2R53 	NG2R53 	CG3C52
+	$angle:201 	@angle:16 	$atom:97 	$atom:96 	$atom:98 	# CG3C52 	CG2R53 	OG2D1
+	$angle:202 	@angle:25 	$atom:97 	$atom:96 	$atom:95 	# NG2R53 	CG2R53 	OG2D1
+	$angle:203 	@angle:17 	$atom:98 	$atom:101 	$atom:104 	# CG3C52 	CG3C52 	CG3C52
+	$angle:204 	@angle:18 	$atom:99 	$atom:98 	$atom:101 	# CG3C52 	CG3C52 	HRA2
+	$angle:205 	@angle:2 	$atom:99 	$atom:98 	$atom:96 	# CG2R53 	CG3C52 	HRA2
+	$angle:206 	@angle:23 	$atom:99 	$atom:98 	$atom:100 	# HRA2 	CG3C52 	HRA2
+	$angle:207 	@angle:18 	$atom:100 	$atom:98 	$atom:101 	# CG3C52 	CG3C52 	HRA2
+	$angle:208 	@angle:2 	$atom:100 	$atom:98 	$atom:96 	# CG2R53 	CG3C52 	HRA2
+	$angle:209 	@angle:19 	$atom:101 	$atom:104 	$atom:95 	# CG3C52 	CG3C52 	NG2R53
+	$angle:210 	@angle:18 	$atom:102 	$atom:101 	$atom:104 	# CG3C52 	CG3C52 	HRA2
+	$angle:211 	@angle:18 	$atom:102 	$atom:101 	$atom:98 	# CG3C52 	CG3C52 	HRA2
+	$angle:212 	@angle:23 	$atom:102 	$atom:101 	$atom:103 	# HRA2 	CG3C52 	HRA2
+	$angle:213 	@angle:18 	$atom:103 	$atom:101 	$atom:104 	# CG3C52 	CG3C52 	HRA2
+	$angle:214 	@angle:18 	$atom:103 	$atom:101 	$atom:98 	# CG3C52 	CG3C52 	HRA2
+	$angle:215 	@angle:24 	$atom:105 	$atom:104 	$atom:95 	# HRA2 	CG3C52 	NG2R53
+	$angle:216 	@angle:18 	$atom:105 	$atom:104 	$atom:101 	# CG3C52 	CG3C52 	HRA2
+	$angle:217 	@angle:23 	$atom:105 	$atom:104 	$atom:106 	# HRA2 	CG3C52 	HRA2
+	$angle:218 	@angle:24 	$atom:106 	$atom:104 	$atom:95 	# HRA2 	CG3C52 	NG2R53
+	$angle:219 	@angle:18 	$atom:106 	$atom:104 	$atom:101 	# CG3C52 	CG3C52 	HRA2
+	$angle:220 	@angle:8 	$atom:107 	$atom:112 	$atom:121 	# CG311 	NG2R53 	CG3C52
+	$angle:221 	@angle:3 	$atom:107 	$atom:112 	$atom:113 	# CG2R53 	NG2R53 	CG311
+	$angle:222 	@angle:6 	$atom:107 	$atom:109 	$atom:111 	# CG311 	CG321 	HGA2
+	$angle:223 	@angle:6 	$atom:107 	$atom:109 	$atom:110 	# CG311 	CG321 	HGA2
+	$angle:224 	@angle:6 	$atom:107 	$atom:92 	$atom:94 	# CG311 	CG321 	HGA2
+	$angle:225 	@angle:6 	$atom:107 	$atom:92 	$atom:93 	# CG311 	CG321 	HGA2
+	$angle:226 	@angle:5 	$atom:107 	$atom:92 	$atom:90 	# CG311 	CG321 	CG311
+	$angle:227 	@angle:11 	$atom:108 	$atom:107 	$atom:92 	# CG321 	CG311 	HGA1
+	$angle:228 	@angle:20 	$atom:108 	$atom:107 	$atom:112 	# HGA1 	CG311 	NG2R53
+	$angle:229 	@angle:9 	$atom:109 	$atom:107 	$atom:92 	# CG321 	CG311 	CG321
+	$angle:230 	@angle:12 	$atom:109 	$atom:107 	$atom:112 	# CG321 	CG311 	NG2R53
+	$angle:231 	@angle:11 	$atom:109 	$atom:107 	$atom:108 	# CG321 	CG311 	HGA1
+	$angle:232 	@angle:21 	$atom:110 	$atom:109 	$atom:111 	# HGA2 	CG321 	HGA2
+	$angle:233 	@angle:15 	$atom:112 	$atom:113 	$atom:115 	# CG3C52 	CG2R53 	NG2R53
+	$angle:234 	@angle:12 	$atom:112 	$atom:107 	$atom:92 	# CG321 	CG311 	NG2R53
+	$angle:235 	@angle:1 	$atom:113 	$atom:115 	$atom:118 	# CG2R53 	CG3C52 	CG3C52
+	$angle:236 	@angle:4 	$atom:113 	$atom:112 	$atom:121 	# CG2R53 	NG2R53 	CG3C52
+	$angle:237 	@angle:16 	$atom:114 	$atom:113 	$atom:115 	# CG3C52 	CG2R53 	OG2D1
+	$angle:238 	@angle:25 	$atom:114 	$atom:113 	$atom:112 	# NG2R53 	CG2R53 	OG2D1
+	$angle:239 	@angle:17 	$atom:115 	$atom:118 	$atom:121 	# CG3C52 	CG3C52 	CG3C52
+	$angle:240 	@angle:18 	$atom:116 	$atom:115 	$atom:118 	# CG3C52 	CG3C52 	HRA2
+	$angle:241 	@angle:2 	$atom:116 	$atom:115 	$atom:113 	# CG2R53 	CG3C52 	HRA2
+	$angle:242 	@angle:23 	$atom:116 	$atom:115 	$atom:117 	# HRA2 	CG3C52 	HRA2
+	$angle:243 	@angle:18 	$atom:117 	$atom:115 	$atom:118 	# CG3C52 	CG3C52 	HRA2
+	$angle:244 	@angle:2 	$atom:117 	$atom:115 	$atom:113 	# CG2R53 	CG3C52 	HRA2
+	$angle:245 	@angle:19 	$atom:118 	$atom:121 	$atom:112 	# CG3C52 	CG3C52 	NG2R53
+	$angle:246 	@angle:18 	$atom:119 	$atom:118 	$atom:121 	# CG3C52 	CG3C52 	HRA2
+	$angle:247 	@angle:18 	$atom:119 	$atom:118 	$atom:115 	# CG3C52 	CG3C52 	HRA2
+	$angle:248 	@angle:23 	$atom:119 	$atom:118 	$atom:120 	# HRA2 	CG3C52 	HRA2
+	$angle:249 	@angle:18 	$atom:120 	$atom:118 	$atom:121 	# CG3C52 	CG3C52 	HRA2
+	$angle:250 	@angle:18 	$atom:120 	$atom:118 	$atom:115 	# CG3C52 	CG3C52 	HRA2
+	$angle:251 	@angle:24 	$atom:122 	$atom:121 	$atom:112 	# HRA2 	CG3C52 	NG2R53
+	$angle:252 	@angle:18 	$atom:122 	$atom:121 	$atom:118 	# CG3C52 	CG3C52 	HRA2
+	$angle:253 	@angle:23 	$atom:122 	$atom:121 	$atom:123 	# HRA2 	CG3C52 	HRA2
+	$angle:254 	@angle:24 	$atom:123 	$atom:121 	$atom:112 	# HRA2 	CG3C52 	NG2R53
+	$angle:255 	@angle:18 	$atom:123 	$atom:121 	$atom:118 	# CG3C52 	CG3C52 	HRA2
+	$angle:256 	@angle:8 	$atom:124 	$atom:129 	$atom:138 	# CG311 	NG2R53 	CG3C52
+	$angle:257 	@angle:3 	$atom:124 	$atom:129 	$atom:130 	# CG2R53 	NG2R53 	CG311
+	$angle:258 	@angle:6 	$atom:124 	$atom:126 	$atom:128 	# CG311 	CG321 	HGA2
+	$angle:259 	@angle:6 	$atom:124 	$atom:126 	$atom:127 	# CG311 	CG321 	HGA2
+	$angle:260 	@angle:6 	$atom:124 	$atom:109 	$atom:111 	# CG311 	CG321 	HGA2
+	$angle:261 	@angle:6 	$atom:124 	$atom:109 	$atom:110 	# CG311 	CG321 	HGA2
+	$angle:262 	@angle:5 	$atom:124 	$atom:109 	$atom:107 	# CG311 	CG321 	CG311
+	$angle:263 	@angle:11 	$atom:125 	$atom:124 	$atom:109 	# CG321 	CG311 	HGA1
+	$angle:264 	@angle:20 	$atom:125 	$atom:124 	$atom:129 	# HGA1 	CG311 	NG2R53
+	$angle:265 	@angle:9 	$atom:126 	$atom:124 	$atom:109 	# CG321 	CG311 	CG321
+	$angle:266 	@angle:12 	$atom:126 	$atom:124 	$atom:129 	# CG321 	CG311 	NG2R53
+	$angle:267 	@angle:11 	$atom:126 	$atom:124 	$atom:125 	# CG321 	CG311 	HGA1
+	$angle:268 	@angle:21 	$atom:127 	$atom:126 	$atom:128 	# HGA2 	CG321 	HGA2
+	$angle:269 	@angle:15 	$atom:129 	$atom:130 	$atom:132 	# CG3C52 	CG2R53 	NG2R53
+	$angle:270 	@angle:12 	$atom:129 	$atom:124 	$atom:109 	# CG321 	CG311 	NG2R53
+	$angle:271 	@angle:1 	$atom:130 	$atom:132 	$atom:135 	# CG2R53 	CG3C52 	CG3C52
+	$angle:272 	@angle:4 	$atom:130 	$atom:129 	$atom:138 	# CG2R53 	NG2R53 	CG3C52
+	$angle:273 	@angle:16 	$atom:131 	$atom:130 	$atom:132 	# CG3C52 	CG2R53 	OG2D1
+	$angle:274 	@angle:25 	$atom:131 	$atom:130 	$atom:129 	# NG2R53 	CG2R53 	OG2D1
+	$angle:275 	@angle:17 	$atom:132 	$atom:135 	$atom:138 	# CG3C52 	CG3C52 	CG3C52
+	$angle:276 	@angle:18 	$atom:133 	$atom:132 	$atom:135 	# CG3C52 	CG3C52 	HRA2
+	$angle:277 	@angle:2 	$atom:133 	$atom:132 	$atom:130 	# CG2R53 	CG3C52 	HRA2
+	$angle:278 	@angle:23 	$atom:133 	$atom:132 	$atom:134 	# HRA2 	CG3C52 	HRA2
+	$angle:279 	@angle:18 	$atom:134 	$atom:132 	$atom:135 	# CG3C52 	CG3C52 	HRA2
+	$angle:280 	@angle:2 	$atom:134 	$atom:132 	$atom:130 	# CG2R53 	CG3C52 	HRA2
+	$angle:281 	@angle:19 	$atom:135 	$atom:138 	$atom:129 	# CG3C52 	CG3C52 	NG2R53
+	$angle:282 	@angle:18 	$atom:136 	$atom:135 	$atom:138 	# CG3C52 	CG3C52 	HRA2
+	$angle:283 	@angle:18 	$atom:136 	$atom:135 	$atom:132 	# CG3C52 	CG3C52 	HRA2
+	$angle:284 	@angle:23 	$atom:136 	$atom:135 	$atom:137 	# HRA2 	CG3C52 	HRA2
+	$angle:285 	@angle:18 	$atom:137 	$atom:135 	$atom:138 	# CG3C52 	CG3C52 	HRA2
+	$angle:286 	@angle:18 	$atom:137 	$atom:135 	$atom:132 	# CG3C52 	CG3C52 	HRA2
+	$angle:287 	@angle:24 	$atom:139 	$atom:138 	$atom:129 	# HRA2 	CG3C52 	NG2R53
+	$angle:288 	@angle:18 	$atom:139 	$atom:138 	$atom:135 	# CG3C52 	CG3C52 	HRA2
+	$angle:289 	@angle:23 	$atom:139 	$atom:138 	$atom:140 	# HRA2 	CG3C52 	HRA2
+	$angle:290 	@angle:24 	$atom:140 	$atom:138 	$atom:129 	# HRA2 	CG3C52 	NG2R53
+	$angle:291 	@angle:18 	$atom:140 	$atom:138 	$atom:135 	# CG3C52 	CG3C52 	HRA2
+	$angle:292 	@angle:8 	$atom:141 	$atom:146 	$atom:155 	# CG311 	NG2R53 	CG3C52
+	$angle:293 	@angle:3 	$atom:141 	$atom:146 	$atom:147 	# CG2R53 	NG2R53 	CG311
+	$angle:294 	@angle:6 	$atom:141 	$atom:143 	$atom:145 	# CG311 	CG321 	HGA2
+	$angle:295 	@angle:6 	$atom:141 	$atom:143 	$atom:144 	# CG311 	CG321 	HGA2
+	$angle:296 	@angle:6 	$atom:141 	$atom:126 	$atom:128 	# CG311 	CG321 	HGA2
+	$angle:297 	@angle:6 	$atom:141 	$atom:126 	$atom:127 	# CG311 	CG321 	HGA2
+	$angle:298 	@angle:5 	$atom:141 	$atom:126 	$atom:124 	# CG311 	CG321 	CG311
+	$angle:299 	@angle:11 	$atom:142 	$atom:141 	$atom:126 	# CG321 	CG311 	HGA1
+	$angle:300 	@angle:20 	$atom:142 	$atom:141 	$atom:146 	# HGA1 	CG311 	NG2R53
+	$angle:301 	@angle:9 	$atom:143 	$atom:141 	$atom:126 	# CG321 	CG311 	CG321
+	$angle:302 	@angle:12 	$atom:143 	$atom:141 	$atom:146 	# CG321 	CG311 	NG2R53
+	$angle:303 	@angle:11 	$atom:143 	$atom:141 	$atom:142 	# CG321 	CG311 	HGA1
+	$angle:304 	@angle:21 	$atom:144 	$atom:143 	$atom:145 	# HGA2 	CG321 	HGA2
+	$angle:305 	@angle:15 	$atom:146 	$atom:147 	$atom:149 	# CG3C52 	CG2R53 	NG2R53
+	$angle:306 	@angle:12 	$atom:146 	$atom:141 	$atom:126 	# CG321 	CG311 	NG2R53
+	$angle:307 	@angle:1 	$atom:147 	$atom:149 	$atom:152 	# CG2R53 	CG3C52 	CG3C52
+	$angle:308 	@angle:4 	$atom:147 	$atom:146 	$atom:155 	# CG2R53 	NG2R53 	CG3C52
+	$angle:309 	@angle:16 	$atom:148 	$atom:147 	$atom:149 	# CG3C52 	CG2R53 	OG2D1
+	$angle:310 	@angle:25 	$atom:148 	$atom:147 	$atom:146 	# NG2R53 	CG2R53 	OG2D1
+	$angle:311 	@angle:17 	$atom:149 	$atom:152 	$atom:155 	# CG3C52 	CG3C52 	CG3C52
+	$angle:312 	@angle:18 	$atom:150 	$atom:149 	$atom:152 	# CG3C52 	CG3C52 	HRA2
+	$angle:313 	@angle:2 	$atom:150 	$atom:149 	$atom:147 	# CG2R53 	CG3C52 	HRA2
+	$angle:314 	@angle:23 	$atom:150 	$atom:149 	$atom:151 	# HRA2 	CG3C52 	HRA2
+	$angle:315 	@angle:18 	$atom:151 	$atom:149 	$atom:152 	# CG3C52 	CG3C52 	HRA2
+	$angle:316 	@angle:2 	$atom:151 	$atom:149 	$atom:147 	# CG2R53 	CG3C52 	HRA2
+	$angle:317 	@angle:19 	$atom:152 	$atom:155 	$atom:146 	# CG3C52 	CG3C52 	NG2R53
+	$angle:318 	@angle:18 	$atom:153 	$atom:152 	$atom:155 	# CG3C52 	CG3C52 	HRA2
+	$angle:319 	@angle:18 	$atom:153 	$atom:152 	$atom:149 	# CG3C52 	CG3C52 	HRA2
+	$angle:320 	@angle:23 	$atom:153 	$atom:152 	$atom:154 	# HRA2 	CG3C52 	HRA2
+	$angle:321 	@angle:18 	$atom:154 	$atom:152 	$atom:155 	# CG3C52 	CG3C52 	HRA2
+	$angle:322 	@angle:18 	$atom:154 	$atom:152 	$atom:149 	# CG3C52 	CG3C52 	HRA2
+	$angle:323 	@angle:24 	$atom:156 	$atom:155 	$atom:146 	# HRA2 	CG3C52 	NG2R53
+	$angle:324 	@angle:18 	$atom:156 	$atom:155 	$atom:152 	# CG3C52 	CG3C52 	HRA2
+	$angle:325 	@angle:23 	$atom:156 	$atom:155 	$atom:157 	# HRA2 	CG3C52 	HRA2
+	$angle:326 	@angle:24 	$atom:157 	$atom:155 	$atom:146 	# HRA2 	CG3C52 	NG2R53
+	$angle:327 	@angle:18 	$atom:157 	$atom:155 	$atom:152 	# CG3C52 	CG3C52 	HRA2
+	$angle:328 	@angle:10 	$atom:158 	$atom:162 	$atom:143 	# CG321 	CG311 	CG331
+	$angle:329 	@angle:14 	$atom:158 	$atom:162 	$atom:164 	# CG331 	CG311 	NG2R53
+	$angle:330 	@angle:13 	$atom:158 	$atom:162 	$atom:163 	# CG331 	CG311 	HGA1
+	$angle:331 	@angle:22 	$atom:159 	$atom:158 	$atom:160 	# HGA3 	CG331 	HGA3
+	$angle:332 	@angle:22 	$atom:161 	$atom:158 	$atom:160 	# HGA3 	CG331 	HGA3
+	$angle:333 	@angle:22 	$atom:161 	$atom:158 	$atom:159 	# HGA3 	CG331 	HGA3
+	$angle:334 	@angle:7 	$atom:161 	$atom:158 	$atom:162 	# CG311 	CG331 	HGA3
+	$angle:335 	@angle:8 	$atom:162 	$atom:164 	$atom:173 	# CG311 	NG2R53 	CG3C52
+	$angle:336 	@angle:3 	$atom:162 	$atom:164 	$atom:165 	# CG2R53 	NG2R53 	CG311
+	$angle:337 	@angle:7 	$atom:162 	$atom:158 	$atom:160 	# CG311 	CG331 	HGA3
+	$angle:338 	@angle:7 	$atom:162 	$atom:158 	$atom:159 	# CG311 	CG331 	HGA3
+	$angle:339 	@angle:6 	$atom:162 	$atom:143 	$atom:145 	# CG311 	CG321 	HGA2
+	$angle:340 	@angle:6 	$atom:162 	$atom:143 	$atom:144 	# CG311 	CG321 	HGA2
+	$angle:341 	@angle:5 	$atom:162 	$atom:143 	$atom:141 	# CG311 	CG321 	CG311
+	$angle:342 	@angle:11 	$atom:163 	$atom:162 	$atom:143 	# CG321 	CG311 	HGA1
+	$angle:343 	@angle:20 	$atom:163 	$atom:162 	$atom:164 	# HGA1 	CG311 	NG2R53
+	$angle:344 	@angle:15 	$atom:164 	$atom:165 	$atom:167 	# CG3C52 	CG2R53 	NG2R53
+	$angle:345 	@angle:12 	$atom:164 	$atom:162 	$atom:143 	# CG321 	CG311 	NG2R53
+	$angle:346 	@angle:1 	$atom:165 	$atom:167 	$atom:170 	# CG2R53 	CG3C52 	CG3C52
+	$angle:347 	@angle:4 	$atom:165 	$atom:164 	$atom:173 	# CG2R53 	NG2R53 	CG3C52
+	$angle:348 	@angle:16 	$atom:166 	$atom:165 	$atom:167 	# CG3C52 	CG2R53 	OG2D1
+	$angle:349 	@angle:25 	$atom:166 	$atom:165 	$atom:164 	# NG2R53 	CG2R53 	OG2D1
+	$angle:350 	@angle:17 	$atom:167 	$atom:170 	$atom:173 	# CG3C52 	CG3C52 	CG3C52
+	$angle:351 	@angle:18 	$atom:168 	$atom:167 	$atom:170 	# CG3C52 	CG3C52 	HRA2
+	$angle:352 	@angle:2 	$atom:168 	$atom:167 	$atom:165 	# CG2R53 	CG3C52 	HRA2
+	$angle:353 	@angle:23 	$atom:168 	$atom:167 	$atom:169 	# HRA2 	CG3C52 	HRA2
+	$angle:354 	@angle:18 	$atom:169 	$atom:167 	$atom:170 	# CG3C52 	CG3C52 	HRA2
+	$angle:355 	@angle:2 	$atom:169 	$atom:167 	$atom:165 	# CG2R53 	CG3C52 	HRA2
+	$angle:356 	@angle:19 	$atom:170 	$atom:173 	$atom:164 	# CG3C52 	CG3C52 	NG2R53
+	$angle:357 	@angle:18 	$atom:171 	$atom:170 	$atom:173 	# CG3C52 	CG3C52 	HRA2
+	$angle:358 	@angle:18 	$atom:171 	$atom:170 	$atom:167 	# CG3C52 	CG3C52 	HRA2
+	$angle:359 	@angle:23 	$atom:171 	$atom:170 	$atom:172 	# HRA2 	CG3C52 	HRA2
+	$angle:360 	@angle:18 	$atom:172 	$atom:170 	$atom:173 	# CG3C52 	CG3C52 	HRA2
+	$angle:361 	@angle:18 	$atom:172 	$atom:170 	$atom:167 	# CG3C52 	CG3C52 	HRA2
+	$angle:362 	@angle:24 	$atom:174 	$atom:173 	$atom:164 	# HRA2 	CG3C52 	NG2R53
+	$angle:363 	@angle:18 	$atom:174 	$atom:173 	$atom:170 	# CG3C52 	CG3C52 	HRA2
+	$angle:364 	@angle:23 	$atom:174 	$atom:173 	$atom:175 	# HRA2 	CG3C52 	HRA2
+	$angle:365 	@angle:24 	$atom:175 	$atom:173 	$atom:164 	# HRA2 	CG3C52 	NG2R53
+	$angle:366 	@angle:18 	$atom:175 	$atom:173 	$atom:170 	# CG3C52 	CG3C52 	HRA2
+  }
+
+   write("Data Dihedrals") {
+	$dihedral:1 	@dihedral:9 	$atom:1 	$atom:5 	$atom:7 	$atom:22 	# CG311 	CG321 	CG311 	CG331
+	$dihedral:2 	@dihedral:19 	$atom:1 	$atom:5 	$atom:7 	$atom:8 	# CG331 	CG311 	CG321 	HGA2
+	$dihedral:3 	@dihedral:19 	$atom:1 	$atom:5 	$atom:7 	$atom:9 	# CG331 	CG311 	CG321 	HGA2
+	$dihedral:4 	@dihedral:4 	$atom:1 	$atom:5 	$atom:10 	$atom:11 	# CG2R53 	NG2R53 	CG311 	CG331
+	$dihedral:5 	@dihedral:20 	$atom:1 	$atom:5 	$atom:10 	$atom:19 	# CG331 	CG311 	NG2R53 	CG3C52
+	$dihedral:6 	@dihedral:17 	$atom:2 	$atom:1 	$atom:5 	$atom:7 	# CG321 	CG311 	CG331 	HGA3
+	$dihedral:7 	@dihedral:29 	$atom:2 	$atom:1 	$atom:5 	$atom:6 	# HGA1 	CG311 	CG331 	HGA3
+	$dihedral:8 	@dihedral:31 	$atom:2 	$atom:1 	$atom:5 	$atom:10 	# HGA3 	CG331 	CG311 	NG2R53
+	$dihedral:9 	@dihedral:17 	$atom:3 	$atom:1 	$atom:5 	$atom:7 	# CG321 	CG311 	CG331 	HGA3
+	$dihedral:10 	@dihedral:29 	$atom:3 	$atom:1 	$atom:5 	$atom:6 	# HGA1 	CG311 	CG331 	HGA3
+	$dihedral:11 	@dihedral:31 	$atom:3 	$atom:1 	$atom:5 	$atom:10 	# HGA3 	CG331 	CG311 	NG2R53
+	$dihedral:12 	@dihedral:17 	$atom:4 	$atom:1 	$atom:5 	$atom:7 	# CG321 	CG311 	CG331 	HGA3
+	$dihedral:13 	@dihedral:29 	$atom:4 	$atom:1 	$atom:5 	$atom:6 	# HGA1 	CG311 	CG331 	HGA3
+	$dihedral:14 	@dihedral:31 	$atom:4 	$atom:1 	$atom:5 	$atom:10 	# HGA3 	CG331 	CG311 	NG2R53
+	$dihedral:15 	@dihedral:13 	$atom:5 	$atom:10 	$atom:11 	$atom:12 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:16 	@dihedral:12 	$atom:5 	$atom:10 	$atom:11 	$atom:13 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:17 	@dihedral:15 	$atom:5 	$atom:10 	$atom:19 	$atom:20 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:18 	@dihedral:15 	$atom:5 	$atom:10 	$atom:19 	$atom:21 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:19 	@dihedral:14 	$atom:5 	$atom:10 	$atom:19 	$atom:16 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:20 	@dihedral:8 	$atom:5 	$atom:7 	$atom:22 	$atom:24 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:21 	@dihedral:10 	$atom:5 	$atom:7 	$atom:22 	$atom:23 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:22 	@dihedral:11 	$atom:5 	$atom:7 	$atom:22 	$atom:27 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:23 	@dihedral:10 	$atom:6 	$atom:5 	$atom:7 	$atom:22 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:24 	@dihedral:28 	$atom:6 	$atom:5 	$atom:7 	$atom:8 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:25 	@dihedral:28 	$atom:6 	$atom:5 	$atom:7 	$atom:9 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:26 	@dihedral:5 	$atom:6 	$atom:5 	$atom:10 	$atom:11 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:27 	@dihedral:27 	$atom:6 	$atom:5 	$atom:10 	$atom:19 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:28 	@dihedral:8 	$atom:7 	$atom:22 	$atom:24 	$atom:39 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:29 	@dihedral:16 	$atom:7 	$atom:22 	$atom:24 	$atom:25 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:30 	@dihedral:16 	$atom:7 	$atom:22 	$atom:24 	$atom:26 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:31 	@dihedral:3 	$atom:7 	$atom:22 	$atom:27 	$atom:28 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:32 	@dihedral:18 	$atom:7 	$atom:22 	$atom:27 	$atom:36 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:33 	@dihedral:3 	$atom:7 	$atom:5 	$atom:10 	$atom:11 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:34 	@dihedral:18 	$atom:7 	$atom:5 	$atom:10 	$atom:19 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:35 	@dihedral:16 	$atom:8 	$atom:7 	$atom:22 	$atom:24 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:36 	@dihedral:28 	$atom:8 	$atom:7 	$atom:22 	$atom:23 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:37 	@dihedral:30 	$atom:8 	$atom:7 	$atom:22 	$atom:27 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:38 	@dihedral:30 	$atom:8 	$atom:7 	$atom:5 	$atom:10 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:39 	@dihedral:16 	$atom:9 	$atom:7 	$atom:22 	$atom:24 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:40 	@dihedral:28 	$atom:9 	$atom:7 	$atom:22 	$atom:23 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:41 	@dihedral:30 	$atom:9 	$atom:7 	$atom:22 	$atom:27 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:42 	@dihedral:30 	$atom:9 	$atom:7 	$atom:5 	$atom:10 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:43 	@dihedral:35 	$atom:10 	$atom:19 	$atom:16 	$atom:17 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:44 	@dihedral:35 	$atom:10 	$atom:19 	$atom:16 	$atom:18 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:45 	@dihedral:25 	$atom:10 	$atom:19 	$atom:16 	$atom:13 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:46 	@dihedral:32 	$atom:10 	$atom:11 	$atom:13 	$atom:14 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:47 	@dihedral:32 	$atom:10 	$atom:11 	$atom:13 	$atom:15 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:48 	@dihedral:22 	$atom:10 	$atom:11 	$atom:13 	$atom:16 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:49 	@dihedral:11 	$atom:10 	$atom:5 	$atom:7 	$atom:22 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:50 	@dihedral:2 	$atom:11 	$atom:13 	$atom:16 	$atom:17 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:51 	@dihedral:2 	$atom:11 	$atom:13 	$atom:16 	$atom:18 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:52 	@dihedral:1 	$atom:11 	$atom:13 	$atom:16 	$atom:19 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:53 	@dihedral:7 	$atom:11 	$atom:10 	$atom:19 	$atom:20 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:54 	@dihedral:7 	$atom:11 	$atom:10 	$atom:19 	$atom:21 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:55 	@dihedral:6 	$atom:11 	$atom:10 	$atom:19 	$atom:16 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:56 	@dihedral:26 	$atom:12 	$atom:11 	$atom:10 	$atom:19 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:57 	@dihedral:33 	$atom:12 	$atom:11 	$atom:13 	$atom:14 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:58 	@dihedral:33 	$atom:12 	$atom:11 	$atom:13 	$atom:15 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:59 	@dihedral:23 	$atom:12 	$atom:11 	$atom:13 	$atom:16 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:60 	@dihedral:24 	$atom:13 	$atom:16 	$atom:19 	$atom:20 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:61 	@dihedral:24 	$atom:13 	$atom:16 	$atom:19 	$atom:21 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:62 	@dihedral:21 	$atom:13 	$atom:11 	$atom:10 	$atom:19 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:63 	@dihedral:34 	$atom:14 	$atom:13 	$atom:16 	$atom:17 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:64 	@dihedral:34 	$atom:14 	$atom:13 	$atom:16 	$atom:18 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:65 	@dihedral:24 	$atom:14 	$atom:13 	$atom:16 	$atom:19 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:66 	@dihedral:34 	$atom:15 	$atom:13 	$atom:16 	$atom:17 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:67 	@dihedral:34 	$atom:15 	$atom:13 	$atom:16 	$atom:18 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:68 	@dihedral:24 	$atom:15 	$atom:13 	$atom:16 	$atom:19 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:69 	@dihedral:34 	$atom:17 	$atom:16 	$atom:19 	$atom:20 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:70 	@dihedral:34 	$atom:17 	$atom:16 	$atom:19 	$atom:21 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:71 	@dihedral:34 	$atom:18 	$atom:16 	$atom:19 	$atom:20 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:72 	@dihedral:34 	$atom:18 	$atom:16 	$atom:19 	$atom:21 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:73 	@dihedral:13 	$atom:22 	$atom:27 	$atom:28 	$atom:29 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:74 	@dihedral:12 	$atom:22 	$atom:27 	$atom:28 	$atom:30 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:75 	@dihedral:15 	$atom:22 	$atom:27 	$atom:36 	$atom:37 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:76 	@dihedral:15 	$atom:22 	$atom:27 	$atom:36 	$atom:38 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:77 	@dihedral:14 	$atom:22 	$atom:27 	$atom:36 	$atom:33 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:78 	@dihedral:8 	$atom:22 	$atom:24 	$atom:39 	$atom:41 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:79 	@dihedral:10 	$atom:22 	$atom:24 	$atom:39 	$atom:40 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:80 	@dihedral:11 	$atom:22 	$atom:24 	$atom:39 	$atom:44 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:81 	@dihedral:10 	$atom:23 	$atom:22 	$atom:24 	$atom:39 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:82 	@dihedral:28 	$atom:23 	$atom:22 	$atom:24 	$atom:25 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:83 	@dihedral:28 	$atom:23 	$atom:22 	$atom:24 	$atom:26 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:84 	@dihedral:5 	$atom:23 	$atom:22 	$atom:27 	$atom:28 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:85 	@dihedral:27 	$atom:23 	$atom:22 	$atom:27 	$atom:36 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:86 	@dihedral:8 	$atom:24 	$atom:39 	$atom:41 	$atom:56 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:87 	@dihedral:16 	$atom:24 	$atom:39 	$atom:41 	$atom:42 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:88 	@dihedral:16 	$atom:24 	$atom:39 	$atom:41 	$atom:43 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:89 	@dihedral:3 	$atom:24 	$atom:39 	$atom:44 	$atom:45 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:90 	@dihedral:18 	$atom:24 	$atom:39 	$atom:44 	$atom:53 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:91 	@dihedral:3 	$atom:24 	$atom:22 	$atom:27 	$atom:28 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:92 	@dihedral:18 	$atom:24 	$atom:22 	$atom:27 	$atom:36 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:93 	@dihedral:16 	$atom:25 	$atom:24 	$atom:39 	$atom:41 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:94 	@dihedral:28 	$atom:25 	$atom:24 	$atom:39 	$atom:40 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:95 	@dihedral:30 	$atom:25 	$atom:24 	$atom:39 	$atom:44 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:96 	@dihedral:30 	$atom:25 	$atom:24 	$atom:22 	$atom:27 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:97 	@dihedral:16 	$atom:26 	$atom:24 	$atom:39 	$atom:41 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:98 	@dihedral:28 	$atom:26 	$atom:24 	$atom:39 	$atom:40 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:99 	@dihedral:30 	$atom:26 	$atom:24 	$atom:39 	$atom:44 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:100 	@dihedral:30 	$atom:26 	$atom:24 	$atom:22 	$atom:27 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:101 	@dihedral:35 	$atom:27 	$atom:36 	$atom:33 	$atom:34 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:102 	@dihedral:35 	$atom:27 	$atom:36 	$atom:33 	$atom:35 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:103 	@dihedral:25 	$atom:27 	$atom:36 	$atom:33 	$atom:30 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:104 	@dihedral:32 	$atom:27 	$atom:28 	$atom:30 	$atom:31 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:105 	@dihedral:32 	$atom:27 	$atom:28 	$atom:30 	$atom:32 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:106 	@dihedral:22 	$atom:27 	$atom:28 	$atom:30 	$atom:33 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:107 	@dihedral:11 	$atom:27 	$atom:22 	$atom:24 	$atom:39 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:108 	@dihedral:2 	$atom:28 	$atom:30 	$atom:33 	$atom:34 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:109 	@dihedral:2 	$atom:28 	$atom:30 	$atom:33 	$atom:35 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:110 	@dihedral:1 	$atom:28 	$atom:30 	$atom:33 	$atom:36 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:111 	@dihedral:7 	$atom:28 	$atom:27 	$atom:36 	$atom:37 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:112 	@dihedral:7 	$atom:28 	$atom:27 	$atom:36 	$atom:38 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:113 	@dihedral:6 	$atom:28 	$atom:27 	$atom:36 	$atom:33 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:114 	@dihedral:26 	$atom:29 	$atom:28 	$atom:27 	$atom:36 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:115 	@dihedral:33 	$atom:29 	$atom:28 	$atom:30 	$atom:31 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:116 	@dihedral:33 	$atom:29 	$atom:28 	$atom:30 	$atom:32 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:117 	@dihedral:23 	$atom:29 	$atom:28 	$atom:30 	$atom:33 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:118 	@dihedral:24 	$atom:30 	$atom:33 	$atom:36 	$atom:37 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:119 	@dihedral:24 	$atom:30 	$atom:33 	$atom:36 	$atom:38 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:120 	@dihedral:21 	$atom:30 	$atom:28 	$atom:27 	$atom:36 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:121 	@dihedral:34 	$atom:31 	$atom:30 	$atom:33 	$atom:34 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:122 	@dihedral:34 	$atom:31 	$atom:30 	$atom:33 	$atom:35 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:123 	@dihedral:24 	$atom:31 	$atom:30 	$atom:33 	$atom:36 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:124 	@dihedral:34 	$atom:32 	$atom:30 	$atom:33 	$atom:34 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:125 	@dihedral:34 	$atom:32 	$atom:30 	$atom:33 	$atom:35 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:126 	@dihedral:24 	$atom:32 	$atom:30 	$atom:33 	$atom:36 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:127 	@dihedral:34 	$atom:34 	$atom:33 	$atom:36 	$atom:37 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:128 	@dihedral:34 	$atom:34 	$atom:33 	$atom:36 	$atom:38 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:129 	@dihedral:34 	$atom:35 	$atom:33 	$atom:36 	$atom:37 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:130 	@dihedral:34 	$atom:35 	$atom:33 	$atom:36 	$atom:38 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:131 	@dihedral:13 	$atom:39 	$atom:44 	$atom:45 	$atom:46 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:132 	@dihedral:12 	$atom:39 	$atom:44 	$atom:45 	$atom:47 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:133 	@dihedral:15 	$atom:39 	$atom:44 	$atom:53 	$atom:54 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:134 	@dihedral:15 	$atom:39 	$atom:44 	$atom:53 	$atom:55 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:135 	@dihedral:14 	$atom:39 	$atom:44 	$atom:53 	$atom:50 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:136 	@dihedral:8 	$atom:39 	$atom:41 	$atom:56 	$atom:58 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:137 	@dihedral:10 	$atom:39 	$atom:41 	$atom:56 	$atom:57 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:138 	@dihedral:11 	$atom:39 	$atom:41 	$atom:56 	$atom:61 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:139 	@dihedral:10 	$atom:40 	$atom:39 	$atom:41 	$atom:56 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:140 	@dihedral:28 	$atom:40 	$atom:39 	$atom:41 	$atom:42 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:141 	@dihedral:28 	$atom:40 	$atom:39 	$atom:41 	$atom:43 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:142 	@dihedral:5 	$atom:40 	$atom:39 	$atom:44 	$atom:45 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:143 	@dihedral:27 	$atom:40 	$atom:39 	$atom:44 	$atom:53 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:144 	@dihedral:8 	$atom:41 	$atom:56 	$atom:58 	$atom:73 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:145 	@dihedral:16 	$atom:41 	$atom:56 	$atom:58 	$atom:59 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:146 	@dihedral:16 	$atom:41 	$atom:56 	$atom:58 	$atom:60 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:147 	@dihedral:3 	$atom:41 	$atom:56 	$atom:61 	$atom:62 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:148 	@dihedral:18 	$atom:41 	$atom:56 	$atom:61 	$atom:70 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:149 	@dihedral:3 	$atom:41 	$atom:39 	$atom:44 	$atom:45 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:150 	@dihedral:18 	$atom:41 	$atom:39 	$atom:44 	$atom:53 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:151 	@dihedral:16 	$atom:42 	$atom:41 	$atom:56 	$atom:58 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:152 	@dihedral:28 	$atom:42 	$atom:41 	$atom:56 	$atom:57 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:153 	@dihedral:30 	$atom:42 	$atom:41 	$atom:56 	$atom:61 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:154 	@dihedral:30 	$atom:42 	$atom:41 	$atom:39 	$atom:44 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:155 	@dihedral:16 	$atom:43 	$atom:41 	$atom:56 	$atom:58 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:156 	@dihedral:28 	$atom:43 	$atom:41 	$atom:56 	$atom:57 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:157 	@dihedral:30 	$atom:43 	$atom:41 	$atom:56 	$atom:61 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:158 	@dihedral:30 	$atom:43 	$atom:41 	$atom:39 	$atom:44 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:159 	@dihedral:35 	$atom:44 	$atom:53 	$atom:50 	$atom:51 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:160 	@dihedral:35 	$atom:44 	$atom:53 	$atom:50 	$atom:52 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:161 	@dihedral:25 	$atom:44 	$atom:53 	$atom:50 	$atom:47 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:162 	@dihedral:32 	$atom:44 	$atom:45 	$atom:47 	$atom:48 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:163 	@dihedral:32 	$atom:44 	$atom:45 	$atom:47 	$atom:49 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:164 	@dihedral:22 	$atom:44 	$atom:45 	$atom:47 	$atom:50 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:165 	@dihedral:11 	$atom:44 	$atom:39 	$atom:41 	$atom:56 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:166 	@dihedral:2 	$atom:45 	$atom:47 	$atom:50 	$atom:51 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:167 	@dihedral:2 	$atom:45 	$atom:47 	$atom:50 	$atom:52 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:168 	@dihedral:1 	$atom:45 	$atom:47 	$atom:50 	$atom:53 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:169 	@dihedral:7 	$atom:45 	$atom:44 	$atom:53 	$atom:54 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:170 	@dihedral:7 	$atom:45 	$atom:44 	$atom:53 	$atom:55 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:171 	@dihedral:6 	$atom:45 	$atom:44 	$atom:53 	$atom:50 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:172 	@dihedral:26 	$atom:46 	$atom:45 	$atom:44 	$atom:53 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:173 	@dihedral:33 	$atom:46 	$atom:45 	$atom:47 	$atom:48 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:174 	@dihedral:33 	$atom:46 	$atom:45 	$atom:47 	$atom:49 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:175 	@dihedral:23 	$atom:46 	$atom:45 	$atom:47 	$atom:50 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:176 	@dihedral:24 	$atom:47 	$atom:50 	$atom:53 	$atom:54 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:177 	@dihedral:24 	$atom:47 	$atom:50 	$atom:53 	$atom:55 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:178 	@dihedral:21 	$atom:47 	$atom:45 	$atom:44 	$atom:53 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:179 	@dihedral:34 	$atom:48 	$atom:47 	$atom:50 	$atom:51 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:180 	@dihedral:34 	$atom:48 	$atom:47 	$atom:50 	$atom:52 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:181 	@dihedral:24 	$atom:48 	$atom:47 	$atom:50 	$atom:53 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:182 	@dihedral:34 	$atom:49 	$atom:47 	$atom:50 	$atom:51 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:183 	@dihedral:34 	$atom:49 	$atom:47 	$atom:50 	$atom:52 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:184 	@dihedral:24 	$atom:49 	$atom:47 	$atom:50 	$atom:53 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:185 	@dihedral:34 	$atom:51 	$atom:50 	$atom:53 	$atom:54 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:186 	@dihedral:34 	$atom:51 	$atom:50 	$atom:53 	$atom:55 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:187 	@dihedral:34 	$atom:52 	$atom:50 	$atom:53 	$atom:54 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:188 	@dihedral:34 	$atom:52 	$atom:50 	$atom:53 	$atom:55 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:189 	@dihedral:13 	$atom:56 	$atom:61 	$atom:62 	$atom:63 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:190 	@dihedral:12 	$atom:56 	$atom:61 	$atom:62 	$atom:64 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:191 	@dihedral:15 	$atom:56 	$atom:61 	$atom:70 	$atom:71 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:192 	@dihedral:15 	$atom:56 	$atom:61 	$atom:70 	$atom:72 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:193 	@dihedral:14 	$atom:56 	$atom:61 	$atom:70 	$atom:67 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:194 	@dihedral:8 	$atom:56 	$atom:58 	$atom:73 	$atom:75 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:195 	@dihedral:10 	$atom:56 	$atom:58 	$atom:73 	$atom:74 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:196 	@dihedral:11 	$atom:56 	$atom:58 	$atom:73 	$atom:78 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:197 	@dihedral:10 	$atom:57 	$atom:56 	$atom:58 	$atom:73 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:198 	@dihedral:28 	$atom:57 	$atom:56 	$atom:58 	$atom:59 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:199 	@dihedral:28 	$atom:57 	$atom:56 	$atom:58 	$atom:60 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:200 	@dihedral:5 	$atom:57 	$atom:56 	$atom:61 	$atom:62 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:201 	@dihedral:27 	$atom:57 	$atom:56 	$atom:61 	$atom:70 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:202 	@dihedral:8 	$atom:58 	$atom:73 	$atom:75 	$atom:90 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:203 	@dihedral:16 	$atom:58 	$atom:73 	$atom:75 	$atom:76 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:204 	@dihedral:16 	$atom:58 	$atom:73 	$atom:75 	$atom:77 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:205 	@dihedral:3 	$atom:58 	$atom:73 	$atom:78 	$atom:79 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:206 	@dihedral:18 	$atom:58 	$atom:73 	$atom:78 	$atom:87 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:207 	@dihedral:3 	$atom:58 	$atom:56 	$atom:61 	$atom:62 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:208 	@dihedral:18 	$atom:58 	$atom:56 	$atom:61 	$atom:70 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:209 	@dihedral:16 	$atom:59 	$atom:58 	$atom:73 	$atom:75 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:210 	@dihedral:28 	$atom:59 	$atom:58 	$atom:73 	$atom:74 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:211 	@dihedral:30 	$atom:59 	$atom:58 	$atom:73 	$atom:78 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:212 	@dihedral:30 	$atom:59 	$atom:58 	$atom:56 	$atom:61 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:213 	@dihedral:16 	$atom:60 	$atom:58 	$atom:73 	$atom:75 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:214 	@dihedral:28 	$atom:60 	$atom:58 	$atom:73 	$atom:74 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:215 	@dihedral:30 	$atom:60 	$atom:58 	$atom:73 	$atom:78 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:216 	@dihedral:30 	$atom:60 	$atom:58 	$atom:56 	$atom:61 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:217 	@dihedral:35 	$atom:61 	$atom:70 	$atom:67 	$atom:68 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:218 	@dihedral:35 	$atom:61 	$atom:70 	$atom:67 	$atom:69 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:219 	@dihedral:25 	$atom:61 	$atom:70 	$atom:67 	$atom:64 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:220 	@dihedral:32 	$atom:61 	$atom:62 	$atom:64 	$atom:65 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:221 	@dihedral:32 	$atom:61 	$atom:62 	$atom:64 	$atom:66 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:222 	@dihedral:22 	$atom:61 	$atom:62 	$atom:64 	$atom:67 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:223 	@dihedral:11 	$atom:61 	$atom:56 	$atom:58 	$atom:73 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:224 	@dihedral:2 	$atom:62 	$atom:64 	$atom:67 	$atom:68 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:225 	@dihedral:2 	$atom:62 	$atom:64 	$atom:67 	$atom:69 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:226 	@dihedral:1 	$atom:62 	$atom:64 	$atom:67 	$atom:70 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:227 	@dihedral:7 	$atom:62 	$atom:61 	$atom:70 	$atom:71 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:228 	@dihedral:7 	$atom:62 	$atom:61 	$atom:70 	$atom:72 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:229 	@dihedral:6 	$atom:62 	$atom:61 	$atom:70 	$atom:67 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:230 	@dihedral:26 	$atom:63 	$atom:62 	$atom:61 	$atom:70 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:231 	@dihedral:33 	$atom:63 	$atom:62 	$atom:64 	$atom:65 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:232 	@dihedral:33 	$atom:63 	$atom:62 	$atom:64 	$atom:66 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:233 	@dihedral:23 	$atom:63 	$atom:62 	$atom:64 	$atom:67 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:234 	@dihedral:24 	$atom:64 	$atom:67 	$atom:70 	$atom:71 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:235 	@dihedral:24 	$atom:64 	$atom:67 	$atom:70 	$atom:72 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:236 	@dihedral:21 	$atom:64 	$atom:62 	$atom:61 	$atom:70 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:237 	@dihedral:34 	$atom:65 	$atom:64 	$atom:67 	$atom:68 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:238 	@dihedral:34 	$atom:65 	$atom:64 	$atom:67 	$atom:69 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:239 	@dihedral:24 	$atom:65 	$atom:64 	$atom:67 	$atom:70 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:240 	@dihedral:34 	$atom:66 	$atom:64 	$atom:67 	$atom:68 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:241 	@dihedral:34 	$atom:66 	$atom:64 	$atom:67 	$atom:69 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:242 	@dihedral:24 	$atom:66 	$atom:64 	$atom:67 	$atom:70 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:243 	@dihedral:34 	$atom:68 	$atom:67 	$atom:70 	$atom:71 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:244 	@dihedral:34 	$atom:68 	$atom:67 	$atom:70 	$atom:72 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:245 	@dihedral:34 	$atom:69 	$atom:67 	$atom:70 	$atom:71 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:246 	@dihedral:34 	$atom:69 	$atom:67 	$atom:70 	$atom:72 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:247 	@dihedral:13 	$atom:73 	$atom:78 	$atom:79 	$atom:80 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:248 	@dihedral:12 	$atom:73 	$atom:78 	$atom:79 	$atom:81 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:249 	@dihedral:15 	$atom:73 	$atom:78 	$atom:87 	$atom:88 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:250 	@dihedral:15 	$atom:73 	$atom:78 	$atom:87 	$atom:89 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:251 	@dihedral:14 	$atom:73 	$atom:78 	$atom:87 	$atom:84 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:252 	@dihedral:8 	$atom:73 	$atom:75 	$atom:90 	$atom:92 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:253 	@dihedral:10 	$atom:73 	$atom:75 	$atom:90 	$atom:91 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:254 	@dihedral:11 	$atom:73 	$atom:75 	$atom:90 	$atom:95 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:255 	@dihedral:10 	$atom:74 	$atom:73 	$atom:75 	$atom:90 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:256 	@dihedral:28 	$atom:74 	$atom:73 	$atom:75 	$atom:76 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:257 	@dihedral:28 	$atom:74 	$atom:73 	$atom:75 	$atom:77 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:258 	@dihedral:5 	$atom:74 	$atom:73 	$atom:78 	$atom:79 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:259 	@dihedral:27 	$atom:74 	$atom:73 	$atom:78 	$atom:87 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:260 	@dihedral:8 	$atom:75 	$atom:90 	$atom:92 	$atom:107 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:261 	@dihedral:16 	$atom:75 	$atom:90 	$atom:92 	$atom:93 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:262 	@dihedral:16 	$atom:75 	$atom:90 	$atom:92 	$atom:94 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:263 	@dihedral:3 	$atom:75 	$atom:90 	$atom:95 	$atom:96 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:264 	@dihedral:18 	$atom:75 	$atom:90 	$atom:95 	$atom:104 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:265 	@dihedral:3 	$atom:75 	$atom:73 	$atom:78 	$atom:79 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:266 	@dihedral:18 	$atom:75 	$atom:73 	$atom:78 	$atom:87 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:267 	@dihedral:16 	$atom:76 	$atom:75 	$atom:90 	$atom:92 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:268 	@dihedral:28 	$atom:76 	$atom:75 	$atom:90 	$atom:91 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:269 	@dihedral:30 	$atom:76 	$atom:75 	$atom:90 	$atom:95 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:270 	@dihedral:30 	$atom:76 	$atom:75 	$atom:73 	$atom:78 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:271 	@dihedral:16 	$atom:77 	$atom:75 	$atom:90 	$atom:92 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:272 	@dihedral:28 	$atom:77 	$atom:75 	$atom:90 	$atom:91 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:273 	@dihedral:30 	$atom:77 	$atom:75 	$atom:90 	$atom:95 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:274 	@dihedral:30 	$atom:77 	$atom:75 	$atom:73 	$atom:78 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:275 	@dihedral:35 	$atom:78 	$atom:87 	$atom:84 	$atom:85 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:276 	@dihedral:35 	$atom:78 	$atom:87 	$atom:84 	$atom:86 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:277 	@dihedral:25 	$atom:78 	$atom:87 	$atom:84 	$atom:81 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:278 	@dihedral:32 	$atom:78 	$atom:79 	$atom:81 	$atom:82 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:279 	@dihedral:32 	$atom:78 	$atom:79 	$atom:81 	$atom:83 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:280 	@dihedral:22 	$atom:78 	$atom:79 	$atom:81 	$atom:84 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:281 	@dihedral:11 	$atom:78 	$atom:73 	$atom:75 	$atom:90 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:282 	@dihedral:2 	$atom:79 	$atom:81 	$atom:84 	$atom:85 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:283 	@dihedral:2 	$atom:79 	$atom:81 	$atom:84 	$atom:86 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:284 	@dihedral:1 	$atom:79 	$atom:81 	$atom:84 	$atom:87 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:285 	@dihedral:7 	$atom:79 	$atom:78 	$atom:87 	$atom:88 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:286 	@dihedral:7 	$atom:79 	$atom:78 	$atom:87 	$atom:89 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:287 	@dihedral:6 	$atom:79 	$atom:78 	$atom:87 	$atom:84 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:288 	@dihedral:26 	$atom:80 	$atom:79 	$atom:78 	$atom:87 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:289 	@dihedral:33 	$atom:80 	$atom:79 	$atom:81 	$atom:82 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:290 	@dihedral:33 	$atom:80 	$atom:79 	$atom:81 	$atom:83 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:291 	@dihedral:23 	$atom:80 	$atom:79 	$atom:81 	$atom:84 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:292 	@dihedral:24 	$atom:81 	$atom:84 	$atom:87 	$atom:88 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:293 	@dihedral:24 	$atom:81 	$atom:84 	$atom:87 	$atom:89 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:294 	@dihedral:21 	$atom:81 	$atom:79 	$atom:78 	$atom:87 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:295 	@dihedral:34 	$atom:82 	$atom:81 	$atom:84 	$atom:85 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:296 	@dihedral:34 	$atom:82 	$atom:81 	$atom:84 	$atom:86 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:297 	@dihedral:24 	$atom:82 	$atom:81 	$atom:84 	$atom:87 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:298 	@dihedral:34 	$atom:83 	$atom:81 	$atom:84 	$atom:85 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:299 	@dihedral:34 	$atom:83 	$atom:81 	$atom:84 	$atom:86 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:300 	@dihedral:24 	$atom:83 	$atom:81 	$atom:84 	$atom:87 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:301 	@dihedral:34 	$atom:85 	$atom:84 	$atom:87 	$atom:88 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:302 	@dihedral:34 	$atom:85 	$atom:84 	$atom:87 	$atom:89 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:303 	@dihedral:34 	$atom:86 	$atom:84 	$atom:87 	$atom:88 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:304 	@dihedral:34 	$atom:86 	$atom:84 	$atom:87 	$atom:89 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:305 	@dihedral:13 	$atom:90 	$atom:95 	$atom:96 	$atom:97 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:306 	@dihedral:12 	$atom:90 	$atom:95 	$atom:96 	$atom:98 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:307 	@dihedral:15 	$atom:90 	$atom:95 	$atom:104 	$atom:105 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:308 	@dihedral:15 	$atom:90 	$atom:95 	$atom:104 	$atom:106 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:309 	@dihedral:14 	$atom:90 	$atom:95 	$atom:104 	$atom:101 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:310 	@dihedral:8 	$atom:90 	$atom:92 	$atom:107 	$atom:109 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:311 	@dihedral:10 	$atom:90 	$atom:92 	$atom:107 	$atom:108 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:312 	@dihedral:11 	$atom:90 	$atom:92 	$atom:107 	$atom:112 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:313 	@dihedral:10 	$atom:91 	$atom:90 	$atom:92 	$atom:107 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:314 	@dihedral:28 	$atom:91 	$atom:90 	$atom:92 	$atom:93 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:315 	@dihedral:28 	$atom:91 	$atom:90 	$atom:92 	$atom:94 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:316 	@dihedral:5 	$atom:91 	$atom:90 	$atom:95 	$atom:96 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:317 	@dihedral:27 	$atom:91 	$atom:90 	$atom:95 	$atom:104 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:318 	@dihedral:8 	$atom:92 	$atom:107 	$atom:109 	$atom:124 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:319 	@dihedral:16 	$atom:92 	$atom:107 	$atom:109 	$atom:110 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:320 	@dihedral:16 	$atom:92 	$atom:107 	$atom:109 	$atom:111 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:321 	@dihedral:3 	$atom:92 	$atom:107 	$atom:112 	$atom:113 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:322 	@dihedral:18 	$atom:92 	$atom:107 	$atom:112 	$atom:121 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:323 	@dihedral:3 	$atom:92 	$atom:90 	$atom:95 	$atom:96 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:324 	@dihedral:18 	$atom:92 	$atom:90 	$atom:95 	$atom:104 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:325 	@dihedral:16 	$atom:93 	$atom:92 	$atom:107 	$atom:109 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:326 	@dihedral:28 	$atom:93 	$atom:92 	$atom:107 	$atom:108 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:327 	@dihedral:30 	$atom:93 	$atom:92 	$atom:107 	$atom:112 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:328 	@dihedral:30 	$atom:93 	$atom:92 	$atom:90 	$atom:95 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:329 	@dihedral:16 	$atom:94 	$atom:92 	$atom:107 	$atom:109 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:330 	@dihedral:28 	$atom:94 	$atom:92 	$atom:107 	$atom:108 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:331 	@dihedral:30 	$atom:94 	$atom:92 	$atom:107 	$atom:112 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:332 	@dihedral:30 	$atom:94 	$atom:92 	$atom:90 	$atom:95 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:333 	@dihedral:35 	$atom:95 	$atom:104 	$atom:101 	$atom:102 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:334 	@dihedral:35 	$atom:95 	$atom:104 	$atom:101 	$atom:103 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:335 	@dihedral:25 	$atom:95 	$atom:104 	$atom:101 	$atom:98 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:336 	@dihedral:32 	$atom:95 	$atom:96 	$atom:98 	$atom:99 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:337 	@dihedral:32 	$atom:95 	$atom:96 	$atom:98 	$atom:100 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:338 	@dihedral:22 	$atom:95 	$atom:96 	$atom:98 	$atom:101 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:339 	@dihedral:11 	$atom:95 	$atom:90 	$atom:92 	$atom:107 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:340 	@dihedral:2 	$atom:96 	$atom:98 	$atom:101 	$atom:102 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:341 	@dihedral:2 	$atom:96 	$atom:98 	$atom:101 	$atom:103 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:342 	@dihedral:1 	$atom:96 	$atom:98 	$atom:101 	$atom:104 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:343 	@dihedral:7 	$atom:96 	$atom:95 	$atom:104 	$atom:105 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:344 	@dihedral:7 	$atom:96 	$atom:95 	$atom:104 	$atom:106 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:345 	@dihedral:6 	$atom:96 	$atom:95 	$atom:104 	$atom:101 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:346 	@dihedral:26 	$atom:97 	$atom:96 	$atom:95 	$atom:104 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:347 	@dihedral:33 	$atom:97 	$atom:96 	$atom:98 	$atom:99 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:348 	@dihedral:33 	$atom:97 	$atom:96 	$atom:98 	$atom:100 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:349 	@dihedral:23 	$atom:97 	$atom:96 	$atom:98 	$atom:101 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:350 	@dihedral:24 	$atom:98 	$atom:101 	$atom:104 	$atom:105 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:351 	@dihedral:24 	$atom:98 	$atom:101 	$atom:104 	$atom:106 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:352 	@dihedral:21 	$atom:98 	$atom:96 	$atom:95 	$atom:104 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:353 	@dihedral:34 	$atom:99 	$atom:98 	$atom:101 	$atom:102 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:354 	@dihedral:34 	$atom:99 	$atom:98 	$atom:101 	$atom:103 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:355 	@dihedral:24 	$atom:99 	$atom:98 	$atom:101 	$atom:104 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:356 	@dihedral:34 	$atom:100 	$atom:98 	$atom:101 	$atom:102 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:357 	@dihedral:34 	$atom:100 	$atom:98 	$atom:101 	$atom:103 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:358 	@dihedral:24 	$atom:100 	$atom:98 	$atom:101 	$atom:104 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:359 	@dihedral:34 	$atom:102 	$atom:101 	$atom:104 	$atom:105 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:360 	@dihedral:34 	$atom:102 	$atom:101 	$atom:104 	$atom:106 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:361 	@dihedral:34 	$atom:103 	$atom:101 	$atom:104 	$atom:105 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:362 	@dihedral:34 	$atom:103 	$atom:101 	$atom:104 	$atom:106 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:363 	@dihedral:13 	$atom:107 	$atom:112 	$atom:113 	$atom:114 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:364 	@dihedral:12 	$atom:107 	$atom:112 	$atom:113 	$atom:115 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:365 	@dihedral:15 	$atom:107 	$atom:112 	$atom:121 	$atom:122 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:366 	@dihedral:15 	$atom:107 	$atom:112 	$atom:121 	$atom:123 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:367 	@dihedral:14 	$atom:107 	$atom:112 	$atom:121 	$atom:118 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:368 	@dihedral:8 	$atom:107 	$atom:109 	$atom:124 	$atom:126 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:369 	@dihedral:10 	$atom:107 	$atom:109 	$atom:124 	$atom:125 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:370 	@dihedral:11 	$atom:107 	$atom:109 	$atom:124 	$atom:129 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:371 	@dihedral:10 	$atom:108 	$atom:107 	$atom:109 	$atom:124 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:372 	@dihedral:28 	$atom:108 	$atom:107 	$atom:109 	$atom:110 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:373 	@dihedral:28 	$atom:108 	$atom:107 	$atom:109 	$atom:111 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:374 	@dihedral:5 	$atom:108 	$atom:107 	$atom:112 	$atom:113 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:375 	@dihedral:27 	$atom:108 	$atom:107 	$atom:112 	$atom:121 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:376 	@dihedral:8 	$atom:109 	$atom:124 	$atom:126 	$atom:141 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:377 	@dihedral:16 	$atom:109 	$atom:124 	$atom:126 	$atom:127 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:378 	@dihedral:16 	$atom:109 	$atom:124 	$atom:126 	$atom:128 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:379 	@dihedral:3 	$atom:109 	$atom:124 	$atom:129 	$atom:130 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:380 	@dihedral:18 	$atom:109 	$atom:124 	$atom:129 	$atom:138 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:381 	@dihedral:3 	$atom:109 	$atom:107 	$atom:112 	$atom:113 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:382 	@dihedral:18 	$atom:109 	$atom:107 	$atom:112 	$atom:121 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:383 	@dihedral:16 	$atom:110 	$atom:109 	$atom:124 	$atom:126 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:384 	@dihedral:28 	$atom:110 	$atom:109 	$atom:124 	$atom:125 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:385 	@dihedral:30 	$atom:110 	$atom:109 	$atom:124 	$atom:129 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:386 	@dihedral:30 	$atom:110 	$atom:109 	$atom:107 	$atom:112 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:387 	@dihedral:16 	$atom:111 	$atom:109 	$atom:124 	$atom:126 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:388 	@dihedral:28 	$atom:111 	$atom:109 	$atom:124 	$atom:125 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:389 	@dihedral:30 	$atom:111 	$atom:109 	$atom:124 	$atom:129 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:390 	@dihedral:30 	$atom:111 	$atom:109 	$atom:107 	$atom:112 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:391 	@dihedral:35 	$atom:112 	$atom:121 	$atom:118 	$atom:119 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:392 	@dihedral:35 	$atom:112 	$atom:121 	$atom:118 	$atom:120 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:393 	@dihedral:25 	$atom:112 	$atom:121 	$atom:118 	$atom:115 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:394 	@dihedral:32 	$atom:112 	$atom:113 	$atom:115 	$atom:116 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:395 	@dihedral:32 	$atom:112 	$atom:113 	$atom:115 	$atom:117 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:396 	@dihedral:22 	$atom:112 	$atom:113 	$atom:115 	$atom:118 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:397 	@dihedral:11 	$atom:112 	$atom:107 	$atom:109 	$atom:124 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:398 	@dihedral:2 	$atom:113 	$atom:115 	$atom:118 	$atom:119 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:399 	@dihedral:2 	$atom:113 	$atom:115 	$atom:118 	$atom:120 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:400 	@dihedral:1 	$atom:113 	$atom:115 	$atom:118 	$atom:121 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:401 	@dihedral:7 	$atom:113 	$atom:112 	$atom:121 	$atom:122 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:402 	@dihedral:7 	$atom:113 	$atom:112 	$atom:121 	$atom:123 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:403 	@dihedral:6 	$atom:113 	$atom:112 	$atom:121 	$atom:118 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:404 	@dihedral:26 	$atom:114 	$atom:113 	$atom:112 	$atom:121 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:405 	@dihedral:33 	$atom:114 	$atom:113 	$atom:115 	$atom:116 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:406 	@dihedral:33 	$atom:114 	$atom:113 	$atom:115 	$atom:117 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:407 	@dihedral:23 	$atom:114 	$atom:113 	$atom:115 	$atom:118 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:408 	@dihedral:24 	$atom:115 	$atom:118 	$atom:121 	$atom:122 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:409 	@dihedral:24 	$atom:115 	$atom:118 	$atom:121 	$atom:123 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:410 	@dihedral:21 	$atom:115 	$atom:113 	$atom:112 	$atom:121 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:411 	@dihedral:34 	$atom:116 	$atom:115 	$atom:118 	$atom:119 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:412 	@dihedral:34 	$atom:116 	$atom:115 	$atom:118 	$atom:120 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:413 	@dihedral:24 	$atom:116 	$atom:115 	$atom:118 	$atom:121 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:414 	@dihedral:34 	$atom:117 	$atom:115 	$atom:118 	$atom:119 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:415 	@dihedral:34 	$atom:117 	$atom:115 	$atom:118 	$atom:120 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:416 	@dihedral:24 	$atom:117 	$atom:115 	$atom:118 	$atom:121 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:417 	@dihedral:34 	$atom:119 	$atom:118 	$atom:121 	$atom:122 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:418 	@dihedral:34 	$atom:119 	$atom:118 	$atom:121 	$atom:123 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:419 	@dihedral:34 	$atom:120 	$atom:118 	$atom:121 	$atom:122 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:420 	@dihedral:34 	$atom:120 	$atom:118 	$atom:121 	$atom:123 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:421 	@dihedral:13 	$atom:124 	$atom:129 	$atom:130 	$atom:131 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:422 	@dihedral:12 	$atom:124 	$atom:129 	$atom:130 	$atom:132 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:423 	@dihedral:15 	$atom:124 	$atom:129 	$atom:138 	$atom:139 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:424 	@dihedral:15 	$atom:124 	$atom:129 	$atom:138 	$atom:140 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:425 	@dihedral:14 	$atom:124 	$atom:129 	$atom:138 	$atom:135 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:426 	@dihedral:8 	$atom:124 	$atom:126 	$atom:141 	$atom:143 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:427 	@dihedral:10 	$atom:124 	$atom:126 	$atom:141 	$atom:142 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:428 	@dihedral:11 	$atom:124 	$atom:126 	$atom:141 	$atom:146 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:429 	@dihedral:10 	$atom:125 	$atom:124 	$atom:126 	$atom:141 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:430 	@dihedral:28 	$atom:125 	$atom:124 	$atom:126 	$atom:127 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:431 	@dihedral:28 	$atom:125 	$atom:124 	$atom:126 	$atom:128 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:432 	@dihedral:5 	$atom:125 	$atom:124 	$atom:129 	$atom:130 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:433 	@dihedral:27 	$atom:125 	$atom:124 	$atom:129 	$atom:138 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:434 	@dihedral:8 	$atom:126 	$atom:141 	$atom:143 	$atom:162 	# CG311 	CG321 	CG311 	CG321
+	$dihedral:435 	@dihedral:16 	$atom:126 	$atom:141 	$atom:143 	$atom:144 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:436 	@dihedral:16 	$atom:126 	$atom:141 	$atom:143 	$atom:145 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:437 	@dihedral:3 	$atom:126 	$atom:141 	$atom:146 	$atom:147 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:438 	@dihedral:18 	$atom:126 	$atom:141 	$atom:146 	$atom:155 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:439 	@dihedral:3 	$atom:126 	$atom:124 	$atom:129 	$atom:130 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:440 	@dihedral:18 	$atom:126 	$atom:124 	$atom:129 	$atom:138 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:441 	@dihedral:16 	$atom:127 	$atom:126 	$atom:141 	$atom:143 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:442 	@dihedral:28 	$atom:127 	$atom:126 	$atom:141 	$atom:142 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:443 	@dihedral:30 	$atom:127 	$atom:126 	$atom:141 	$atom:146 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:444 	@dihedral:30 	$atom:127 	$atom:126 	$atom:124 	$atom:129 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:445 	@dihedral:16 	$atom:128 	$atom:126 	$atom:141 	$atom:143 	# CG321 	CG311 	CG321 	HGA2
+	$dihedral:446 	@dihedral:28 	$atom:128 	$atom:126 	$atom:141 	$atom:142 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:447 	@dihedral:30 	$atom:128 	$atom:126 	$atom:141 	$atom:146 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:448 	@dihedral:30 	$atom:128 	$atom:126 	$atom:124 	$atom:129 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:449 	@dihedral:35 	$atom:129 	$atom:138 	$atom:135 	$atom:136 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:450 	@dihedral:35 	$atom:129 	$atom:138 	$atom:135 	$atom:137 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:451 	@dihedral:25 	$atom:129 	$atom:138 	$atom:135 	$atom:132 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:452 	@dihedral:32 	$atom:129 	$atom:130 	$atom:132 	$atom:133 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:453 	@dihedral:32 	$atom:129 	$atom:130 	$atom:132 	$atom:134 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:454 	@dihedral:22 	$atom:129 	$atom:130 	$atom:132 	$atom:135 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:455 	@dihedral:11 	$atom:129 	$atom:124 	$atom:126 	$atom:141 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:456 	@dihedral:2 	$atom:130 	$atom:132 	$atom:135 	$atom:136 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:457 	@dihedral:2 	$atom:130 	$atom:132 	$atom:135 	$atom:137 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:458 	@dihedral:1 	$atom:130 	$atom:132 	$atom:135 	$atom:138 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:459 	@dihedral:7 	$atom:130 	$atom:129 	$atom:138 	$atom:139 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:460 	@dihedral:7 	$atom:130 	$atom:129 	$atom:138 	$atom:140 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:461 	@dihedral:6 	$atom:130 	$atom:129 	$atom:138 	$atom:135 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:462 	@dihedral:26 	$atom:131 	$atom:130 	$atom:129 	$atom:138 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:463 	@dihedral:33 	$atom:131 	$atom:130 	$atom:132 	$atom:133 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:464 	@dihedral:33 	$atom:131 	$atom:130 	$atom:132 	$atom:134 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:465 	@dihedral:23 	$atom:131 	$atom:130 	$atom:132 	$atom:135 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:466 	@dihedral:24 	$atom:132 	$atom:135 	$atom:138 	$atom:139 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:467 	@dihedral:24 	$atom:132 	$atom:135 	$atom:138 	$atom:140 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:468 	@dihedral:21 	$atom:132 	$atom:130 	$atom:129 	$atom:138 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:469 	@dihedral:34 	$atom:133 	$atom:132 	$atom:135 	$atom:136 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:470 	@dihedral:34 	$atom:133 	$atom:132 	$atom:135 	$atom:137 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:471 	@dihedral:24 	$atom:133 	$atom:132 	$atom:135 	$atom:138 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:472 	@dihedral:34 	$atom:134 	$atom:132 	$atom:135 	$atom:136 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:473 	@dihedral:34 	$atom:134 	$atom:132 	$atom:135 	$atom:137 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:474 	@dihedral:24 	$atom:134 	$atom:132 	$atom:135 	$atom:138 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:475 	@dihedral:34 	$atom:136 	$atom:135 	$atom:138 	$atom:139 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:476 	@dihedral:34 	$atom:136 	$atom:135 	$atom:138 	$atom:140 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:477 	@dihedral:34 	$atom:137 	$atom:135 	$atom:138 	$atom:139 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:478 	@dihedral:34 	$atom:137 	$atom:135 	$atom:138 	$atom:140 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:479 	@dihedral:13 	$atom:141 	$atom:146 	$atom:147 	$atom:148 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:480 	@dihedral:12 	$atom:141 	$atom:146 	$atom:147 	$atom:149 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:481 	@dihedral:15 	$atom:141 	$atom:146 	$atom:155 	$atom:156 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:482 	@dihedral:15 	$atom:141 	$atom:146 	$atom:155 	$atom:157 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:483 	@dihedral:14 	$atom:141 	$atom:146 	$atom:155 	$atom:152 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:484 	@dihedral:9 	$atom:141 	$atom:143 	$atom:162 	$atom:158 	# CG311 	CG321 	CG311 	CG331
+	$dihedral:485 	@dihedral:10 	$atom:141 	$atom:143 	$atom:162 	$atom:163 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:486 	@dihedral:11 	$atom:141 	$atom:143 	$atom:162 	$atom:164 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:487 	@dihedral:10 	$atom:142 	$atom:141 	$atom:143 	$atom:162 	# CG311 	CG321 	CG311 	HGA1
+	$dihedral:488 	@dihedral:28 	$atom:142 	$atom:141 	$atom:143 	$atom:144 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:489 	@dihedral:28 	$atom:142 	$atom:141 	$atom:143 	$atom:145 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:490 	@dihedral:5 	$atom:142 	$atom:141 	$atom:146 	$atom:147 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:491 	@dihedral:27 	$atom:142 	$atom:141 	$atom:146 	$atom:155 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:492 	@dihedral:17 	$atom:143 	$atom:162 	$atom:158 	$atom:161 	# CG321 	CG311 	CG331 	HGA3
+	$dihedral:493 	@dihedral:17 	$atom:143 	$atom:162 	$atom:158 	$atom:159 	# CG321 	CG311 	CG331 	HGA3
+	$dihedral:494 	@dihedral:17 	$atom:143 	$atom:162 	$atom:158 	$atom:160 	# CG321 	CG311 	CG331 	HGA3
+	$dihedral:495 	@dihedral:3 	$atom:143 	$atom:162 	$atom:164 	$atom:165 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:496 	@dihedral:18 	$atom:143 	$atom:162 	$atom:164 	$atom:173 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:497 	@dihedral:3 	$atom:143 	$atom:141 	$atom:146 	$atom:147 	# CG2R53 	NG2R53 	CG311 	CG321
+	$dihedral:498 	@dihedral:18 	$atom:143 	$atom:141 	$atom:146 	$atom:155 	# CG321 	CG311 	NG2R53 	CG3C52
+	$dihedral:499 	@dihedral:19 	$atom:144 	$atom:143 	$atom:162 	$atom:158 	# CG331 	CG311 	CG321 	HGA2
+	$dihedral:500 	@dihedral:28 	$atom:144 	$atom:143 	$atom:162 	$atom:163 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:501 	@dihedral:30 	$atom:144 	$atom:143 	$atom:162 	$atom:164 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:502 	@dihedral:30 	$atom:144 	$atom:143 	$atom:141 	$atom:146 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:503 	@dihedral:19 	$atom:145 	$atom:143 	$atom:162 	$atom:158 	# CG331 	CG311 	CG321 	HGA2
+	$dihedral:504 	@dihedral:28 	$atom:145 	$atom:143 	$atom:162 	$atom:163 	# HGA1 	CG311 	CG321 	HGA2
+	$dihedral:505 	@dihedral:30 	$atom:145 	$atom:143 	$atom:162 	$atom:164 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:506 	@dihedral:30 	$atom:145 	$atom:143 	$atom:141 	$atom:146 	# HGA2 	CG321 	CG311 	NG2R53
+	$dihedral:507 	@dihedral:35 	$atom:146 	$atom:155 	$atom:152 	$atom:153 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:508 	@dihedral:35 	$atom:146 	$atom:155 	$atom:152 	$atom:154 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:509 	@dihedral:25 	$atom:146 	$atom:155 	$atom:152 	$atom:149 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:510 	@dihedral:32 	$atom:146 	$atom:147 	$atom:149 	$atom:150 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:511 	@dihedral:32 	$atom:146 	$atom:147 	$atom:149 	$atom:151 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:512 	@dihedral:22 	$atom:146 	$atom:147 	$atom:149 	$atom:152 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:513 	@dihedral:11 	$atom:146 	$atom:141 	$atom:143 	$atom:162 	# CG311 	CG321 	CG311 	NG2R53
+	$dihedral:514 	@dihedral:2 	$atom:147 	$atom:149 	$atom:152 	$atom:153 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:515 	@dihedral:2 	$atom:147 	$atom:149 	$atom:152 	$atom:154 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:516 	@dihedral:1 	$atom:147 	$atom:149 	$atom:152 	$atom:155 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:517 	@dihedral:7 	$atom:147 	$atom:146 	$atom:155 	$atom:156 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:518 	@dihedral:7 	$atom:147 	$atom:146 	$atom:155 	$atom:157 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:519 	@dihedral:6 	$atom:147 	$atom:146 	$atom:155 	$atom:152 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:520 	@dihedral:26 	$atom:148 	$atom:147 	$atom:146 	$atom:155 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:521 	@dihedral:33 	$atom:148 	$atom:147 	$atom:149 	$atom:150 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:522 	@dihedral:33 	$atom:148 	$atom:147 	$atom:149 	$atom:151 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:523 	@dihedral:23 	$atom:148 	$atom:147 	$atom:149 	$atom:152 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:524 	@dihedral:24 	$atom:149 	$atom:152 	$atom:155 	$atom:156 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:525 	@dihedral:24 	$atom:149 	$atom:152 	$atom:155 	$atom:157 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:526 	@dihedral:21 	$atom:149 	$atom:147 	$atom:146 	$atom:155 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:527 	@dihedral:34 	$atom:150 	$atom:149 	$atom:152 	$atom:153 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:528 	@dihedral:34 	$atom:150 	$atom:149 	$atom:152 	$atom:154 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:529 	@dihedral:24 	$atom:150 	$atom:149 	$atom:152 	$atom:155 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:530 	@dihedral:34 	$atom:151 	$atom:149 	$atom:152 	$atom:153 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:531 	@dihedral:34 	$atom:151 	$atom:149 	$atom:152 	$atom:154 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:532 	@dihedral:24 	$atom:151 	$atom:149 	$atom:152 	$atom:155 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:533 	@dihedral:34 	$atom:153 	$atom:152 	$atom:155 	$atom:156 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:534 	@dihedral:34 	$atom:153 	$atom:152 	$atom:155 	$atom:157 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:535 	@dihedral:34 	$atom:154 	$atom:152 	$atom:155 	$atom:156 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:536 	@dihedral:34 	$atom:154 	$atom:152 	$atom:155 	$atom:157 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:537 	@dihedral:4 	$atom:158 	$atom:162 	$atom:164 	$atom:165 	# CG2R53 	NG2R53 	CG311 	CG331
+	$dihedral:538 	@dihedral:20 	$atom:158 	$atom:162 	$atom:164 	$atom:173 	# CG331 	CG311 	NG2R53 	CG3C52
+	$dihedral:539 	@dihedral:29 	$atom:159 	$atom:158 	$atom:162 	$atom:163 	# HGA1 	CG311 	CG331 	HGA3
+	$dihedral:540 	@dihedral:31 	$atom:159 	$atom:158 	$atom:162 	$atom:164 	# HGA3 	CG331 	CG311 	NG2R53
+	$dihedral:541 	@dihedral:29 	$atom:160 	$atom:158 	$atom:162 	$atom:163 	# HGA1 	CG311 	CG331 	HGA3
+	$dihedral:542 	@dihedral:31 	$atom:160 	$atom:158 	$atom:162 	$atom:164 	# HGA3 	CG331 	CG311 	NG2R53
+	$dihedral:543 	@dihedral:29 	$atom:161 	$atom:158 	$atom:162 	$atom:163 	# HGA1 	CG311 	CG331 	HGA3
+	$dihedral:544 	@dihedral:31 	$atom:161 	$atom:158 	$atom:162 	$atom:164 	# HGA3 	CG331 	CG311 	NG2R53
+	$dihedral:545 	@dihedral:13 	$atom:162 	$atom:164 	$atom:165 	$atom:166 	# CG311 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:546 	@dihedral:12 	$atom:162 	$atom:164 	$atom:165 	$atom:167 	# CG311 	NG2R53 	CG2R53 	CG3C52
+	$dihedral:547 	@dihedral:15 	$atom:162 	$atom:164 	$atom:173 	$atom:174 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:548 	@dihedral:15 	$atom:162 	$atom:164 	$atom:173 	$atom:175 	# CG311 	NG2R53 	CG3C52 	HRA2
+	$dihedral:549 	@dihedral:14 	$atom:162 	$atom:164 	$atom:173 	$atom:170 	# CG311 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:550 	@dihedral:5 	$atom:163 	$atom:162 	$atom:164 	$atom:165 	# CG2R53 	NG2R53 	CG311 	HGA1
+	$dihedral:551 	@dihedral:27 	$atom:163 	$atom:162 	$atom:164 	$atom:173 	# CG3C52 	NG2R53 	CG311 	HGA1
+	$dihedral:552 	@dihedral:35 	$atom:164 	$atom:173 	$atom:170 	$atom:171 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:553 	@dihedral:35 	$atom:164 	$atom:173 	$atom:170 	$atom:172 	# HRA2 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:554 	@dihedral:25 	$atom:164 	$atom:173 	$atom:170 	$atom:167 	# CG3C52 	CG3C52 	CG3C52 	NG2R53
+	$dihedral:555 	@dihedral:32 	$atom:164 	$atom:165 	$atom:167 	$atom:168 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:556 	@dihedral:32 	$atom:164 	$atom:165 	$atom:167 	$atom:169 	# HRA2 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:557 	@dihedral:22 	$atom:164 	$atom:165 	$atom:167 	$atom:170 	# CG3C52 	CG3C52 	CG2R53 	NG2R53
+	$dihedral:558 	@dihedral:2 	$atom:165 	$atom:167 	$atom:170 	$atom:171 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:559 	@dihedral:2 	$atom:165 	$atom:167 	$atom:170 	$atom:172 	# CG2R53 	CG3C52 	CG3C52 	HRA2
+	$dihedral:560 	@dihedral:1 	$atom:165 	$atom:167 	$atom:170 	$atom:173 	# CG2R53 	CG3C52 	CG3C52 	CG3C52
+	$dihedral:561 	@dihedral:7 	$atom:165 	$atom:164 	$atom:173 	$atom:174 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:562 	@dihedral:7 	$atom:165 	$atom:164 	$atom:173 	$atom:175 	# CG2R53 	NG2R53 	CG3C52 	HRA2
+	$dihedral:563 	@dihedral:6 	$atom:165 	$atom:164 	$atom:173 	$atom:170 	# CG2R53 	NG2R53 	CG3C52 	CG3C52
+	$dihedral:564 	@dihedral:26 	$atom:166 	$atom:165 	$atom:164 	$atom:173 	# CG3C52 	NG2R53 	CG2R53 	OG2D1
+	$dihedral:565 	@dihedral:33 	$atom:166 	$atom:165 	$atom:167 	$atom:168 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:566 	@dihedral:33 	$atom:166 	$atom:165 	$atom:167 	$atom:169 	# HRA2 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:567 	@dihedral:23 	$atom:166 	$atom:165 	$atom:167 	$atom:170 	# CG3C52 	CG3C52 	CG2R53 	OG2D1
+	$dihedral:568 	@dihedral:24 	$atom:167 	$atom:170 	$atom:173 	$atom:174 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:569 	@dihedral:24 	$atom:167 	$atom:170 	$atom:173 	$atom:175 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:570 	@dihedral:21 	$atom:167 	$atom:165 	$atom:164 	$atom:173 	# CG3C52 	CG2R53 	NG2R53 	CG3C52
+	$dihedral:571 	@dihedral:34 	$atom:168 	$atom:167 	$atom:170 	$atom:171 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:572 	@dihedral:34 	$atom:168 	$atom:167 	$atom:170 	$atom:172 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:573 	@dihedral:24 	$atom:168 	$atom:167 	$atom:170 	$atom:173 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:574 	@dihedral:34 	$atom:169 	$atom:167 	$atom:170 	$atom:171 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:575 	@dihedral:34 	$atom:169 	$atom:167 	$atom:170 	$atom:172 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:576 	@dihedral:24 	$atom:169 	$atom:167 	$atom:170 	$atom:173 	# CG3C52 	CG3C52 	CG3C52 	HRA2
+	$dihedral:577 	@dihedral:34 	$atom:171 	$atom:170 	$atom:173 	$atom:174 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:578 	@dihedral:34 	$atom:171 	$atom:170 	$atom:173 	$atom:175 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:579 	@dihedral:34 	$atom:172 	$atom:170 	$atom:173 	$atom:174 	# HRA2 	CG3C52 	CG3C52 	HRA2
+	$dihedral:580 	@dihedral:34 	$atom:172 	$atom:170 	$atom:173 	$atom:175 	# HRA2 	CG3C52 	CG3C52 	HRA2
+  }
+
+   write("Data Impropers") {
+	$improper:1 	@improper:1 	$atom:11 	$atom:13 	$atom:10 	$atom:12 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:2 	@improper:1 	$atom:28 	$atom:30 	$atom:27 	$atom:29 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:3 	@improper:1 	$atom:45 	$atom:47 	$atom:44 	$atom:46 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:4 	@improper:1 	$atom:62 	$atom:64 	$atom:61 	$atom:63 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:5 	@improper:1 	$atom:79 	$atom:81 	$atom:78 	$atom:80 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:6 	@improper:1 	$atom:96 	$atom:98 	$atom:95 	$atom:97 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:7 	@improper:1 	$atom:113 	$atom:115 	$atom:112 	$atom:114 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:8 	@improper:1 	$atom:130 	$atom:132 	$atom:129 	$atom:131 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:9 	@improper:1 	$atom:147 	$atom:149 	$atom:146 	$atom:148 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$improper:10 	@improper:1 	$atom:165 	$atom:167 	$atom:164 	$atom:166 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+  }
+
+}
