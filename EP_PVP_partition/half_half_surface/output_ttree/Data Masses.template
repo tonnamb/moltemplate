@@ -1,0 +1,26 @@
+@/atom:EPD/1   1.008    # HRA2
+@/atom:EPD/2   1.008    # HGA2
+@/atom:EPD/3   1.008    # HGA3
+@/atom:EPD/4   12.011   # CG2R53
+@/atom:EPD/5   12.011   # CG321
+@/atom:EPD/6   12.011   # CG331
+@/atom:EPD/7   12.011   # CG3C52
+@/atom:EPD/8   14.007   # NG2R53
+@/atom:EPD/9   15.9994  # OG2D1
+    @/atom:EG/1 1.008    # HCA2
+    @/atom:EG/2 1.008    # HCP1
+	@/atom:EG/3 12.011   # CC32A
+	@/atom:EG/4 15.9994  # OC311
+	@/atom:PVP10/1      1.008  # HRA2
+	@/atom:PVP10/2      1.008  # HGA1
+	@/atom:PVP10/3      1.008  # HGA2
+	@/atom:PVP10/4      1.008  # HGA3
+	@/atom:PVP10/5     12.011  # CG2R53
+	@/atom:PVP10/6     12.011  # CG311
+	@/atom:PVP10/7     12.011  # CG321
+	@/atom:PVP10/8     12.011  # CG331
+	@/atom:PVP10/9     12.011  # CG3C52
+	@/atom:PVP10/10    14.007  # NG2R53
+	@/atom:PVP10/11   15.9994  # OG2D1
+
+    @/atom:Ag/1 107.8682  # Ag

@@ -1,11 +1,12 @@
-import "atac_PVP_10mer_HRA2.lt"
+import "EPD.lt"
 import "EG.lt"
+import "atac_PVP_10mer_HRA2.lt"
 import "Ag.lt"
 
 write_once("Data Boundary") {
    0.0  33.0112  xlo xhi
    0.0  33.0112  ylo yhi
-   0.0  45.7000  zlo zhi
+   0.0  48.65  zlo zhi
 }
 
 ag100_1 = new Ag 	[3].move(0.0,0.0,4.1264)
@@ -29,11 +30,16 @@ ag100_2[*][*][*].move(2.0632,2.0632,0.00)
 ag100_3[*][*][*].move(2.0632,0.0,2.0632)
 ag100_4[*][*][*].move(0.0,2.0632,2.0632)
 
+p1 = new EPD [5].move(6.6, 0, 0)
+             [3].move(0, 0, 5.0)
+
+p1[*][*].move(0, 6.0, 13.5)
+
 eg1 = new EG [7].move(4.5, 0, 0)
              [8].move(0, 4.0, 0)
              [5].move(0, 0, 4.5)
 
-eg1[*][*][*].move(0, 0, 22.5)
+eg1[*][*][*].move(0, 0, 26.5)
 
-pvp = new PVP10 [2].move(12.0, 15.0, 0)
-pvp[*].move(0.0, 10.0, 17.0)
+pvp = new PVP10 [2].move(12.0, 9.0, 0)
+pvp[*].move(0.0, 15.5, 18.0)

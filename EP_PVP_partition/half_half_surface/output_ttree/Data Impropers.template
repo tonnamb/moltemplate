@@ -1,0 +1,35 @@
+$/improper:p1[0][0]/1  @/improper:EPD/1  $/atom:p1[0][0]/9  $/atom:p1[0][0]/11  $/atom:p1[0][0]/8  $/atom:p1[0][0]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[0][1]/1  @/improper:EPD/1  $/atom:p1[0][1]/9  $/atom:p1[0][1]/11  $/atom:p1[0][1]/8  $/atom:p1[0][1]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[0][2]/1  @/improper:EPD/1  $/atom:p1[0][2]/9  $/atom:p1[0][2]/11  $/atom:p1[0][2]/8  $/atom:p1[0][2]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[1][0]/1  @/improper:EPD/1  $/atom:p1[1][0]/9  $/atom:p1[1][0]/11  $/atom:p1[1][0]/8  $/atom:p1[1][0]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[1][1]/1  @/improper:EPD/1  $/atom:p1[1][1]/9  $/atom:p1[1][1]/11  $/atom:p1[1][1]/8  $/atom:p1[1][1]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[1][2]/1  @/improper:EPD/1  $/atom:p1[1][2]/9  $/atom:p1[1][2]/11  $/atom:p1[1][2]/8  $/atom:p1[1][2]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[2][0]/1  @/improper:EPD/1  $/atom:p1[2][0]/9  $/atom:p1[2][0]/11  $/atom:p1[2][0]/8  $/atom:p1[2][0]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[2][1]/1  @/improper:EPD/1  $/atom:p1[2][1]/9  $/atom:p1[2][1]/11  $/atom:p1[2][1]/8  $/atom:p1[2][1]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[2][2]/1  @/improper:EPD/1  $/atom:p1[2][2]/9  $/atom:p1[2][2]/11  $/atom:p1[2][2]/8  $/atom:p1[2][2]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[3][0]/1  @/improper:EPD/1  $/atom:p1[3][0]/9  $/atom:p1[3][0]/11  $/atom:p1[3][0]/8  $/atom:p1[3][0]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[3][1]/1  @/improper:EPD/1  $/atom:p1[3][1]/9  $/atom:p1[3][1]/11  $/atom:p1[3][1]/8  $/atom:p1[3][1]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[3][2]/1  @/improper:EPD/1  $/atom:p1[3][2]/9  $/atom:p1[3][2]/11  $/atom:p1[3][2]/8  $/atom:p1[3][2]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[4][0]/1  @/improper:EPD/1  $/atom:p1[4][0]/9  $/atom:p1[4][0]/11  $/atom:p1[4][0]/8  $/atom:p1[4][0]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[4][1]/1  @/improper:EPD/1  $/atom:p1[4][1]/9  $/atom:p1[4][1]/11  $/atom:p1[4][1]/8  $/atom:p1[4][1]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+$/improper:p1[4][2]/1  @/improper:EPD/1  $/atom:p1[4][2]/9  $/atom:p1[4][2]/11  $/atom:p1[4][2]/8  $/atom:p1[4][2]/10  # CG2R53   CG3C52   NG2R53   OG2D1
+	$/improper:pvp[0]/1 	@/improper:PVP10/1 	$/atom:pvp[0]/11 	$/atom:pvp[0]/13 	$/atom:pvp[0]/10 	$/atom:pvp[0]/12 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/2 	@/improper:PVP10/1 	$/atom:pvp[0]/28 	$/atom:pvp[0]/30 	$/atom:pvp[0]/27 	$/atom:pvp[0]/29 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/3 	@/improper:PVP10/1 	$/atom:pvp[0]/45 	$/atom:pvp[0]/47 	$/atom:pvp[0]/44 	$/atom:pvp[0]/46 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/4 	@/improper:PVP10/1 	$/atom:pvp[0]/62 	$/atom:pvp[0]/64 	$/atom:pvp[0]/61 	$/atom:pvp[0]/63 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/5 	@/improper:PVP10/1 	$/atom:pvp[0]/79 	$/atom:pvp[0]/81 	$/atom:pvp[0]/78 	$/atom:pvp[0]/80 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/6 	@/improper:PVP10/1 	$/atom:pvp[0]/96 	$/atom:pvp[0]/98 	$/atom:pvp[0]/95 	$/atom:pvp[0]/97 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/7 	@/improper:PVP10/1 	$/atom:pvp[0]/113 	$/atom:pvp[0]/115 	$/atom:pvp[0]/112 	$/atom:pvp[0]/114 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/8 	@/improper:PVP10/1 	$/atom:pvp[0]/130 	$/atom:pvp[0]/132 	$/atom:pvp[0]/129 	$/atom:pvp[0]/131 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/9 	@/improper:PVP10/1 	$/atom:pvp[0]/147 	$/atom:pvp[0]/149 	$/atom:pvp[0]/146 	$/atom:pvp[0]/148 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[0]/10 	@/improper:PVP10/1 	$/atom:pvp[0]/165 	$/atom:pvp[0]/167 	$/atom:pvp[0]/164 	$/atom:pvp[0]/166 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/1 	@/improper:PVP10/1 	$/atom:pvp[1]/11 	$/atom:pvp[1]/13 	$/atom:pvp[1]/10 	$/atom:pvp[1]/12 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/2 	@/improper:PVP10/1 	$/atom:pvp[1]/28 	$/atom:pvp[1]/30 	$/atom:pvp[1]/27 	$/atom:pvp[1]/29 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/3 	@/improper:PVP10/1 	$/atom:pvp[1]/45 	$/atom:pvp[1]/47 	$/atom:pvp[1]/44 	$/atom:pvp[1]/46 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/4 	@/improper:PVP10/1 	$/atom:pvp[1]/62 	$/atom:pvp[1]/64 	$/atom:pvp[1]/61 	$/atom:pvp[1]/63 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/5 	@/improper:PVP10/1 	$/atom:pvp[1]/79 	$/atom:pvp[1]/81 	$/atom:pvp[1]/78 	$/atom:pvp[1]/80 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/6 	@/improper:PVP10/1 	$/atom:pvp[1]/96 	$/atom:pvp[1]/98 	$/atom:pvp[1]/95 	$/atom:pvp[1]/97 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/7 	@/improper:PVP10/1 	$/atom:pvp[1]/113 	$/atom:pvp[1]/115 	$/atom:pvp[1]/112 	$/atom:pvp[1]/114 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/8 	@/improper:PVP10/1 	$/atom:pvp[1]/130 	$/atom:pvp[1]/132 	$/atom:pvp[1]/129 	$/atom:pvp[1]/131 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/9 	@/improper:PVP10/1 	$/atom:pvp[1]/147 	$/atom:pvp[1]/149 	$/atom:pvp[1]/146 	$/atom:pvp[1]/148 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
+	$/improper:pvp[1]/10 	@/improper:PVP10/1 	$/atom:pvp[1]/165 	$/atom:pvp[1]/167 	$/atom:pvp[1]/164 	$/atom:pvp[1]/166 	# CG2R53 	CG3C52 	NG2R53 	OG2D1
